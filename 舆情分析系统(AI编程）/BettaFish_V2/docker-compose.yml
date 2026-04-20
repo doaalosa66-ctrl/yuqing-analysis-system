@@ -2,9 +2,9 @@ version: "3.9"
 
 services:
   bettafish:
-    image: ghcr.io/666ghj/bettafish:latest
+    image: ghcr.io/doaalosa66-ctrl/mina:latest
     # Speed up mirror
-    # image: ghcr.nju.edu.cn/666ghj/bettafish:latest
+    # image: ghcr.nju.edu.cn/doaalosa66-ctrl/mina:latest
     container_name: bettafish
     restart: unless-stopped
     environment:
