@@ -1,0 +1,74 @@
+{
+  "chapterId": "S1",
+  "title": "一、 竞争态势摘要：冰火交织的产业黎明",
+  "anchor": "section-1-0",
+  "order": 10,
+  "summary": "本章概述2026年具身智能赛道资本狂热与量产挑战并存的宏观格局与核心结论。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.1 核心结论",
+      "anchor": "section-1-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "2026年行业进入交付大年与生死年，技术路径从通用幻想走向垂直现实。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.2 关键数据对比",
+      "anchor": "section-1-0-2"
+    },
+    {
+      "type": "kpiGrid",
+      "items": [
+        {
+          "label": "2025年中国融资总额",
+          "value": ">500亿元",
+          "delta": "+400%",
+          "deltaTone": "up"
+        },
+        {
+          "label": "头部企业估值峰值",
+          "value": "390亿美元",
+          "delta": "Figure AI",
+          "deltaTone": "up"
+        },
+        {
+          "label": "垂直场景任务成功率",
+          "value": "99.4%",
+          "delta": "Dyna Robotics叠毛巾",
+          "deltaTone": "up"
+        },
+        {
+          "label": "通用模型长程任务成功率",
+          "value": "20%-40%",
+          "delta": "谷歌分层模型",
+          "deltaTone": "down"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.3 核心策略建议",
+      "anchor": "section-1-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "关注特斯拉量产进展，评估企业软硬件平衡，考察垂直场景稳定收入企业。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "chapterId": "S2",
+  "title": "二、 市场声量与舆论对比：表层静默与深层沸腾",
+  "anchor": "section-2-0",
+  "order": 20,
+  "summary": "本章揭示具身智能赛道舆论场呈现“表层静默、中层沸腾、底层思辨”的立体图景。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2.1 总体声量份额（SOV）",
+      "anchor": "section-2-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "大众社交媒体声量缺失度超95%，形成“数据真空”。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2.2 趋势对比",
+      "anchor": "section-2-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "公众情绪从好奇转向担忧，产业情绪从乐观转向务实焦灼。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

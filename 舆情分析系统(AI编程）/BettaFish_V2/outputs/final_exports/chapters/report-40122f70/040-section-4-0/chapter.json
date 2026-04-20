@@ -1,0 +1,54 @@
+{
+  "chapterId": "S4",
+  "title": "四、 产品口碑与用户反馈：体验层面的攻防战",
+  "anchor": "section-4-0",
+  "order": 40,
+  "summary": "本章聚焦产品与用户体验，是‘硬件受阻’与‘软件突破’论断的微观验证。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.1 情感分布对比",
+      "anchor": "section-4-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "中国品牌在日韩用户中的整体口碑印象呈现复杂光谱。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.2 优缺点对比",
+      "anchor": "section-4-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "用户反馈常提及创新功能与性价比，但本地化与售后服务是短板。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.3 核心功能/卖点讨论热度对比",
+      "anchor": "section-4-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "折叠屏、AI与影像等具体技术点在舆论场中讨论热度差异显著。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

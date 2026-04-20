@@ -1,0 +1,240 @@
+{
+  "totalWords": 8000,
+  "tolerance": 800,
+  "globalGuidelines": [
+    "总目标约8000字，上下浮动10%（7200-8800字）。",
+    "详略策略：重点突出社会舆情分析（第四、五章）与技术趋势洞察（融合于各章），两者交叉分析是报告核心价值。",
+    "第四章（情绪光谱）和第五章（动因探讨）内容密度高，需分配较多篇幅，允许内部小节超出目标10%以容纳案例与深度分析。",
+    "第一章（摘要）和第六章（建议）需精炼有力，前者概括全文，后者提出具体、可操作的建议。",
+    "第二、三章（事件脉络与传播路径）提供事实基础，篇幅适中，确保叙事清晰。",
+    "鼓励在相关章节使用数据可视化（如图表）和关键数据（KPI）卡片，以增强说服力。"
+  ],
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "title": "一、报告摘要",
+      "targetWords": 600,
+      "minWords": 500,
+      "maxWords": 700,
+      "emphasis": [
+        "事件核心定性（信息真空与信任危机）",
+        "技术跃迁关键洞察（端侧AI元年与时间感知）",
+        "交叉分析的主要结论与行动方向"
+      ],
+      "rationale": "作为全文导航，需高度概括两大核心议题（社会舆情与技术前沿）的交叉发现。基于design.hero.summary和highlights，提炼出最关键的洞察和初步建议，为后续详细分析设定基调。篇幅精炼，避免细节。",
+      "sections": [
+        {
+          "title": "1.1 事件定性",
+          "anchor": "section-1-1",
+          "targetWords": 200,
+          "minWords": 150,
+          "maxWords": 250,
+          "notes": "精确定义“预期数据缺失”事件的性质、影响范围与核心矛盾。"
+        },
+        {
+          "title": "1.2 核心洞察",
+          "anchor": "section-1-2",
+          "targetWords": 250,
+          "minWords": 200,
+          "maxWords": 300,
+          "notes": "融合舆情分析（如65%负面情感、红色警戒）与技术趋势（端侧AI爆发、时间感知瓶颈），提炼交叉洞察。"
+        },
+        {
+          "title": "1.3 关联性与建议",
+          "anchor": "section-1-3",
+          "targetWords": 150,
+          "minWords": 120,
+          "maxWords": 180,
+          "notes": "概述从分析中得出的关键行动方向，为第六章详细建议做铺垫。"
+        }
+      ]
+    },
+    {
+      "chapterId": "S2",
+      "title": "二、事件全景与演变脉络",
+      "targetWords": 1200,
+      "minWords": 1000,
+      "maxWords": 1400,
+      "emphasis": [
+        "事件背景的模拟构建逻辑",
+        "舆论发酵的关键时间节点与转折",
+        "当前高热态势的量化描述"
+      ],
+      "rationale": "为整个舆情分析奠定事实基础。基于reports.query_engine中模拟构建的“数据缺失事件”，需清晰还原其背景、发展时间线和当前状态。这是理解后续传播、情绪和动因的前提。篇幅需保证叙事完整。",
+      "sections": [
+        {
+          "title": "2.1 事件背景与起源",
+          "anchor": "section-2-1",
+          "targetWords": 400,
+          "minWords": 350,
+          "maxWords": 500,
+          "notes": "说明“预期数据缺失”的具体所指（模拟案例），以及公众预期形成的依据。"
+        },
+        {
+          "title": "2.2 舆论发酵时间线",
+          "anchor": "section-2-2",
+          "targetWords": 500,
+          "minWords": 400,
+          "maxWords": 600,
+          "notes": "详细描述从“疑惑期”到“质疑爆发期”的演变过程，标注关键日期和标志性讨论。允许使用时间轴图表辅助说明。"
+        },
+        {
+          "title": "2.3 当前态势",
+          "anchor": "section-2-3",
+          "targetWords": 300,
+          "minWords": 250,
+          "maxWords": 350,
+          "notes": "总结截至报告时的舆情热度、主要猜测版本分布及对公信力的冲击程度。"
+        }
+      ]
+    },
+    {
+      "chapterId": "S3",
+      "title": "三、传播路径与引爆点分析",
+      "targetWords": 1100,
+      "minWords": 900,
+      "maxWords": 1300,
+      "emphasis": [
+        "跨平台（微博、知乎、财经社区）的差异化传播模式",
+        "从“信息真空”到“信任质疑”的引爆逻辑",
+        "关键角色（如大V、分析师、自媒体）的作用"
+      ],
+      "rationale": "深入分析舆情扩散的机制。基于reports.query_engine中关于平台差异和“民间叙事”竞争的描述，需剖析信息如何在各平台流动、变形并最终引爆。这是理解舆情规模与性质的关键。",
+      "sections": [
+        {
+          "title": "3.1 核心传播链条",
+          "anchor": "section-3-1",
+          "targetWords": 400,
+          "minWords": 350,
+          "maxWords": 500,
+          "notes": "描绘信息从起源到全网热议的扩散路径，分析各环节的放大效应。"
+        },
+        {
+          "title": "3.2 引爆点分析",
+          "anchor": "section-3-2",
+          "targetWords": 400,
+          "minWords": 350,
+          "maxWords": 500,
+          "notes": "分析超过历史发布时限、市场波动与舆情共振等关键引爆因素及其心理机制。"
+        },
+        {
+          "title": "3.3 关键传播角色",
+          "anchor": "section-3-3",
+          "targetWords": 300,
+          "minWords": 250,
+          "maxWords": 350,
+          "notes": "识别并分析在传播中设置议程、提供分析框架或煽动情绪的关键个体与群体。"
+        }
+      ]
+    },
+    {
+      "chapterId": "S4",
+      "title": "四、舆论场观点与情绪光谱",
+      "targetWords": 1800,
+      "minWords": 1600,
+      "maxWords": 2000,
+      "emphasis": [
+        "多元观点（理解、焦虑、质疑）的量化分布与代表性言论",
+        "社会情绪（负面65%）的深度解读与演变轨迹可视化",
+        "核心议题争论的焦点梳理"
+      ],
+      "rationale": "这是报告的核心分析章节之一，内容密度高。基于design.hero.highlights[0]和reports.query_engine中详细的民意数据画像、情感分析，需全面呈现舆论场的复杂图景。允许超出目标10%以充分展开案例和深度分析，并鼓励使用情感趋势图等可视化组件。",
+      "sections": [
+        {
+          "title": "4.1 核心议题与讨论焦点",
+          "anchor": "section-4-1",
+          "targetWords": 500,
+          "minWords": 450,
+          "maxWords": 600,
+          "notes": "梳理围绕“为何沉默”和“沉默意味什么”产生的具体讨论子议题。允许在必要时超出10%补充案例。"
+        },
+        {
+          "title": "4.2 多元观点呈现",
+          "anchor": "section-4-2",
+          "targetWords": 600,
+          "minWords": 500,
+          "maxWords": 700,
+          "notes": "详细展示技术性延迟、数据需处理、配合政策等不同“民间叙事”的内容、支持度与代表性声音。允许在必要时超出10%补充案例。"
+        },
+        {
+          "title": "4.3 社会情绪分析",
+          "anchor": "section-4-3",
+          "targetWords": 700,
+          "minWords": 600,
+          "maxWords": 800,
+          "notes": "深度解读65%负面情感的构成（焦虑、不满、疑惑），分析其演变轨迹（疑惑期→焦虑发酵期→质疑爆发期），并探讨其社会心理根源。强烈建议使用Chart.js绘制情感趋势图。"
+        }
+      ]
+    },
+    {
+      "chapterId": "S5",
+      "title": "五、深层动因与价值观探讨",
+      "targetWords": 1700,
+      "minWords": 1500,
+      "maxWords": 1900,
+      "emphasis": [
+        "“高信息预期”与“低信任耐受”的社会心态冲突",
+        "技术发展中的“时间感知缺失”困境及其社会隐喻",
+        "使用PEST分析框架进行宏观动因剖析"
+      ],
+      "rationale": "本章是报告的另一个核心，进行深度价值观和社会心理分析。基于reports.query_engine的“深层洞察”和reports.media_engine对“时间感知”的探讨，需将社会舆情与技术前沿的认知困境进行交叉关联。design.tocPlan指出本章允许使用PEST分析块，需预留篇幅用于此结构化分析。",
+      "sections": [
+        {
+          "title": "5.1 事件背后的社会心态",
+          "anchor": "section-5-1",
+          "targetWords": 900,
+          "minWords": 800,
+          "maxWords": 1000,
+          "notes": "剖析“确定性偏好受挫”、“控制感剥夺”、“记忆共同体”等社会心理机制。结合PEST分析框架（政治、经济、社会、技术），系统探讨宏观动因。"
+        },
+        {
+          "title": "5.2 衍生文化与网络Meme",
+          "anchor": "section-5-2",
+          "targetWords": 800,
+          "minWords": 700,
+          "maxWords": 900,
+          "notes": "分析事件催生的网络梗、表情包、特定话语，解读其反映的集体情绪、讽刺态度及亚文化现象。"
+        }
+      ]
+    },
+    {
+      "chapterId": "S6",
+      "title": "六、关联性评估与行动建议",
+      "targetWords": 1600,
+      "minWords": 1400,
+      "maxWords": 1800,
+      "emphasis": [
+        "基于SWOT分析的综合风险评估与机遇评估",
+        "针对社会治理与技术发展的分级、可操作行动建议",
+        "将“黄金24小时”响应机制与“端侧AI治理”等建议具体化"
+      ],
+      "rationale": "报告的结论与产出部分，需具有高度实践指导性。基于design.hero.actions和reports.insight_engine中的商业分析，需融合社会舆情治理与技术产业发展，提出具体建议。design.tocPlan指出本章允许使用SWOT分析块，需为此预留空间。建议需清晰对应前文分析。",
+      "sections": [
+        {
+          "title": "6.1 风险评估",
+          "anchor": "section-6-1",
+          "targetWords": 500,
+          "minWords": 400,
+          "maxWords": 600,
+          "notes": "评估事件对公信力、社会信任、市场信心的短期与长期风险。结合SWOT分析中的Weaknesses和Threats部分。"
+        },
+        {
+          "title": "6.2 机遇评估",
+          "anchor": "section-6-2",
+          "targetWords": 400,
+          "minWords": 350,
+          "maxWords": 500,
+          "notes": "探讨事件暴露的沟通机制改进契机，以及端侧AI技术在解决实时性、隐私需求方面的市场机遇。结合SWOT分析中的Strengths和Opportunities部分。"
+        },
+        {
+          "title": "6.3 最终行动建议（介入/关注/规避）",
+          "anchor": "section-6-3",
+          "targetWords": 700,
+          "minWords": 600,
+          "maxWords": 800,
+          "notes": "提出分级建议：立即介入的“黄金24小时”机制、需持续关注的端侧AI安全与标准建设、需规避的沟通沉默与生态碎片化陷阱。确保建议具体、可操作。"
+        }
+      ]
+    }
+  ]
+}

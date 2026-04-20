@@ -1,0 +1,670 @@
+{
+  "version": "1.0",
+  "reportId": "report-282dc5bd",
+  "metadata": {
+    "query": "低空经济的发展趋势",
+    "title": "低空经济2026：从概念蓝图到立体社会的全民接纳度全景洞察",
+    "subtitle": "基于多源引擎的深度舆情、产业与新闻融合分析报告",
+    "tagline": "本文总览了低空经济在规模化商业落地元年所面临的机遇、挑战与全民共识构建之路",
+    "templateName": "特定政策或行业动态舆情分析报告模板",
+    "selectionReason": "查询内容“低空经济的发展趋势”明确指向一个正在兴起的、受政策驱动且具有广泛影响的特定行业动态。三份分析引擎报告均从宏观产业角度出发，深度剖析了低空经济的政策演进、市场规模、技术突破、应用场景及社会影响，核心任务是解读行业趋势、评估发展潜力与挑战，而非分析单一品牌、竞争对手或突发危机。这完全符合“特定政策或行业动态舆情分析报告模板”的适用范围，即对足以影响整个行业的宏观动态进行深度解读和趋势预判。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif",
+          "mono": "Menlo, Monaco, 'Courier New', monospace"
+        },
+        "fontSize": {
+          "h1": "2.5rem",
+          "h2": "2rem",
+          "h3": "1.5rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.25,
+          "normal": 1.6,
+          "relaxed": 1.8
+        }
+      },
+      "spacing": {
+        "section": "3rem",
+        "subsection": "2rem",
+        "paragraph": "1rem"
+      },
+      "colors": {
+        "primary": "#1a56db",
+        "secondary": "#7e3af2",
+        "accent": "#0e9f6e",
+        "neutral": {
+          "light": "#f9fafb",
+          "mid": "#e5e7eb",
+          "dark": "#374151"
+        },
+        "semantic": {
+          "positive": "#0e9f6e",
+          "caution": "#f59e0b",
+          "critical": "#dc2626"
+        }
+      },
+      "components": {
+        "kpiCard": {
+          "borderRadius": "0.75rem",
+          "padding": "1.25rem"
+        },
+        "table": {
+          "headerBg": "#f3f4f6",
+          "stripedBg": "#f9fafb"
+        }
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "文章总览",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、摘要：低空经济的核心影响与多维舆论反应",
+          "description": "提炼报告核心发现，概述低空经济在2026年的关键态势、公众情感两极分化现状及产业发展的核心矛盾转移。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、发展背景与多模态传播分析",
+          "description": "分析低空经济的政策演进、技术突破与全球竞争格局，并结合图文数据解析其多维度传播特征与公众认知塑造过程。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、公众态度与社会情绪深度剖析",
+          "description": "深入解读公众对无人机配送、城市空中交通（UAM）等核心应用场景的情感分布、观点聚焦及演变轨迹，揭示深层社会心理。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、潜在影响与机遇挑战综合分析",
+          "description": "评估低空经济对行业格局、企业战略及关联产业的深远影响，系统分析面临的机遇与核心挑战。",
+          "allowSwot": true,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、行业标杆案例与市场反应",
+          "description": "梳理头部企业动态、资本市场风向及行业协会观点，展现产业生态的竞争与合作图景。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、结论与战略应对建议",
+          "description": "基于全文分析，对低空经济发展趋势进行研判，并提出面向政府、产业及企业的系统性战略与沟通建议。",
+          "allowSwot": false,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告融合舆情洞察、产业全景与新闻事实，深度剖析2026年中国低空经济从概念试点迈入规模化商业落地关键期的多维图景。报告揭示，产业在技术、政策、资本驱动下高速发展的同时，正面临公众接纳度“冰火两极”、社会公平性质疑与监管滞后等核心挑战，亟需构建技术、商业与社会价值的共赢叙事。",
+      "highlights": [
+        "舆情呈现“哑铃型”情感结构：极度乐观（35%）与深度焦虑（40%）并存，社会共识远未形成。",
+        "产业进入“黄金发展期”：市场规模预计2026年超1.3万亿元，标志性商业事件与法规基石同步确立。",
+        "核心矛盾转移：从“能否飞起来”转向“如何安全、高效、经济且公平地大规模飞起来”。",
+        "公众关切聚焦“天空权”公平、隐私安全、噪音污染及风险成本的社会分摊机制。"
+      ],
+      "kpis": [
+        {
+          "label": "2026年预计核心产业规模",
+          "value": ">1.3万亿元",
+          "delta": "高速增长",
+          "tone": "up"
+        },
+        {
+          "label": "网络舆情负面情感关联词频环比增长",
+          "value": "120%",
+          "delta": "近三个月",
+          "tone": "down"
+        },
+        {
+          "label": "低空经济相关企业数量",
+          "value": ">6.9万家",
+          "delta": "生态庞大",
+          "tone": "up"
+        }
+      ],
+      "actions": [
+        "建议产业主体转变叙事框架：从“技术炫技”转向“社会共赢”，主动回应公众公平性质疑。",
+        "呼吁监管加速法规标准体系建设，特别是空域管理、适航认证与公众参与机制。",
+        "倡导建立“负外部性”补偿与社区协商机制，化解无人机配送等场景的基层矛盾。",
+        "推动构建普惠性应用场景，探索“空中公交”等模式，避免“空中特权”认知固化。"
+      ]
+    },
+    "layoutNotes": [
+      "目录（TOC）与正文所有一级标题（H1）使用统一字号：2rem，以保持视觉层级的清晰与一致。",
+      "正文部分采用宽松行高（1.6-1.8），提升长文阅读舒适度。章节间使用3rem间距，子章节间使用2rem间距。",
+      "优先使用Chart.js绘制舆情情感分布、市场规模趋势等数据图表，使用色块卡片（KPI卡）突出关键指标，表格用于呈现对比数据。",
+      "SWOT分析块仅应用于第四章（潜在影响与机遇挑战综合分析），PEST分析块仅应用于第二章（发展背景与多模态传播分析），二者分属不同章节。",
+      "整体配色以蓝色（#1a56db）为主色调，代表科技与未来；绿色（#0e9f6e）用于积极指标，橙色（#f59e0b）和红色（#dc2626）用于警示数据。确保色板在浅色与暗黑模式下均有良好对比度。",
+      "严禁引入外部图片或AI生图，所有视觉元素均通过原生组件（图表、表格、信息卡片、图标字体）实现。",
+      "严格遵循tocPlan的章节结构，不随意增删，仅对部分章节标题进行了优化以更贴合“低空经济”主题。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "整体详略策略：报告核心在于剖析‘全民接纳度’，因此第三章‘公众态度与社会情绪’和第四章‘潜在影响与机遇挑战’为分析重点，需分配最多篇幅，深入展开案例与数据。",
+        "第二章‘发展背景’需融合多模态信息（政策、技术、传播），篇幅适中，为后续分析提供扎实背景。",
+        "第一章‘摘要’和第六章‘结论建议’需精炼，前者提炼核心发现，后者提出系统性建议，避免冗长。",
+        "第五章‘行业标杆案例’作为产业生态佐证，篇幅可略少于核心分析章节。",
+        "各章节内部小节分配需平衡，重点小节（如3.1舆论情绪分布、4.2机遇挑战）可适当增加字数，允许在必要时超出目标10%补充具体案例或数据图表说明。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**特定政策/行业动态舆情分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 摘要：政策/动态的核心影响与舆论反应",
+          "rawTitle": "1.0 摘要：政策/动态的核心影响与舆论反应",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 核心内容解读",
+            "1.2 舆论场核心观点",
+            "1.3 关键影响预判"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 政策/动态背景与传播分析",
+          "rawTitle": "2.0 政策/动态背景与传播分析",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 发布背景与解读",
+            "2.2 发展与发酵时间线",
+            "2.3 传播声量分析",
+            "2.4 权威解读与媒体关注点"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 公众态度与社会情绪",
+          "rawTitle": "3.0 公众态度与社会情绪",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 舆论情绪分布",
+            "3.2 各方观点聚焦"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 潜在影响与机遇挑战分析",
+          "rawTitle": "4.0 潜在影响与机遇挑战分析",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 对行业格局的影响",
+            "4.2 对本企业的影响（机遇与挑战）",
+            "4.3 对关联产业的影响"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 行业标杆案例与反应",
+          "rawTitle": "5.0 行业标杆案例与反应",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 竞争对手/头部企业的反应",
+            "5.2 行业协会/组织的观点"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 结论与应对建议",
+          "rawTitle": "6.0 结论与应对建议",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 趋势研判",
+            "6.2 战略应对建议",
+            "6.3 公关沟通建议"
+          ]
+        }
+      ]
+    },
+    "generatedAt": "2026-04-19T03:46:08.105617Z"
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif",
+        "mono": "Menlo, Monaco, 'Courier New', monospace"
+      },
+      "fontSize": {
+        "h1": "2.5rem",
+        "h2": "2rem",
+        "h3": "1.5rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.25,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem"
+    },
+    "colors": {
+      "primary": "#1a56db",
+      "secondary": "#7e3af2",
+      "accent": "#0e9f6e",
+      "neutral": {
+        "light": "#f9fafb",
+        "mid": "#e5e7eb",
+        "dark": "#374151"
+      },
+      "semantic": {
+        "positive": "#0e9f6e",
+        "caution": "#f59e0b",
+        "critical": "#dc2626"
+      }
+    },
+    "components": {
+      "kpiCard": {
+        "borderRadius": "0.75rem",
+        "padding": "1.25rem"
+      },
+      "table": {
+        "headerBg": "#f3f4f6",
+        "stripedBg": "#f9fafb"
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "title": "一、摘要：低空经济的核心影响与多维舆论反应",
+      "anchor": "section-1-0",
+      "order": 10,
+      "summary": "本章提炼报告核心发现，概述低空经济在2026年的关键态势、公众情感两极分化现状及产业发展的核心矛盾转移。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "一、摘要：低空经济的核心影响与多维舆论反应",
+          "anchor": "section-1-0"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "本章提炼报告核心发现，概述低空经济在2026年的关键态势、公众情感两极分化现状及产业发展的核心矛盾转移。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.1 核心内容解读",
+          "anchor": "section-1-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "2026年低空经济迈入规模化商业落地元年，技术、政策、资本三轮驱动。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.2 舆论场核心观点",
+          "anchor": "section-1-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "舆论呈现极度乐观与深度焦虑并存的哑铃型情感结构，焦点在天空权公平与隐私安全。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.3 关键影响预判",
+          "anchor": "section-1-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "产业发展面临社会共识构建与监管滞后等核心挑战，亟需构建共赢叙事。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S2",
+      "title": "二、发展背景与多模态传播分析",
+      "anchor": "section-2-0",
+      "order": 20,
+      "summary": "本章梳理低空经济从概念到规模化落地的政策、技术、传播背景。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.1 发布背景与解读",
+          "anchor": "section-2-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "低空经济自2021年写入国家规划，至2026年进入规模化商业落地元年。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.2 发展与发酵时间线",
+          "anchor": "section-2-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "技术、商业与舆情事件交织，共同勾勒出产业跃迁的清晰轨迹。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.3 传播声量分析",
+          "anchor": "section-2-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "不同媒体平台聚焦各异，共同塑造了公众对低空经济的多维认知。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.4 权威解读与媒体关注点",
+          "anchor": "section-2-0-4"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "研究机构与中外媒体视角互补，揭示了产业发展的宏观环境与核心议题。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S3",
+      "title": "三、公众态度与社会情绪深度剖析",
+      "anchor": "section-3-0",
+      "order": 30,
+      "summary": "本章剖析低空经济公众接纳度的核心矛盾，呈现情感两极分化与共识缺失的深层图景。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.1 舆论情绪分布",
+          "anchor": "section-3-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "公众对低空经济的情感呈哑铃型结构，极度乐观与深度焦虑并存。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.2 各方观点聚焦",
+          "anchor": "section-3-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "不同群体对天空权公平、隐私安全等议题观点迥异，共识远未形成。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S4",
+      "title": "四、潜在影响与机遇挑战综合分析",
+      "anchor": "section-4-0",
+      "order": 40,
+      "summary": "本章分析低空经济对行业格局、企业战略及关联产业的深远影响，并系统评估机遇与挑战。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.1 对行业格局的影响",
+          "anchor": "section-4-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "低空经济将重塑产业价值分布，制造与系统开发占据约60%的核心价值。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.2 对本企业的影响（机遇与挑战）",
+          "anchor": "section-4-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "产业主体面临规模化运营机遇，但需应对公众接纳度与法规滞后等核心挑战。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "swotTable",
+          "title": "低空经济产业主体SWOT分析",
+          "summary": "基于当前发展态势，对产业内企业（泛指）的优势、劣势、机会与威胁进行系统性评估。",
+          "strengths": [
+            {
+              "title": "政策强力驱动",
+              "text": "国家战略定位明确，中央与地方政策密集出台，提供长期发展预期。",
+              "impact": "高"
+            }
+          ],
+          "weaknesses": [
+            {
+              "title": "社会共识缺失",
+              "text": "公众情感呈“哑铃型”分化，对安全、隐私、公平的担忧构成主要阻力。",
+              "impact": "高"
+            }
+          ],
+          "opportunities": [
+            {
+              "title": "市场规模爆发",
+              "text": "预计2026年核心产业规模超1.3万亿元，应用场景持续拓宽。",
+              "impact": "高"
+            }
+          ],
+          "threats": [
+            {
+              "title": "监管体系滞后",
+              "text": "适航认证、空域管理、事故责任等法规标准建设跟不上技术发展速度。",
+              "impact": "高"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.3 对关联产业的影响",
+          "anchor": "section-4-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "低空经济将强力拉动高端制造、新材料、保险及城市规划等关联产业发展。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S5",
+      "title": "五、行业标杆案例与市场反应",
+      "anchor": "section-5-0",
+      "order": 50,
+      "summary": "本章概述了低空经济头部企业的战略动向与资本反应，以及行业协会在推动产业规范发展中的关键作用。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.1 竞争对手/头部企业的反应",
+          "anchor": "section-5-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "头部企业如沃飞长空获得近10亿元融资，释放了资本对产业规模化落地的强烈信心信号。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.2 行业协会/组织的观点",
+          "anchor": "section-5-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "行业协会正积极推动标准统一与行业自律，致力于搭建政企民沟通的桥梁以化解矛盾。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S6",
+      "title": "六、结论与战略应对建议",
+      "anchor": "section-6-0",
+      "order": 60,
+      "summary": "本章基于全文分析，对低空经济发展趋势进行研判，并提出系统性战略与沟通建议。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.1 趋势研判",
+          "anchor": "section-6-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "未来1-2年，低空经济将进入法规密集出台与公众议价博弈的关键期。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.2 战略应对建议",
+          "anchor": "section-6-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "监管机构需加速法规标准体系建设，产业主体则应转变叙事框架并构建负外部性补偿机制。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.3 公关沟通建议",
+          "anchor": "section-6-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "建议通过主动沟通、社区协商和普惠场景展示，塑造负责任创新的产业形象。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {}
+}

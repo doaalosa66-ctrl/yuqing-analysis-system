@@ -1,0 +1,195 @@
+{
+  "title": "智车西行：车载智能终端出海欧美的本土化用户洞察报告",
+  "subtitle": "基于多源引擎的竞争格局、市场准入与用户心智深度解析",
+  "tagline": "本文总览：融合舆情、市场与法规视角，揭示欧美市场机遇与挑战，为本土化战略提供决策依据",
+  "tocTitle": "文章总览",
+  "hero": {
+    "summary": "本报告整合了深度舆情分析、市场数据洞察与宏观法规研究，系统剖析了中国车载智能终端（以T-Box为核心）出海欧美市场面临的多维挑战与战略机遇。报告揭示了在技术认可与战略警惕并存的复杂民意环境下，数据安全、生态竞争与法规合规是决定成败的关键战场。",
+    "highlights": [
+      "欧美市场T-Box规模庞大但增速稳健，5G/V2X细分市场是增长爆点（CAGR超20%），技术窗口期明确。",
+      "民意呈现“技术认可、战略警惕、情感疏离”的复杂态，数据安全是无可逾越的信任红线与核心舆情焦点。",
+      "竞争格局高度集中（前十大占85%+），国际Tier-1主导，中国厂商凭借5G、成本与响应速度优势在长尾区寻求突破。",
+      "准入面临欧盟GDPR/RED与美国FCC/NHTSA双重严苛监管体系，合规成本高昂且违规风险巨大，已成核心竞争力。",
+      "与苹果CarPlay、谷歌Android Automotive的“生态战争”是用户体验层面的终极对决，本土化适配与开放策略至关重要。"
+    ],
+    "kpis": [
+      {
+        "label": "欧美T-Box市场规模（2025）",
+        "value": ">500亿美元",
+        "delta": "CAGR 3-5%",
+        "tone": "neutral"
+      },
+      {
+        "label": "5G/V2X细分市场增速",
+        "value": "CAGR 20.7%+",
+        "delta": "核心增长引擎",
+        "tone": "up"
+      },
+      {
+        "label": "市场集中度(前十大)",
+        "value": "85%+",
+        "delta": "壁垒高耸",
+        "tone": "neutral"
+      },
+      {
+        "label": "GDPR最高罚款",
+        "value": "全球营收4%",
+        "delta": "重大合规风险",
+        "tone": "down"
+      }
+    ],
+    "actions": [
+      "立即启动并深化数据安全与隐私保护的“透明化”沟通，获取权威第三方认证以跨越信任壁垒。",
+      "针对欧美市场制定差异化的产品与生态策略，平衡深度整合与开放兼容，重点突破细分市场与早期用户。",
+      "将法规合规作为战略核心能力进行建设，前置本地化数据中心、法律咨询与供应链合规布局。",
+      "建立持续的多维度舆情监测与市场洞察机制，动态调整传播与用户沟通策略。"
+    ]
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif",
+        "mono": "'SF Mono', Monaco, 'Courier New', monospace"
+      },
+      "fontSize": {
+        "h1": "2.25rem",
+        "h2": "1.875rem",
+        "h3": "1.5rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.25,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1.5rem",
+      "element": "1rem"
+    },
+    "colors": {
+      "primary": {
+        "main": "#2563eb",
+        "light": "#60a5fa",
+        "dark": "#1d4ed8"
+      },
+      "secondary": {
+        "main": "#7c3aed",
+        "light": "#a78bfa",
+        "dark": "#5b21b6"
+      },
+      "neutral": {
+        "900": "#111827",
+        "700": "#374151",
+        "500": "#6b7280",
+        "300": "#d1d5db",
+        "100": "#f3f4f6",
+        "white": "#ffffff"
+      },
+      "semantic": {
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444",
+        "info": "#3b82f6"
+      }
+    },
+    "components": {
+      "kpiCard": {
+        "borderRadius": "0.75rem",
+        "padding": "1.25rem",
+        "background": "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)"
+      },
+      "chart": {
+        "gridColor": "#e5e7eb",
+        "tooltipBackground": "#1f2937"
+      }
+    },
+    "darkMode": {
+      "enabled": true,
+      "colors": {
+        "background": "#0f172a",
+        "surface": "#1e293b",
+        "onSurface": "#cbd5e1",
+        "neutral": {
+          "900": "#f1f5f9",
+          "700": "#cbd5e1",
+          "500": "#64748b",
+          "300": "#475569",
+          "100": "#334155"
+        },
+        "kpiCard": {
+          "background": "linear-gradient(135deg, #1e293b 0%, #334155 100%)"
+        }
+      }
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、 市场竞争态势摘要",
+      "description": "提炼报告核心结论、关键数据对比与初步策略建议，为全文提供概览。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、 市场声量与用户心智对比分析",
+      "description": "分析国内外舆论声量份额、情感趋势及复杂的用户心智模型，揭示信任壁垒。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、 市场关键动态与竞争格局演进",
+      "description": "梳理近期市场关键事件时间线，分析我方与竞争对手动作，并解读高度集中的竞争格局。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、 产品口碑、生态竞争与用户反馈",
+      "description": "对比产品情感口碑、核心功能热度，并深度分析与苹果、谷歌的生态战争及用户偏好。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、 宏观环境、法规准入与合规挑战",
+      "description": "深入剖析欧盟GDPR/RED与美国FCC/NHTSA双重监管体系，量化合规成本与风险。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、 综合战略评估：机会、威胁与差异化路径",
+      "description": "系统识别市场机会点与潜在威胁，结合技术、市场、政策、生态四维度提出差异化定位建议。",
+      "allowSwot": true,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S7",
+      "anchor": "section-7-0",
+      "display": "七、 总结与行动建议",
+      "description": "总结竞争格局，提炼可借鉴经验，并提出具体、可执行的应对与反制行动方案。",
+      "allowSwot": false,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（TOC）与正文所有一级标题（H1）使用统一字号：2.25rem，确保视觉层级的清晰与一致。",
+    "正文部分采用1.6倍行高，段落间距1.5rem，以提升长文阅读舒适度。章节间使用3rem的大间距进行视觉分隔。",
+    "KPI卡片、Chart.js图表、对比表格是核心数据可视化组件，应优先使用。避免依赖外部图片资源。",
+    "SWOT分析块仅用于第六章“综合战略评估”，PEST分析块仅用于第五章“宏观环境、法规准入与合规挑战”，其他章节禁用。",
+    "为支持暗黑模式，所有颜色定义均包含明暗两套方案，渲染时需根据用户偏好切换。",
+    "二级目录（如1.1, 1.2）在正文中作为H2标题呈现，字号为1.875rem，与章节简介描述区分清晰。"
+  ]
+}

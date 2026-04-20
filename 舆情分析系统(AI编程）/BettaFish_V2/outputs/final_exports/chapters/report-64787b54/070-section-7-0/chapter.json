@@ -1,0 +1,87 @@
+{
+  "chapterId": "S7",
+  "title": "七、 结论与行动建议：穿越生死年的生存指南",
+  "anchor": "section-7-0",
+  "order": 70,
+  "summary": "本章总结具身智能赛道竞争格局，提炼经验教训，并提供分层行动建议。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.1 竞争格局总结",
+      "anchor": "section-7-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "2026年具身智能赛道已形成特斯拉、宇树、优必选、智元四巨头差异化竞争格局。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.2 学习与借鉴",
+      "anchor": "section-7-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "可从特斯拉量产教训、宇树成本控制、优必选场景深耕中提炼关键经验。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "swotTable",
+      "title": "具身智能赛道综合SWOT分析",
+      "summary": "基于前文分析，对行业整体战略态势进行评估。",
+      "strengths": [
+        {
+          "title": "中国供应链优势",
+          "text": "在‘身体’制造上具有压倒性成本和规模优势。",
+          "impact": "高"
+        }
+      ],
+      "weaknesses": [
+        {
+          "title": "技术瓶颈",
+          "text": "端到端VLA模型长程任务成功率仅20%-40%。",
+          "impact": "中高"
+        }
+      ],
+      "opportunities": [
+        {
+          "title": "垂直场景落地",
+          "text": "特定场景（如叠毛巾）成功率可达99.4%，商业化路径清晰。",
+          "impact": "高"
+        }
+      ],
+      "threats": [
+        {
+          "title": "同质化竞争",
+          "text": "企业数量超百家，可能引发价格战。",
+          "impact": "中"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.3 应对与反制",
+      "anchor": "section-7-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "为投资者、创业者等不同参与者提供具体策略建议。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

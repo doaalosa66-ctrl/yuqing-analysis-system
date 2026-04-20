@@ -1,0 +1,15 @@
+{
+  "task_id": "report-df27cc41",
+  "query": "人工智能的发展情况",
+  "status": "completed",
+  "progress": 100.0,
+  "selected_template": "",
+  "has_html_content": true,
+  "html_content_length": 2129135,
+  "metadata": {
+    "query": "人工智能的发展情况",
+    "template_used": "社会公共热点事件分析报告模板",
+    "generation_time": 0.0,
+    "timestamp": "2026-04-19T15:14:03.065990"
+  }
+}

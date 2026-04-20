@@ -1,0 +1,54 @@
+{
+  "chapterId": "S6",
+  "title": "六、 竞争机会与威胁识别：破局点与风险预警",
+  "anchor": "section-6-0",
+  "order": 60,
+  "summary": "本章系统识别中国科技品牌在日韩市场的潜在机会与威胁，并提出差异化定位建议。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.1 市场机会点",
+      "anchor": "section-6-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "日韩市场存在未被满足的细分需求，如折叠屏、AIoT生态和数字内容服务。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.2 潜在威胁",
+      "anchor": "section-6-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "主要威胁包括严苛的数据法规、供应链风险以及本土竞争对手的强力阻击。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.3 差异化定位建议",
+      "anchor": "section-6-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "建议以形态创新、AI原生体验和生态协同为核心，打造独特价值主张。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

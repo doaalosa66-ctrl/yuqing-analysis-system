@@ -509,8 +509,6 @@ class HTMLRenderer:
 
         return f"""
 <body class="dark-mode">
-{header}
-{overlay}
 <main>
 {hero}
 {toc_section}

@@ -1,0 +1,355 @@
+{
+  "reportId": "report-618cf29c",
+  "createdAt": "2026-04-19T03:31:32.859170Z",
+  "metadata": {
+    "query": "新一代智能座舱多模态交互演进趋势",
+    "title": "智能座舱交互革命：从“功能机”到“智能体”的舆情全景洞察",
+    "subtitle": "新一代多模态交互演进趋势深度分析报告",
+    "tagline": "本文总览了从技术憧憬到价值回归的民意变迁，剖析范式跃迁背后的机遇与挑战",
+    "templateName": "特定政策或行业动态舆情分析报告模板",
+    "selectionReason": "查询内容“新一代智能座舱多模态交互演进趋势”属于明确的行业技术发展趋势分析，而非特定品牌、竞争对手或突发危机事件。提供的三份分析引擎报告均聚焦于行业技术变革（如AI大模型驱动、范式跃迁）、市场数据（渗透率、算力指标）和宏观影响，深度解读技术演进路径、市场接受度及对产业格局的潜在重塑。这完全符合“特定政策或行业动态舆情分析报告模板”的核心任务：对重要行业动态进行深度解读、趋势预判及影响分析。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif",
+          "mono": "'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace"
+        },
+        "fontSize": {
+          "h1": "2rem",
+          "h2": "1.5rem",
+          "h3": "1.25rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.2,
+          "normal": 1.6,
+          "relaxed": 1.8
+        }
+      },
+      "spacing": {
+        "section": "3rem",
+        "subsection": "2rem",
+        "paragraph": "1.5rem",
+        "element": "1rem"
+      },
+      "colors": {
+        "primary": {
+          "main": "#2563eb",
+          "light": "#60a5fa",
+          "dark": "#1d4ed8"
+        },
+        "secondary": {
+          "main": "#10b981",
+          "light": "#34d399",
+          "dark": "#059669"
+        },
+        "neutral": {
+          "50": "#f9fafb",
+          "100": "#f3f4f6",
+          "200": "#e5e7eb",
+          "700": "#374151",
+          "800": "#1f2937",
+          "900": "#111827"
+        },
+        "semantic": {
+          "success": "#10b981",
+          "warning": "#f59e0b",
+          "error": "#ef4444",
+          "info": "#3b82f6"
+        }
+      },
+      "darkMode": {
+        "background": "#111827",
+        "surface": "#1f2937",
+        "text": "#f9fafb",
+        "border": "#374151"
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "文章总览",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、核心影响与舆论反应摘要",
+          "description": "概述智能座舱多模态交互技术的核心舆情发现、民意热点与情感演变趋势，提供全局视角。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、技术演进背景与传播分析",
+          "description": "分析从“被动工具”到“主动智能体”的范式重构背景、技术发展时间线与多维度传播特征。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、公众态度与社会情绪分布",
+          "description": "深入剖析不同用户群体的情感倾向、平台差异化观点以及从技术憧憬到价值回归的情绪演变轨迹。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、潜在影响与机遇挑战分析",
+          "description": "评估多模态交互对行业格局、企业战略及关联产业的深远影响，识别核心机遇与系统性挑战。",
+          "allowSwot": true,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、行业标杆案例与市场反应",
+          "description": "梳理头部车企的技术路径、市场反应及行业协会观点，呈现当前竞争态势与生态建设进展。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、趋势研判与战略建议",
+          "description": "基于全景分析，提出未来技术、市场与舆情的趋势预判，并给出具体的战略、产品与沟通建议。",
+          "allowSwot": false,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告融合多源信息，深度剖析了2024-2026年智能座舱多模态交互技术从“被动工具”向“主动智能体”的范式跃迁。报告揭示了公众情绪从“谨慎乐观”到“理性审视”的演变轨迹，并指出隐私安全、交互可靠性与价值回归已成为当前舆论的核心焦点。",
+      "highlights": [
+        "舆情情感呈现“谨慎乐观”复合态势，正负面情绪交织，市场处于关键爬坡期",
+        "隐私安全与交互可靠性是当前最核心的公众争议焦点，直接关系技术接受度",
+        "技术发展路径清晰：从L2（强感知弱认知）向L4（全域认知自主进化）演进",
+        "行业竞争焦点已从硬件参数转向软件架构、AI模型能力与生态服务丰富度"
+      ],
+      "kpis": [
+        {
+          "label": "市场渗透率（20万以上车型）",
+          "value": "100%",
+          "delta": "已成为标配",
+          "tone": "up"
+        },
+        {
+          "label": "用户主动使用频次提升",
+          "value": "2.3倍",
+          "delta": "价值认可度显著提高",
+          "tone": "up"
+        },
+        {
+          "label": "L2级辅助驾驶渗透率",
+          "value": "62.58%",
+          "delta": "为深度交互创造场景",
+          "tone": "up"
+        },
+        {
+          "label": "负面舆情峰值占比",
+          "value": "65%",
+          "delta": "2025年问题集中暴露期",
+          "tone": "down"
+        }
+      ],
+      "actions": [
+        "强化隐私透明与数据安全控制，提供物理遮挡与传感器状态可视化",
+        "聚焦“杀手级”场景开发，提升语音+视线等融合交互的准确性与实用性",
+        "加快OTA迭代能力建设，建立用户反馈驱动的敏捷开发闭环",
+        "推动行业数据安全与交互体验标准制定，构建健康生态"
+      ]
+    },
+    "layoutNotes": [
+      "目录（TOC）与正文所有一级标题（H1）统一使用2rem字号，确保视觉层级的清晰与统一。",
+      "正文部分采用1.6倍行高，段落间距1.5rem，提升长文阅读舒适度。",
+      "KPI指标卡使用色块区分，配合箭头图标与色调（up/绿色，down/红色，neutral/蓝色）直观呈现数据趋势。",
+      "建议在“四、潜在影响与机遇挑战分析”章节使用SWOT分析块（swotTable），系统评估内部能力与外部环境。",
+      "建议在“二、技术演进背景与传播分析”章节使用PEST分析块（pestTable），聚焦宏观环境因素对技术发展的影响。",
+      "图表优先使用Chart.js实现，如舆情情感分布饼图、声量趋势折线图、技术能力演进阶梯图等。",
+      "为关键数据与引述设置侧边栏或高亮色块，增强信息可读性与引用价值。",
+      "确保所有交互组件（如折叠面板、选项卡）在暗黑模式下有良好的对比度与可访问性。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "总目标约8000字，上下浮动10%（7200-8800字），确保深度与可读性平衡。",
+        "详略策略：重点深入分析‘公众态度与社会情绪’（S3）、‘潜在影响与机遇挑战’（S4）及‘趋势研判与战略建议’（S6），因其包含核心舆情洞察、SWOT分析及最终落地方案，是报告价值所在。",
+        "技术背景（S2）与标杆案例（S5）需提供充分事实与数据支撑，但避免过度技术细节堆砌。摘要（S1）需高度凝练，为全文导读。",
+        "各章节内部小节字数分配需灵活，允许在‘案例分析’、‘数据解读’、‘建议措施’等关键部分超出目标10%以补充具体素材，但整章需控制在min/max范围内。",
+        "严格遵循一级标题中文数字（一、二、三…）、二级标题阿拉伯数字（1.1, 1.2…）的编号规则，便于后续排版统一字号。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**特定政策/行业动态舆情分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 摘要：政策/动态的核心影响与舆论反应",
+          "rawTitle": "1.0 摘要：政策/动态的核心影响与舆论反应",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 核心内容解读",
+            "1.2 舆论场核心观点",
+            "1.3 关键影响预判"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 政策/动态背景与传播分析",
+          "rawTitle": "2.0 政策/动态背景与传播分析",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 发布背景与解读",
+            "2.2 发展与发酵时间线",
+            "2.3 传播声量分析",
+            "2.4 权威解读与媒体关注点"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 公众态度与社会情绪",
+          "rawTitle": "3.0 公众态度与社会情绪",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 舆论情绪分布",
+            "3.2 各方观点聚焦"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 潜在影响与机遇挑战分析",
+          "rawTitle": "4.0 潜在影响与机遇挑战分析",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 对行业格局的影响",
+            "4.2 对本企业的影响（机遇与挑战）",
+            "4.3 对关联产业的影响"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 行业标杆案例与反应",
+          "rawTitle": "5.0 行业标杆案例与反应",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 竞争对手/头部企业的反应",
+            "5.2 行业协会/组织的观点"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 结论与应对建议",
+          "rawTitle": "6.0 结论与应对建议",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 趋势研判",
+            "6.2 战略应对建议",
+            "6.3 公关沟通建议"
+          ]
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "slug": "section-1-0",
+      "title": "1.0 摘要：政策/动态的核心影响与舆论反应",
+      "order": 10,
+      "status": "ready",
+      "files": {
+        "raw": "010-section-1-0\\stream.raw",
+        "json": "010-section-1-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:31:49.270866Z"
+    },
+    {
+      "chapterId": "S2",
+      "slug": "section-2-0",
+      "title": "2.0 政策/动态背景与传播分析",
+      "order": 20,
+      "status": "ready",
+      "files": {
+        "raw": "020-section-2-0\\stream.raw",
+        "json": "020-section-2-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:32:00.915684Z"
+    },
+    {
+      "chapterId": "S3",
+      "slug": "section-3-0",
+      "title": "3.0 公众态度与社会情绪",
+      "order": 30,
+      "status": "ready",
+      "files": {
+        "raw": "030-section-3-0\\stream.raw",
+        "json": "030-section-3-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:32:03.766132Z"
+    },
+    {
+      "chapterId": "S4",
+      "slug": "section-4-0",
+      "title": "4.0 潜在影响与机遇挑战分析",
+      "order": 40,
+      "status": "ready",
+      "files": {
+        "raw": "040-section-4-0\\stream.raw",
+        "json": "040-section-4-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:31:54.622914Z"
+    },
+    {
+      "chapterId": "S5",
+      "slug": "section-5-0",
+      "title": "5.0 行业标杆案例与反应",
+      "order": 50,
+      "status": "ready",
+      "files": {
+        "raw": "050-section-5-0\\stream.raw",
+        "json": "050-section-5-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:31:46.791767Z"
+    },
+    {
+      "chapterId": "S6",
+      "slug": "section-6-0",
+      "title": "6.0 结论与应对建议",
+      "order": 60,
+      "status": "ready",
+      "files": {
+        "raw": "060-section-6-0\\stream.raw",
+        "json": "060-section-6-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:31:48.728450Z"
+    }
+  ],
+  "updatedAt": "2026-04-19T03:31:32.876605Z"
+}

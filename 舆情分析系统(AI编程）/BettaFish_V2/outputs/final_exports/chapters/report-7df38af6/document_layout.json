@@ -1,0 +1,169 @@
+{
+  "title": "人形机器人核心零部件供应链国产替代全景洞察报告",
+  "subtitle": "从战略共识到量产攻坚的产业深度剖析",
+  "tagline": "本文总览：基于多源舆情、产业数据与深度调查，全面解析2026量产元年的机遇、挑战与应对路径",
+  "tocTitle": "报告目录",
+  "hero": {
+    "summary": "本报告综合舆情分析、产业数据与深度调查，系统剖析了人形机器人核心零部件供应链国产替代的战略动因、技术瓶颈、产业生态与未来趋势。报告指出，2026年已成为产业从技术验证迈向规模化量产的关键转折点，国产替代正从‘政治正确’向‘商业正确’艰难跃迁，机遇与挑战并存。",
+    "highlights": [
+      "战略共识高度统一：超60%民意支持国产替代，视为科技自立关键战役",
+      "技术攻坚深度焦虑：核心部件‘五座大山’（减速器、电机、传感器等）仍是主要瓶颈，舆论聚焦具体性能差距",
+      "产业生态博弈加剧：政策、资本、企业三角动力学决定资源有效配置",
+      "2026量产元年确立：销量预计翻倍，头部企业产能激进扩张，供应链重塑加速"
+    ],
+    "kpis": [
+      {
+        "label": "核心议题全网声量增长",
+        "value": "300%",
+        "delta": "过去两年间",
+        "tone": "up"
+      },
+      {
+        "label": "谐波减速器国产化率",
+        "value": "70%",
+        "delta": "已实现领先",
+        "tone": "up"
+      },
+      {
+        "label": "传感器国产化率",
+        "value": "30%",
+        "delta": "关键短板环节",
+        "tone": "down"
+      },
+      {
+        "label": "2026年预计销量",
+        "value": "2.8万台",
+        "delta": "同比翻倍以上",
+        "tone": "up"
+      }
+    ],
+    "actions": [
+      "关注一体化关节模组供应商，降低整机集成门槛",
+      "优先布局已实现技术突破且国产化率中高的环节（如伺服系统）",
+      "警惕技术路径多元化下的投资风险，聚焦主流与创新并重的企业",
+      "密切跟踪头部整机厂供应链认证进展，把握订单落地节奏"
+    ]
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif",
+        "mono": "'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace"
+      },
+      "fontSize": {
+        "h1": "2rem",
+        "h2": "1.5rem",
+        "h3": "1.25rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.25,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem",
+      "element": "0.75rem"
+    },
+    "colors": {
+      "primary": {
+        "main": "#1a73e8",
+        "light": "#4285f4",
+        "dark": "#0d47a1"
+      },
+      "secondary": {
+        "main": "#34a853",
+        "light": "#5cb85c",
+        "dark": "#2e7d32"
+      },
+      "neutral": {
+        "background": "#ffffff",
+        "surface": "#f8f9fa",
+        "border": "#e0e0e0",
+        "text": "#202124"
+      },
+      "semantic": {
+        "positive": "#34a853",
+        "caution": "#fbbc05",
+        "critical": "#ea4335",
+        "info": "#1a73e8"
+      }
+    },
+    "components": {
+      "kpiCard": {
+        "borderRadius": "8px",
+        "padding": "1.25rem",
+        "backgroundColor": "#f8f9fa"
+      },
+      "table": {
+        "headerBg": "#e8f0fe",
+        "stripedBg": "#f8f9fa",
+        "borderColor": "#dadce0"
+      }
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、摘要：国产替代的核心影响与舆论全景",
+      "description": "提炼报告核心发现，概述战略共识、技术焦虑、产业博弈等多维度舆情反应与关键影响预判。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、产业背景与多维传播分析",
+      "description": "分析国产替代议题的宏观背景、发展时间线、传播声量特征以及权威媒体与机构的关注焦点。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、公众态度与社会情绪分布",
+      "description": "基于多平台数据，解析不同群体对国产替代的情感倾向、观点聚焦及情绪演变轨迹。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、潜在影响与机遇挑战分析",
+      "description": "深入剖析国产替代对行业竞争格局、企业战略选择以及关联产业带来的深远影响与具体挑战。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、行业标杆案例与企业反应",
+      "description": "梳理头部零部件企业、整机厂商及跨界巨头的战略布局、市场反应与生态构建举措。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、结论与战略应对建议",
+      "description": "综合研判国产替代未来趋势，从技术、产业、资本多角度提出系统性战略建议与行动路径。",
+      "allowSwot": true,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（TOC）与正文所有一级标题（H1）字号统一为2rem，确保视觉层级的清晰与一致。",
+    "正文部分采用1.6倍行高，提升长文阅读舒适度；图表与代码块使用等宽字体。",
+    "每个主要章节（一、二、三…）起始处预留3rem垂直间距，二级标题（1.1, 1.2…）下预留2rem间距。",
+    "KPI卡片、表格、Chart.js图表等原生组件采用主题色板，确保视觉统一。表格采用斑马纹和悬停高亮增强可读性。",
+    "SWOT分析块仅允许在第六章（结论与战略应对建议）中使用，用于综合评估内部能力与外部环境。",
+    "PEST分析块仅允许在第二章（产业背景与多维传播分析）中使用，用于剖析宏观环境因素。",
+    "所有描述性文本（如tocPlan中的description）均为纯文本格式，不嵌套任何JSON或标记结构。",
+    "设计支持基础色板反转的简易暗黑模式兼容方案，主要调整背景、表面和文字颜色对比度。"
+  ]
+}

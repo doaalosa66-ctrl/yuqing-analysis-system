@@ -1,0 +1,15 @@
+{
+  "task_id": "report-a0af6086",
+  "query": "低空经济",
+  "status": "completed",
+  "progress": 100.0,
+  "selected_template": "",
+  "has_html_content": true,
+  "html_content_length": 2141164,
+  "metadata": {
+    "query": "低空经济",
+    "template_used": "特定政策或行业动态舆情分析报告模板",
+    "generation_time": 0.0,
+    "timestamp": "2026-04-19T15:42:09.491416"
+  }
+}

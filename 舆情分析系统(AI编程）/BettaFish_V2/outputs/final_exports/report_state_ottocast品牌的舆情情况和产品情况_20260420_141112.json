@@ -1,0 +1,15 @@
+{
+  "task_id": "report-02e0dcfe",
+  "query": "ottocast品牌的舆情情况和产品情况",
+  "status": "completed",
+  "progress": 100.0,
+  "selected_template": "",
+  "has_html_content": true,
+  "html_content_length": 2134827,
+  "metadata": {
+    "query": "ottocast品牌的舆情情况和产品情况",
+    "template_used": "自由发挥模板",
+    "generation_time": 0.0,
+    "timestamp": "2026-04-20T14:03:47.171884"
+  }
+}

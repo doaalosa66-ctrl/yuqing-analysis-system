@@ -1,0 +1,764 @@
+{
+  "chapterId": "S3",
+  "title": "三、公众态度与社会情绪：谨慎乐观与务实追问",
+  "anchor": "section-3-0",
+  "order": 30,
+  "summary": "本章分析低空经济的社会情绪，呈现谨慎乐观基调下的复杂民意分层。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.1 舆论情绪分布",
+      "anchor": "section-3-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "当前舆论场对低空经济的整体情绪呈“谨慎乐观，期待落地”特征。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3.1.1 平台情感数据对比",
+      "anchor": "section-3-0-1-1"
+    },
+    {
+      "type": "table",
+      "rows": [
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "平台",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "正面情感%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "负面情感%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "中性情感%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "微博",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "30%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "20%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "50%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "知乎",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "35%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "15%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "50%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "抖音",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "40%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "10%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "50%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "财经论坛",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "25%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "25%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "50%",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        }
+      ],
+      "caption": "各平台情感分布数据（来源：深度舆情报告）",
+      "zebra": true
+    },
+    {
+      "type": "engineQuote",
+      "engine": "query",
+      "title": "Query Agent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "整体情感以中性偏积极（约60%）为主，体现了公众对新兴产业的理性关注。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3.1.2 核心争议焦点",
+      "anchor": "section-3-0-1-2"
+    },
+    {
+      "type": "list",
+      "listType": "ordered",
+      "items": [
+        [
+          {
+            "type": "paragraph",
+            "inlines": [
+              {
+                "text": "“真风口”还是“新泡沫”：产业前景与资本炒作之争。",
+                "marks": []
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "inlines": [
+              {
+                "text": "“天空权”归属：个人隐私、公共安全与商业开发之间的平衡。",
+                "marks": []
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "inlines": [
+              {
+                "text": "“最后一公里”难题：技术成熟度、基础设施与商业化成本之间的现实鸿沟。",
+                "marks": []
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "paragraph",
+            "inlines": [
+              {
+                "text": "“普惠”还是“奢侈”：未来应用是服务于大众，还是成为少数人的特权。",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "engineQuote",
+      "engine": "media",
+      "title": "Media Agent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "eVTOL运营成本可比传统直升机降低70%；目标每公里票价1-2元。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.2 各方观点聚焦",
+      "anchor": "section-3-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "不同社会群体对低空经济的认知与诉求存在显著差异。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "rows": [
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "群体类型",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "主要观点",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "情感倾向",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "科技爱好者/投资者",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "关注技术突破和产业龙头，视其为颠覆性投资机会。",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "积极、狂热",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "普通市民/消费者",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "关心具体应用（物流、出行）是否方便、安全、便宜。",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "好奇、务实、略带怀疑",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "政策研究者/学者",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "聚焦法规、标准、空域管理、社会公平等系统性议题。",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "理性、审慎、前瞻",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "地方官员/从业者",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "视为发展机遇和就业来源，积极推动本地生态建设。",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "积极、急切",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "环保/隐私关切者",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "担忧噪音污染、安全风险、数据隐私和视觉侵扰。",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            },
+            {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "inlines": [
+                    {
+                      "text": "忧虑、反对",
+                      "marks": []
+                    }
+                  ]
+                }
+              ],
+              "align": "center"
+            }
+          ]
+        }
+      ],
+      "caption": "不同群体观点与情感倾向对比（来源：深度舆情报告）",
+      "zebra": true
+    },
+    {
+      "type": "engineQuote",
+      "engine": "insight",
+      "title": "Insight Agent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "中国低空经济规模预计在2025年达到8519亿元人民币，同比增长28.2%。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "公众情绪正从“概念好奇”向“冷静审视”演变，等待产业交出“成绩单”。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

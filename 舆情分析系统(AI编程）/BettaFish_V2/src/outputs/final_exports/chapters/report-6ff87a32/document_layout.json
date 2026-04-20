@@ -1,0 +1,127 @@
+{
+  "title": "端侧大模型算力下放：终端定价权重构全景报告",
+  "subtitle": "从硬件成本到生态价值的范式转移",
+  "tagline": "本文总览了端侧AI如何颠覆传统定价框架，重塑终端市场格局与商业模式",
+  "tocTitle": "报告目录",
+  "hero": {
+    "summary": "端侧大模型算力下放正从概念验证进入规模化应用，深刻冲击由硬件成本、品牌溢价、软件生态和渠道结构构成的传统定价权体系。本报告揭示，这一技术趋势正推动定价权向上游芯片/算法环节及具备全栈AI能力的终端品牌集中，引发市场“K型分化”，并驱动商业模式向“硬件+SaaS”订阅服务转型。",
+    "highlights": [
+      "端侧AI部署已形成关键性能门槛：推理延迟<100ms，内存占用<2GB，功耗<5W。",
+      "2025-2026年，AI手机与AI PC在中国市场的渗透率预计将分别突破50%和80%。",
+      "终端BOM成本因专用NPU、高带宽内存等组件而显著提升，但长期降低了云端依赖与隐私合规成本。",
+      "华为、苹果等头部厂商凭借自研芯片、封闭生态与繁荣的软件服务，构建了强大的高端定价能力。",
+      "端侧AI让终端厂商得以摆脱对云厂商的依赖，掌握用户入口与数据价值主导权。"
+    ],
+    "kpis": [
+      {
+        "label": "端侧AI市场规模（2029E）",
+        "value": "1.2万亿元",
+        "delta": "年复合增长率近40%",
+        "tone": "up"
+      },
+      {
+        "label": "AI手机渗透率（2026E）",
+        "value": ">50%",
+        "delta": "中国市场",
+        "tone": "up"
+      },
+      {
+        "label": "智能座舱7nm及以下芯片占比（2024）",
+        "value": "36%",
+        "delta": "预计2030年突破65%",
+        "tone": "up"
+      },
+      {
+        "label": "2026年中国手机均价涨幅",
+        "value": "高于全球",
+        "delta": "Counterpoint预测",
+        "tone": "up"
+      }
+    ],
+    "actions": [
+      "评估端侧AI对现有产品线BOM成本与定价策略的冲击。",
+      "规划向“硬件+SaaS”订阅模式的商业模式转型路径。",
+      "加强在NPU、高带宽内存等关键AI硬件组件上的供应链布局与议价能力。",
+      "投资构建或深化自有软件生态，以提升用户粘性与服务收入。"
+    ]
+  },
+  "themeTokens": {
+    "fontFamily": {
+      "title": "'PingFang SC', 'Microsoft YaHei', sans-serif",
+      "body": "'PingFang SC', 'Microsoft YaHei', sans-serif"
+    },
+    "fontSize": {
+      "title": "2.5rem",
+      "subtitle": "1.5rem",
+      "tocHeading": "1.75rem",
+      "chapterHeading": "1.75rem",
+      "sectionHeading": "1.25rem",
+      "body": "1rem"
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem"
+    },
+    "colors": {
+      "primary": "#1a56db",
+      "secondary": "#7e3af2",
+      "accent": "#0694a2",
+      "neutral": "#6b7280",
+      "success": "#0e9f6e",
+      "warning": "#f59e0b",
+      "critical": "#dc2626",
+      "background": "#ffffff",
+      "surface": "#f9fafb",
+      "border": "#e5e7eb"
+    },
+    "darkMode": {
+      "background": "#111827",
+      "surface": "#1f2937",
+      "border": "#374151"
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "executive-summary",
+      "display": "一、执行摘要与核心拓扑",
+      "description": "概述端侧大模型算力下放的核心趋势、市场数据与对终端定价权的宏观影响，建立报告分析框架。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "multi-dimensional-insights",
+      "display": "二、多维深度洞察",
+      "description": "深入分析技术门槛、硬件演进、成本结构、市场格局与生态竞争等多维度因素如何共同作用，重塑定价权。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "strategic-recommendations",
+      "display": "三、战略预测与行动建议",
+      "description": "基于洞察，预测未来定价权演变趋势，并为不同市场参与者提供具体的战略建议与行动方案。",
+      "allowSwot": true,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "data-traceability",
+      "display": "四、数据溯源矩阵",
+      "description": "汇总报告引用的关键数据、市场预测来源及技术参数，确保分析的可追溯性与可靠性。",
+      "allowSwot": false,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（tocTitle）与正文一级章节标题（chapterHeading）使用统一字号（1.75rem），以保持视觉层级的一致性。",
+    "每个核心章节（一至四）之间使用较大的间距（section: 3rem）进行分隔，增强阅读节奏感。",
+    "正文内使用原生组件：KPI卡片用于展示关键数据，表格用于对比硬件参数或市场份额，Chart.js图表用于呈现市场规模、渗透率等趋势数据。",
+    "色块可用于高亮摘要、关键结论或行动建议部分。",
+    "确保所有图表和色块在明暗主题下均有良好的可读性，遵循themeTokens中定义的色板。",
+    "SWOT分析块仅出现在第三章（战略预测与行动建议），用于分析终端厂商在端侧AI浪潮下的内部能力与外部机会/威胁。",
+    "PEST分析块仅出现在第二章（多维深度洞察），用于分析影响端侧AI发展的宏观环境因素（政治、经济、社会、技术）。"
+  ]
+}

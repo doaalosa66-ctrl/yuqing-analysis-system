@@ -1,0 +1,629 @@
+{
+  "version": "1.0",
+  "reportId": "report-df27cc41",
+  "metadata": {
+    "query": "人工智能的发展情况",
+    "title": "人工智能发展全景洞察报告",
+    "subtitle": "从宏观静默到微观沸腾：2026年AI产业范式跃迁与舆论生态深度解析",
+    "tagline": "一份融合技术趋势、市场格局与公共情绪的文章总览",
+    "templateName": "社会公共热点事件分析报告模板",
+    "selectionReason": "查询主题“人工智能的发展情况”是一个广泛的社会公共议题，而非针对特定企业、品牌或竞争对手的分析。提供的三份分析引擎报告均从宏观视角探讨AI的技术趋势、产业规模、社会影响及全球治理，属于对已形成广泛讨论的公共热点（技术与社会变革）的深度洞察。报告内容旨在梳理现状、分析挑战、预测趋势，并隐含评估其广泛的社会影响，这与“社会公共热点事件分析报告模板”的核心任务——洞察社会心态、评估宏观趋势的关联性（风险与机遇）——高度匹配。",
+    "themeTokens": {
+      "fontFamily": {
+        "title": "PingFang SC, Microsoft YaHei, sans-serif",
+        "body": "PingFang SC, Microsoft YaHei, sans-serif"
+      },
+      "fontSize": {
+        "h1": "28px",
+        "h2": "22px",
+        "h3": "18px",
+        "body": "16px",
+        "toc": "22px",
+        "caption": "14px"
+      },
+      "spacing": {
+        "section": "60px",
+        "subsection": "40px",
+        "paragraph": "24px",
+        "element": "16px"
+      },
+      "colors": {
+        "primary": "#1a73e8",
+        "secondary": "#34a853",
+        "accent": "#fbbc05",
+        "neutral": "#5f6368",
+        "background": "#ffffff",
+        "surface": "#f8f9fa",
+        "darkMode": {
+          "primary": "#8ab4f8",
+          "background": "#202124",
+          "surface": "#292a2d"
+        }
+      },
+      "borderRadius": "8px"
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "报告目录",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、报告摘要",
+          "description": "概述人工智能发展的核心发现、关键数据与执行建议，提供快速文章总览。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、发展全景与演变脉络",
+          "description": "梳理AI从技术突破到产业落地的完整时间线，分析当前所处的关键阶段与转折点。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、技术范式与传播路径",
+          "description": "深入分析AI从“预测词”到“预测世界”的范式跃迁，以及技术理念在产业界的传播链条。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、舆论场观点与情绪光谱",
+          "description": "剖析公众对AI的复杂情感，揭示宏观静默与微观沸腾并存的舆论生态分裂现象。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、深层动因与生态演进",
+          "description": "探讨AI发展背后的社会心态、技术接受度临界点，以及产业生态的价值链重构逻辑。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、综合评估与战略建议",
+          "description": "基于SWOT分析评估AI发展的内外部环境，提出面向不同主体的差异化行动策略。",
+          "allowSwot": true,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告综合多源分析引擎，深度剖析2026年初人工智能领域呈现的“宏观议题静默”与“微观实践沸腾”并存现象。报告揭示AI产业正经历从“预测词”到“预测世界”的范式跃迁，中国在全球竞争中实现关键指标反超，同时公众舆论场呈现出复杂的情感光谱与表达迁移。",
+      "highlights": [
+        "技术范式革命：AI从“生成”迈向“行动”，智能体成为新焦点",
+        "市场格局重构：中国大模型调用量首超美国，产业规模突破万亿",
+        "舆论生态分裂：宏观趋势讨论“失语”，微观应用争议“沸腾”",
+        "基础设施挑战：算力需求激增百倍，能源约束成为关键瓶颈"
+      ],
+      "kpis": [
+        {
+          "label": "全球AI总支出",
+          "value": "2.52万亿美元",
+          "delta": "+44%",
+          "tone": "up"
+        },
+        {
+          "label": "中国AI核心产业规模",
+          "value": ">1.2万亿元",
+          "delta": "同比增长近30%",
+          "tone": "up"
+        },
+        {
+          "label": "企业AI智能体渗透率",
+          "value": "40%",
+          "delta": "从不足5%飙升至40%",
+          "tone": "up"
+        },
+        {
+          "label": "推理成本下降",
+          "value": "90%",
+          "delta": "DeepSeek V4预告",
+          "tone": "up"
+        }
+      ],
+      "actions": [
+        "关注AI智能体在企业应用中的规模化部署机遇",
+        "警惕宏观舆论静默下潜藏的伦理与就业焦虑",
+        "把握中国在算电协同与垂直场景融合的差异化优势",
+        "提前布局绿色AI与能效优化的技术路线"
+      ]
+    },
+    "layoutNotes": [
+      "目录（tocTitle）与正文一级标题（h1）统一使用28px字号，确保视觉层级清晰一致。",
+      "各章节间使用60px垂直间距，子章节间使用40px间距，保持呼吸感。",
+      "KPI卡片使用主题色（#1a73e8）作为主色调，配合绿色（#34a853）表示增长，黄色（#fbbc05）表示中性或警示。",
+      "图表优先使用Chart.js原生组件，如趋势折线图展示市场规模增长，柱状图对比中美调用量，饼图展示产业价值分布。",
+      "SWOT分析块仅出现在第六章（综合评估与战略建议），使用四象限表格呈现。",
+      "PEST分析块仅出现在第五章（深层动因与生态演进），用于分析宏观环境因素。",
+      "正文行高设置为1.6，段落间距24px，提升长文阅读舒适度。",
+      "暗黑模式兼容：主要文字颜色使用#e8eaed，背景使用#202124，表面色使用#292a2d。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "总目标约8000字，上下浮动10%（7200-8800字）。",
+        "详略策略：重点突出技术范式跃迁（第三章）、市场格局重构（隐含在第二、五章）及舆论生态分裂（第四章），这三部分是报告的核心洞察与差异化价值所在，需深入展开。",
+        "报告摘要（第一章）需精炼，高度概括核心发现与建议，为全文定调。",
+        "发展脉络（第二章）提供必要背景，但避免冗长编年史，聚焦关键阶段与转折点。",
+        "深层动因与生态演进（第五章）是连接技术、市场与社会的桥梁，需深入分析产业价值链重构逻辑与社会心态临界点。",
+        "综合评估与建议（第六章）需基于前文分析，提出具体、可操作的差异化策略，SWOT分析要言之有物。",
+        "各小节允许在必要时超出目标字数10%以补充关键案例或数据，但整章需控制在浮动范围内。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**社会公共热点事件分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 报告摘要",
+          "rawTitle": "1.0 报告摘要",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 事件定性",
+            "1.2 核心洞察",
+            "1.3 关联性与建议"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 事件全景与演变脉络",
+          "rawTitle": "2.0 事件全景与演变脉络",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 事件背景与起源",
+            "2.2 舆论发酵时间线",
+            "2.3 当前态势"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 传播路径与引爆点分析",
+          "rawTitle": "3.0 传播路径与引爆点分析",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 核心传播链条",
+            "3.2 引爆点分析",
+            "3.3 关键传播角色"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 舆论场多方观点与情绪光谱",
+          "rawTitle": "4.0 舆论场多方观点与情绪光谱",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 核心议题与讨论焦点",
+            "4.2 多元观点呈现",
+            "4.3 社会情绪分析"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 深层动因与价值观探讨",
+          "rawTitle": "5.0 深层动因与价值观探讨",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 事件背后的社会心态",
+            "5.2 衍生文化与网络Meme"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 关联性评估与行动建议",
+          "rawTitle": "6.0 关联性评估与行动建议",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 风险评估",
+            "6.2 机遇评估",
+            "6.3 最终行动建议（介入/关注/规避）"
+          ]
+        }
+      ]
+    },
+    "generatedAt": "2026-04-19T07:17:25.637566Z"
+  },
+  "themeTokens": {
+    "fontFamily": {
+      "title": "PingFang SC, Microsoft YaHei, sans-serif",
+      "body": "PingFang SC, Microsoft YaHei, sans-serif"
+    },
+    "fontSize": {
+      "h1": "28px",
+      "h2": "22px",
+      "h3": "18px",
+      "body": "16px",
+      "toc": "22px",
+      "caption": "14px"
+    },
+    "spacing": {
+      "section": "60px",
+      "subsection": "40px",
+      "paragraph": "24px",
+      "element": "16px"
+    },
+    "colors": {
+      "primary": "#1a73e8",
+      "secondary": "#34a853",
+      "accent": "#fbbc05",
+      "neutral": "#5f6368",
+      "background": "#ffffff",
+      "surface": "#f8f9fa",
+      "darkMode": {
+        "primary": "#8ab4f8",
+        "background": "#202124",
+        "surface": "#292a2d"
+      }
+    },
+    "borderRadius": "8px"
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "title": "一、报告摘要",
+      "anchor": "section-1-0",
+      "order": 10,
+      "summary": "本报告摘要概述了人工智能发展的核心发现与建议。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "一、报告摘要",
+          "anchor": "section-1-0"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "本章节为报告摘要，概述核心发现与建议。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.1 事件定性",
+          "anchor": "section-1-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "2026年初AI领域呈现宏观议题静默与微观实践沸腾并存的核心矛盾。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.2 核心洞察",
+          "anchor": "section-1-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "技术范式从生成迈向行动，市场格局重构，舆论生态分裂，基础设施面临挑战。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.3 关联性与建议",
+          "anchor": "section-1-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "报告为各类读者提供关联性分析，并列出核心行动建议摘要。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S2",
+      "title": "二、发展全景与演变脉络",
+      "anchor": "section-2-0",
+      "order": 20,
+      "summary": "本章梳理人工智能从技术突破到产业落地的演进脉络，分析当前所处的关键阶段。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.1 事件背景与起源",
+          "anchor": "section-2-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "人工智能近年经历了大模型爆发，为宏观议题静默现象埋下伏笔。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.2 舆论发酵时间线",
+          "anchor": "section-2-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "公众对AI的认知经历了从狂热期待到复杂静默的完整情感演变周期。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.3 当前态势",
+          "anchor": "section-2-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "2026年初AI产业处于范式跃迁与价值创造的关键节点，静默与沸腾并存。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S3",
+      "title": "三、技术范式与传播路径",
+      "anchor": "section-3-0",
+      "order": 30,
+      "summary": "本章分析AI从“预测词”到“预测世界”的范式跃迁及其在产业界的传播链条。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.1 核心传播链条",
+          "anchor": "section-3-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "技术范式理念从顶尖研究机构向产业界传播渗透。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.2 引爆点分析",
+          "anchor": "section-3-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "关键技术突破与成本下降共同构成产业应用的引爆点。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.3 关键传播角色",
+          "anchor": "section-3-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "开源社区、头部科技公司等主体在范式传播中扮演关键角色。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S4",
+      "title": "四、舆论场观点与情绪光谱",
+      "anchor": "section-4-0",
+      "order": 40,
+      "summary": "本章剖析人工智能舆论场宏观静默与微观沸腾并存的现象。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.1 核心议题与讨论焦点",
+          "anchor": "section-4-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "宏观趋势讨论陷入数据真空，而微观应用议题则舆论沸腾。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.2 多元观点呈现",
+          "anchor": "section-4-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "理性观察派、焦虑具象派与漠然麻木派观点各异，构成复杂光谱。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.3 社会情绪分析",
+          "anchor": "section-4-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "静默源于认知迁移与预期疲劳，沸腾则是焦虑的具象化泄压。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S5",
+      "title": "五、深层动因与生态演进",
+      "anchor": "section-5-0",
+      "order": 50,
+      "summary": "本章从宏观环境与产业生态视角，剖析AI发展的深层动因与价值链重构逻辑。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.1 事件背后的社会心态",
+          "anchor": "section-5-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "社会心态呈现务实谨慎乐观与隐性焦虑并存的特征。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.2 衍生文化与网络Meme",
+          "anchor": "section-5-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "AI衍生文化如提示词工程师梗，是社会心态的侧面反映。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.3 产业生态价值链重构",
+          "anchor": "section-5-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "产业生态正经历算力自主、模型双轨、应用深化的三层重构。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S6",
+      "title": "六、综合评估与战略建议",
+      "anchor": "section-6-0",
+      "order": 60,
+      "summary": "本章基于前文分析，对AI发展进行SWOT评估并提出差异化行动建议。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.1 风险评估",
+          "anchor": "section-6-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "本节系统梳理AI发展的潜在风险，对应SWOT中的劣势与威胁。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.2 机遇评估",
+          "anchor": "section-6-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "本节系统梳理AI发展的潜在机遇，对应SWOT中的优势与机会。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.3 最终行动建议（介入/关注/规避）",
+          "anchor": "section-6-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "本节为不同主体提供具体、差异化的行动策略。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {}
+}

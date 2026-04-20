@@ -1,0 +1,39 @@
+{
+  "chapterId": "S3",
+  "title": "三、公众态度与社会情绪分布",
+  "anchor": "section-3-0",
+  "order": 30,
+  "summary": "本章剖析公众对智能座舱多模态交互的情感演变与群体观点差异。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.1 舆论情绪分布",
+      "anchor": "section-3-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "公众情绪经历了从技术憧憬到理性审视的完整演变轨迹。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.2 各方观点聚焦",
+      "anchor": "section-3-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "不同用户群体与传播平台对智能座舱交互的关注点存在显著差异。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

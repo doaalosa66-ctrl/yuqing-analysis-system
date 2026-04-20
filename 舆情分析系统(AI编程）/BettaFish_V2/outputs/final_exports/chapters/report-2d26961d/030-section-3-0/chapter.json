@@ -1,0 +1,39 @@
+{
+  "chapterId": "S3",
+  "title": "三、 市场关键动态与竞争格局演进",
+  "anchor": "section-3-0",
+  "order": 30,
+  "summary": "本章概述了欧美车载智能终端市场高度集中的竞争格局，并梳理了近期关键动态。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.1 高度集中的竞争格局分析",
+      "anchor": "section-3-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "欧美T-Box市场呈现“山峰与长尾”分布，前十大供应商占据行业收入85%以上。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.2 关键动态时间线与我方及对手动作",
+      "anchor": "section-3-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "近期市场格局受技术发布、合作及法规认证等关键事件影响，各方战略意图明确。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

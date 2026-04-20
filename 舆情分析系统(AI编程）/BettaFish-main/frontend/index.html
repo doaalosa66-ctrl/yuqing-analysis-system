@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI舆情巡航</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+    <!-- PDF导出依赖 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Phase 1: 星空主题 -->
+    <link rel="stylesheet" href="/static/css/space-theme.css">
+    <!-- Phase 2: Forum State 状态机 -->
+    <script src="/static/js/forum-state.js" defer></script>
+    <!-- Phase 3: 报告阅读器 -->
+    <script src="/static/js/report-reader.js" defer></script>
+
+
+    <!-- PDF中文字体数据 (优化后的子集字体，包含6763个GB2312汉字) -->
+
+    <script src="/static/js/pdf-font-data.js"></script>
+
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/components.css">
+</head>
+<body class="space-mode">
+    <!-- 背景增强：星云层 -->
+    <div class="space-nebula"></div>
+    <!-- 星空背景 Canvas -->
+    <canvas id="starfield"></canvas>
+    <!-- CSS 渐变叠层（兜底） -->
+    <div class="space-gradient-overlay"></div>
+
+    <!-- 顶层容器：同时包裹搜索区、双列主工作区与状态栏 -->
+    <div class="container">
+
+        <div class="space-shell" id="spotlightShell">
+            <div class="spotlight-wrapper">
+
+                <!-- 搜索主条 -->
+                <div class="spotlight-bar">
+                    <!-- 搜索图标 -->
+                    <span class="spotlight-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="11" cy="11" r="7"/>
+                            <line x1="16.5" y1="16.5" x2="22" y2="22"/>
+                        </svg>
+                    </span>
+
+                    <!-- 输入框：保留原 id，外层加相对定位容器 -->
+                    <div class="search-input-wrapper">
+                        <input
+                            type="text"
+                            class="spotlight-input"
+                            id="searchInput"
+                            placeholder="输入舆情主题，开始深度分析…"
+                            autocomplete="off"
+                        >
+                        <!-- 搜索历史下拉 -->
+                        <div class="search-history-dropdown" id="searchHistoryDropdown" style="display:none;"></div>
+                    </div>
+
+                    <!-- 参数按钮（齿轮） -->
+                    <button class="spotlight-params-btn" id="paramsToggleBtn" title="高级参数" aria-expanded="false">
+                        <svg viewBox="0 0 24 24">
+                            <line x1="4" y1="6" x2="20" y2="6"/>
+                            <line x1="4" y1="12" x2="20" y2="12"/>
+                            <line x1="4" y1="18" x2="20" y2="18"/>
+                            <circle cx="9" cy="6" r="2" fill="currentColor" stroke="none"/>
+                            <circle cx="15" cy="12" r="2" fill="currentColor" stroke="none"/>
+                            <circle cx="9" cy="18" r="2" fill="currentColor" stroke="none"/>
+                        </svg>
+                    </button>
+
+                    <!-- 提交按钮：保留原 id -->
+                    <button class="spotlight-submit-btn" id="searchButton">开始分析</button>
+                </div>
+
+                <!-- 参数展开面板 -->
+                <div class="spotlight-panel" id="spotlightPanel">
+                    <div class="spotlight-panel-inner">
+
+                        <!-- 数据源 -->
+                        <div class="panel-field">
+                            <label>数据源</label>
+                            <select id="dataSourceSelect">
+                                <option value="mindspider">MindSpider 公开抓取</option>
+                                <option value="private">私有数据库</option>
+                                <option value="hybrid">混合模式</option>
+                            </select>
+                        </div>
+
+                        <!-- 抓取深度 -->
+                        <div class="panel-field">
+                            <label>抓取深度</label>
+                            <select id="crawlDepthSelect">
+                                <option value="light">轻量（快速）</option>
+                                <option value="standard" selected>标准</option>
+                                <option value="deep">深度（耗时较长）</option>
+                            </select>
+                        </div>
+
+                        <div class="panel-divider"></div>
+
+                        <!-- 状态区 + 上传模板（隐藏原按钮，保留 input） -->
+                        <div class="panel-status-row">
+                            <!-- 引擎状态指示 -->
+                            <div class="panel-status-item">
+                                <span class="breath-dot" id="engineDot"></span>
+                                <span id="engineStatusLabel">引擎就绪</span>
+                            </div>
+
+                            <!-- 文件状态 -->
+                            <div class="panel-status-item">
+                                <span class="breath-dot amber" id="fileDot"></span>
+                                <span id="fileStatusLabel">无自定义模板</span>
+                            </div>
+
+                            <!-- 上传模板（保留原 id，隐藏原按钮样式） -->
+                            <label class="panel-upload-label" title="上传自定义报告模板">
+                                <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="17 8 12 3 7 8"/>
+                                    <line x1="12" y1="3" x2="12" y2="15"/>
+                                </svg>
+                                上传模板
+                                <input type="file" id="templateFileInput" accept=".md,.txt" style="display:none" title="上传自定义报告模板(支持 .md 和 .txt 文件)">
+                            </label>
+
+                            <!-- LLM 配置（保留原 id） -->
+                            <button class="panel-config-btn" id="openConfigButton">LLM 配置</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 上传状态提示：保留原 id -->
+                <div class="spotlight-upload-hint" id="uploadStatus"></div>
+
+                <!-- 搜索提示词条 -->
+                <div class="search-hint-row" id="searchHintRow" style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                    <span class="hint-label">💡 试试这样搜：</span>
+                    <div id="searchHintChipsContainer" style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;"></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ═══════════════════════════════════════════════ -->
+
+        <!-- 搜索历史报告确认弹框 -->
+        <div class="search-history-confirm-overlay" id="searchHistoryConfirmOverlay" style="display:none;">
+            <div class="search-history-confirm-modal">
+                <div class="shc-icon">📋</div>
+                <div class="shc-title">发现历史报告</div>
+                <div class="shc-body" id="shcBody">您于 <strong id="shcDate"></strong> 已生成过该主题的报告，是重新生成还是查看历史报告？</div>
+                <div class="shc-actions">
+                    <button class="shc-btn shc-btn-secondary" id="shcRegenBtn">重新生成</button>
+                    <button class="shc-btn shc-btn-primary" id="shcViewBtn">查看历史报告</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 历史存档抽屉遮罩 -->
+        <div class="history-drawer-overlay" id="historyDrawerOverlay"></div>
+
+        <!-- 历史存档抽屉 -->
+        <div class="history-drawer" id="historyDrawer">
+            <div class="history-drawer-header">
+                <span class="history-drawer-title">🕐 历史报告记录</span>
+                <button class="history-drawer-close" id="historyDrawerClose" aria-label="关闭">×</button>
+            </div>
+            <div class="history-drawer-body" id="historyDrawerBody">
+                <div class="history-empty">暂无历史报告<br><span style="font-size:11px;opacity:0.6;">完成一次分析后，报告将自动存档于此</span></div>
+            </div>
+        </div>
+
+
+        <!-- ═══════════════════════════════════════════════
+             Phase 2 — Forum State（运算态）
+             默认隐藏，提交搜索后由 forum-state.js 控制显示
+             所有原始 id 不冲突，业务 JS 零感知
+        ════════════════════════════════════════════════ -->
+        <div class="forum-state" id="forumState" aria-hidden="true">
+
+            <!-- 搜索进度条区域（替代原来的三节点） -->
+            <div id="forumProgressContainer" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 40px; gap: 12px;">
+                <div style="font-size: 14px; color: var(--text-secondary); font-weight: 500;">🔍 正在分析...</div>
+                <div style="width: 100%; max-width: 400px; height: 6px; background: var(--bg-tertiary); border-radius: 3px; overflow: hidden;">
+                    <div id="forumProgressBar" style="height: 100%; width: 0%; background: linear-gradient(90deg, #0A84FF, #30D158, #FF9F0A); transition: width 0.4s ease; border-radius: 3px;"></div>
+                </div>
+                <div id="forumProgressStage" style="font-size: 12px; color: var(--text-tertiary); text-align: center; max-width: 400px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"></div>
+            </div>
+
+            <!-- 终端日志区 -->
+            <div class="forum-terminal" id="forumTerminal">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot amber"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">系统思考流</span>
+                </div>
+                <div class="terminal-body" id="terminalBody">
+                    <!-- 日志行由 forum-state.js 动态注入 -->
+                </div>
+            </div>
+
+        </div>
+        <!-- ═══════════════════════════════════════════════ -->
+
+        <!-- 主内容区域 -->
+        <div class="main-content">
+            <!-- 嵌入页面区域 -->
+            <div class="embedded-section">
+                <div class="embedded-header" id="embeddedHeader">嵌入的页面</div>
+                <div class="embedded-content" id="embeddedContent">
+                    <!-- 论坛聊天界面 -->
+                    <div class="forum-container" id="forumContainer">
+                        <div class="forum-chat-area" id="forumChatArea">
+                            <!-- 动态添加的Engine对话消息将在这里显示 -->
+                        </div>
+                    </div>
+                    
+                    <!-- 报告引擎界面 -->
+                    <div class="report-container" id="reportContainer">
+                        <div class="report-content" id="reportContent">
+                            <!-- 报告内容将在这里显示 -->
+                        </div>
+
+                        <!-- Phase 3: 左侧大纲导航（由 report-reader.js 动态填充） -->
+                        <nav class="report-toc" id="reportToc" aria-label="报告目录" hidden>
+                            <div class="toc-header">目录</div>
+                            <ul class="toc-list" id="tocList"></ul>
+                        </nav>
+
+                        <!-- Phase 3: FAB 悬浮操作按钮 -->
+                        <div class="report-fab" id="reportFab" hidden>
+                            <!-- 主按钮 -->
+                            <button class="fab-main" id="fabMainBtn" aria-label="导出选项" aria-expanded="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                            </button>
+                            <!-- 子选项（展开后显示） -->
+                            <div class="fab-menu" id="fabMenu">
+                                <button class="fab-item" id="fabPdfBtn" data-label="导出 PDF">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                        <polyline points="14 2 14 8 20 8"/>
+                                        <line x1="16" y1="13" x2="8" y2="13"/>
+                                        <line x1="16" y1="17" x2="8" y2="17"/>
+                                        <polyline points="10 9 9 9 8 9"/>
+                                    </svg>
+                                </button>
+                                <button class="fab-item" id="fabHtmlBtn" data-label="下载 HTML">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="16 18 22 12 16 6"/>
+                                        <polyline points="8 6 2 12 8 18"/>
+                                    </svg>
+                                </button>
+                                <button class="fab-item" id="fabMdBtn" data-label="下载 MD">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 6h16M4 12h10M4 18h7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-tertiary); font-size: 13px;">
+                        <span>默认只显示第一个页面 - 点击按钮切换页面</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 控制台输出区域 -->
+            <div class="console-section">
+                <!-- 应用切换按钮 -->
+                <div class="app-switcher">
+                    <div id="searchProgressContainer" style="display: none; flex: 1; margin-right: 10px;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span id="searchProgressLabel" style="font-size: 12px; color: var(--text-secondary); white-space: nowrap;">等待搜索...</span>
+                            <div style="flex: 1; height: 8px; background: var(--bg-tertiary); border-radius: 4px; overflow: hidden;">
+                                <div id="searchProgressBar" style="height: 100%; width: 0%; background: linear-gradient(90deg, #4CAF50, #8BC34A); transition: width 0.3s ease; border-radius: 4px;"></div>
+                            </div>
+                            <span id="searchProgressPercent" style="font-size: 12px; color: var(--text-secondary); min-width: 40px; text-align: right;">0%</span>
+                        </div>
+                        <div id="searchProgressStage" style="font-size: 11px; color: var(--text-tertiary); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"></div>
+                    </div>
+                    <button class="app-button" data-app="forum">
+                        <span class="status-indicator running" id="status-forum"></span>
+                        论坛引擎
+                    </button>
+                    <button class="app-button locked" data-app="report" title="需等待其余三个Agent工作完毕">
+                        <span class="status-indicator" id="status-report"></span>
+                        报告引擎
+                    </button>
+                </div>
+
+                <!-- 控制台状态栏 -->
+                <div class="console-status-bar" id="consoleStatusBar">
+                    <span class="status-message"></span>
+                    <span class="status-details"></span>
+                </div>
+
+                <!-- 控制台输出 -->
+                <div class="console-output" id="consoleOutput"></div>
+            </div>
+        </div>
+
+        <!-- 状态栏：实时展示WebSocket连接状态与系统时钟 -->
+        <div class="status-bar" style="position:relative;">
+            <div class="status-bar-left">
+                <span id="connectionStatus">连接中...</span>
+                <span id="systemTime"></span>
+            </div>
+            <div class="status-bar-center">
+                <div class="engine-status-banner not-ready" id="engineStatusBanner" style="display:none;" title="点击前往配置">
+                    <span class="banner-dot"></span>
+                    <span id="engineStatusBannerText">⚠️ 引擎尚未就绪，请先完成 <span class="banner-link">LLM 配置</span></span>
+                </div>
+            </div>
+            <button class="page-action-button shutdown status-shutdown-button" id="shutdownButton" aria-label="关闭系统">关闭系统</button>
+        </div>
+    </div>
+
+    <div class="confirm-overlay" id="shutdownConfirmModal" aria-hidden="true">
+        <div class="confirm-dialog danger">
+            <div class="confirm-header">
+                <div class="confirm-title" id="shutdownStrongText">确定要关闭系统吗？</div>
+                <button class="confirm-close" id="closeShutdownConfirm" aria-label="关闭系统确认">×</button>
+            </div>
+            <div class="confirm-body">
+                <div class="confirm-text">
+                    <div class="confirm-subtext" id="shutdownSubText">将关闭系统并停止由本控制台启动的子进程，涉及端口/进程：</div>
+                    <div class="confirm-list" id="shutdownRunningList"></div>
+                    <div class="confirm-list" id="shutdownPortList"></div>
+                </div>
+            </div>
+            <div class="confirm-actions">
+                <button class="confirm-button" id="cancelShutdownButton">取消</button>
+                <button class="confirm-button danger" id="confirmShutdownButton">立即关闭系统</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 配置弹窗：与后端.env互通，允许在线修改LLM参数 -->
+    <div class="config-modal-overlay" id="configModal">
+        <div class="config-modal">
+            <div class="config-modal-header">
+                <div class="config-modal-title">AI 引擎配置</div>
+                <div class="config-modal-actions">
+                    <button class="config-secondary-button" id="refreshConfigButton">刷新</button>
+                    <button class="config-secondary-button" id="closeConfigModal" aria-label="返回首页">← 返回</button>
+                </div>
+            </div>
+            <div class="config-modal-body" id="configFormContainer">
+                <!-- 由脚本填充 -->
+            </div>
+            <div class="config-modal-footer">
+                <div class="config-status-message" id="configStatusMessage"></div>
+                <div class="config-modal-footer-actions">
+                    <button class="config-save-button" id="saveConfigButton" style="display:none;">保存</button>
+                    <button class="config-start-button" id="startSystemButton">保存并启动系统</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 消息提示：右上角滑出式成功/错误提醒 -->
+    <div class="message" id="message"></div>
+
+    <!-- 前端业务脚本：维护Socket连接、引擎启动状态与Report Engine交互 -->
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/viewController.js"></script>
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/app_v2.js"></script>
+    <script src="/static/js/starfield.js"></script>
+    <script src="/static/js/guide.js"></script>
+
+    <!-- ═══════════════════════════════════════════════
+         Phase 1 — 星空背景 + Spotlight 交互
+    ════════════════════════════════════════════════ -->
+
+
+    <!-- ══════════════════════════════════════════
+         品牌 Logo + 使用指引（DOM 最末位，z-index 最高，不受任何层叠上下文影响）
+    ══════════════════════════════════════════ -->
+    <!-- 左上角品牌 Logo -->
+    <div id="brandLogo" style="
+        position: fixed;
+        top: 20px;
+        left: 24px;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #ffffff;
+        pointer-events: auto;
+    ">
+        <!-- 纯 CSS 雷达扫描图标 -->
+        <div class="brand-radar" aria-hidden="true">
+            <!-- 同心圆 -->
+            <div class="brand-radar-ring brand-radar-ring-1"></div>
+            <div class="brand-radar-ring brand-radar-ring-2"></div>
+            <div class="brand-radar-ring brand-radar-ring-3"></div>
+            <!-- 旋转扫描臂 -->
+            <div class="brand-radar-sweep"></div>
+            <!-- 中心核 -->
+            <div class="brand-radar-core"></div>
+            <!-- 扫描到的光点 -->
+            <div class="brand-radar-dot brand-radar-dot-1"></div>
+            <div class="brand-radar-dot brand-radar-dot-2"></div>
+        </div>
+
+        <!-- 品牌名 -->
+        <span style="
+            display:inline-flex;align-items:baseline;gap:5px;
+            font-family:-apple-system,'SF Pro Display','PingFang SC',sans-serif;
+            letter-spacing:-0.01em;
+            line-height:1;
+        ">
+            <span style="
+                font-size:15px;
+                font-weight:800;
+                background:linear-gradient(135deg,#3b9eff 0%,#a78bfa 100%);
+                -webkit-background-clip:text;
+                -webkit-text-fill-color:transparent;
+                background-clip:text;
+                filter:drop-shadow(0 0 6px rgba(59,158,255,0.7));
+                letter-spacing:0.04em;
+            ">AI</span><span style="
+                font-size:22px;
+                font-weight:700;
+                font-style:italic;
+                color:#ffffff;
+                text-shadow:0 0 18px rgba(59,158,255,0.5),0 0 36px rgba(59,158,255,0.2);
+                letter-spacing:-0.02em;
+            ">舆情巡航</span>
+        </span>
+
+    </div>
+
+    <!-- 右下角悬浮球：历史报告 -->
+    <button id="historyArchiveBtn" title="历史报告记录" onclick="openHistoryPanel()" style="
+        position:fixed;
+        bottom:88px;
+        right:28px;
+        z-index:1000;
+        display:flex;
+        align-items:center;
+        gap:7px;
+        padding:9px 18px 9px 14px;
+        border:1px solid rgba(120,180,255,0.18);
+        border-radius:999px;
+        background:rgba(10,20,40,0.45);
+        backdrop-filter:blur(14px);
+        -webkit-backdrop-filter:blur(14px);
+        color:rgba(180,210,255,0.72);
+        font-size:12.5px;
+        font-weight:500;
+        letter-spacing:0.03em;
+        cursor:pointer;
+        font-family:-apple-system,'SF Pro Display','PingFang SC',sans-serif;
+        box-shadow:0 2px 16px rgba(0,0,0,0.28),0 0 0 1px rgba(59,158,255,0.06) inset;
+        transition:background 0.2s,border-color 0.2s,color 0.2s,box-shadow 0.2s;
+    "
+    onmouseover="this.style.background='rgba(20,40,80,0.62)';this.style.borderColor='rgba(120,180,255,0.32)';this.style.color='rgba(210,230,255,0.92)';this.style.boxShadow='0 4px 24px rgba(59,158,255,0.18),0 0 0 1px rgba(59,158,255,0.12) inset';"
+    onmouseout="this.style.background='rgba(10,20,40,0.45)';this.style.borderColor='rgba(120,180,255,0.18)';this.style.color='rgba(180,210,255,0.72)';this.style.boxShadow='0 2px 16px rgba(0,0,0,0.28),0 0 0 1px rgba(59,158,255,0.06) inset';">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;flex-shrink:0;opacity:0.85;">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <span>历史报告</span>
+    </button>
+
+    <!-- 右下角悬浮球：使用指引 -->
+    <button id="guideTrigger" onclick="document.getElementById('guideOverlay').classList.add('open')" style="
+        position:fixed;
+        bottom:28px;
+        right:28px;
+        z-index:1000;
+        display:flex;
+        align-items:center;
+        gap:7px;
+        padding:9px 18px 9px 14px;
+        border:1px solid rgba(120,180,255,0.18);
+        border-radius:999px;
+        background:rgba(10,20,40,0.45);
+        backdrop-filter:blur(14px);
+        -webkit-backdrop-filter:blur(14px);
+        color:rgba(180,210,255,0.72);
+        font-size:12.5px;
+        font-weight:500;
+        letter-spacing:0.03em;
+        cursor:pointer;
+        font-family:-apple-system,'SF Pro Display','PingFang SC',sans-serif;
+        box-shadow:0 2px 16px rgba(0,0,0,0.28),0 0 0 1px rgba(59,158,255,0.06) inset;
+        transition:background 0.2s,border-color 0.2s,color 0.2s,box-shadow 0.2s;
+    "
+    onmouseover="this.style.background='rgba(20,40,80,0.62)';this.style.borderColor='rgba(120,180,255,0.32)';this.style.color='rgba(210,230,255,0.92)';this.style.boxShadow='0 4px 24px rgba(59,158,255,0.18),0 0 0 1px rgba(59,158,255,0.12) inset';"
+    onmouseout="this.style.background='rgba(10,20,40,0.45)';this.style.borderColor='rgba(120,180,255,0.18)';this.style.color='rgba(180,210,255,0.72)';this.style.boxShadow='0 2px 16px rgba(0,0,0,0.28),0 0 0 1px rgba(59,158,255,0.06) inset';">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;flex-shrink:0;opacity:0.85;">
+            <circle cx="10" cy="10" r="8"/>
+            <line x1="10" y1="9" x2="10" y2="14"/>
+            <circle cx="10" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+        </svg>
+        <span>使用指引</span>
+    </button>
+
+    <!-- 品牌图标样式 & 动画 -->
+
+
+    <!-- 使用指引模态 -->
+    <div id="guideOverlay" style="
+        position:fixed;inset:0;z-index:1001;
+        background:rgba(0,0,10,0.7);
+        backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+        display:flex;align-items:center;justify-content:center;
+        padding:24px;
+        opacity:0;pointer-events:none;
+        transition:opacity 0.28s ease;
+    ">
+        <div id="guideModal" style="
+            width:min(640px,92vw);max-height:82vh;
+            background:rgba(8,8,20,0.92);
+            border:1px solid rgba(255,255,255,0.14);
+            border-radius:22px;
+            backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);
+            box-shadow:0 24px 80px rgba(0,0,0,0.7),0 0 60px rgba(10,132,255,0.08);
+            display:flex;flex-direction:column;overflow:hidden;
+            transform:scale(0.94) translateY(12px);
+            transition:transform 0.45s cubic-bezier(0.34,1.56,0.64,1);
+        ">
+            <!-- 工具栏 -->
+            <div style="
+                display:flex;align-items:center;gap:8px;
+                padding:14px 18px;
+                border-bottom:1px solid rgba(255,255,255,0.08);
+                background:rgba(0,0,0,0.2);flex-shrink:0;
+            ">
+                <span style="font-size:13px;font-weight:600;color:#ebebf5;letter-spacing:0.04em;flex:1;font-family:-apple-system,'PingFang SC',sans-serif;">使用指引</span>
+                <!-- 缩放控件 -->
+                <div style="display:flex;align-items:center;gap:4px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:2px 4px;">
+                    <button id="guideZoomOut" onclick="guideZoom(-1)" style="width:26px;height:26px;border:none;background:transparent;color:rgba(235,235,245,0.6);cursor:pointer;border-radius:6px;display:flex;align-items:center;justify-content:center;">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="width:14px;height:14px;"><line x1="3" y1="8" x2="13" y2="8"/></svg>
+                    </button>
+                    <span id="guideZoomLabel" style="font-size:11px;font-weight:600;color:rgba(235,235,245,0.6);min-width:36px;text-align:center;font-family:monospace;">100%</span>
+                    <button id="guideZoomIn" onclick="guideZoom(1)" style="width:26px;height:26px;border:none;background:transparent;color:rgba(235,235,245,0.6);cursor:pointer;border-radius:6px;display:flex;align-items:center;justify-content:center;">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="width:14px;height:14px;"><line x1="8" y1="3" x2="8" y2="13"/><line x1="3" y1="8" x2="13" y2="8"/></svg>
+                    </button>
+                    <button onclick="guideZoom(0)" title="重置" style="width:26px;height:26px;border:none;background:transparent;color:rgba(235,235,245,0.6);cursor:pointer;border-radius:6px;display:flex;align-items:center;justify-content:center;">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M2 8a6 6 0 1 1 1.5 4"/><polyline points="2 13 2 8 7 8"/></svg>
+                    </button>
+                </div>
+                <!-- 关闭 -->
+                <button onclick="document.getElementById('guideOverlay').classList.remove('open')" style="width:28px;height:28px;border:none;background:rgba(255,255,255,0.06);border-radius:50%;color:rgba(235,235,245,0.6);cursor:pointer;display:flex;align-items:center;justify-content:center;margin-left:4px;">
+                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="width:13px;height:13px;"><line x1="3" y1="3" x2="13" y2="13"/><line x1="13" y1="3" x2="3" y2="13"/></svg>
+                </button>
+            </div>
+            <!-- 滚动内容区 -->
+            <div style="overflow-y:auto;flex:1;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.1) transparent;">
+                <div id="guideContent" style="padding:24px 28px 28px;display:flex;flex-direction:column;gap:14px;transform-origin:top center;transition:transform 0.28s ease;">
+
+                    <!-- 步骤 01 -->
+                    <div style="display:flex;gap:16px;padding:16px 18px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;">
+                        <div style="font-size:22px;font-weight:800;color:rgba(10,132,255,0.35);letter-spacing:-0.04em;flex-shrink:0;padding-top:2px;min-width:28px;font-family:monospace;">01</div>
+                        <div style="flex:1;">
+                            <div style="font-size:14px;font-weight:600;color:#ffffff;margin-bottom:5px;font-family:-apple-system,'PingFang SC',sans-serif;">配置 LLM 引擎</div>
+                            <div style="font-size:13px;color:rgba(235,235,245,0.55);line-height:1.65;font-family:-apple-system,'PingFang SC',sans-serif;">点击搜索框右侧参数图标，展开高级面板，选择「LLM 配置」填写 API Key 并保存。首次使用必须完成此步骤。</div>
+                            <span style="display:inline-block;margin-top:6px;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(10,132,255,0.7);background:rgba(10,132,255,0.1);border:1px solid rgba(10,132,255,0.2);border-radius:4px;padding:2px 8px;">前置条件</span>
+                        </div>
+                    </div>
+
+                    <!-- 步骤 02 -->
+                    <div style="display:flex;gap:16px;padding:16px 18px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;">
+                        <div style="font-size:22px;font-weight:800;color:rgba(10,132,255,0.35);letter-spacing:-0.04em;flex-shrink:0;padding-top:2px;min-width:28px;font-family:monospace;">02</div>
+                        <div style="flex:1;">
+                            <div style="font-size:14px;font-weight:600;color:#ffffff;margin-bottom:5px;font-family:-apple-system,'PingFang SC',sans-serif;">输入舆情主题</div>
+                            <div style="font-size:13px;color:rgba(235,235,245,0.55);line-height:1.65;font-family:-apple-system,'PingFang SC',sans-serif;">在中央搜索框输入你想分析的品牌、事件或关键词，例如「某品牌危机公关」。支持中英文混合输入。</div>
+                            <span style="display:inline-block;margin-top:6px;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(10,132,255,0.7);background:rgba(10,132,255,0.1);border:1px solid rgba(10,132,255,0.2);border-radius:4px;padding:2px 8px;">核心操作</span>
+                        </div>
+                    </div>
+
+                    <!-- 步骤 03 -->
+                    <div style="display:flex;gap:16px;padding:16px 18px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;">
+                        <div style="font-size:22px;font-weight:800;color:rgba(10,132,255,0.35);letter-spacing:-0.04em;flex-shrink:0;padding-top:2px;min-width:28px;font-family:monospace;">03</div>
+                        <div style="flex:1;">
+                            <div style="font-size:14px;font-weight:600;color:#ffffff;margin-bottom:5px;font-family:-apple-system,'PingFang SC',sans-serif;">选择数据源与深度</div>
+                            <div style="font-size:13px;color:rgba(235,235,245,0.55);line-height:1.65;font-family:-apple-system,'PingFang SC',sans-serif;">展开参数面板，选择「MindSpider 公开抓取」或「私有数据库」，并设置抓取深度。深度越高，分析越全面，耗时也越长。</div>
+                            <span style="display:inline-block;margin-top:6px;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(10,132,255,0.7);background:rgba(10,132,255,0.1);border:1px solid rgba(10,132,255,0.2);border-radius:4px;padding:2px 8px;">可选配置</span>
+                        </div>
+                    </div>
+
+                    <!-- 步骤 04 -->
+                    <div style="display:flex;gap:16px;padding:16px 18px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;">
+                        <div style="font-size:22px;font-weight:800;color:rgba(10,132,255,0.35);letter-spacing:-0.04em;flex-shrink:0;padding-top:2px;min-width:28px;font-family:monospace;">04</div>
+                        <div style="flex:1;">
+                            <div style="font-size:14px;font-weight:600;color:#ffffff;margin-bottom:5px;font-family:-apple-system,'PingFang SC',sans-serif;">等待 Agent 协作分析</div>
+                            <div style="font-size:13px;color:rgba(235,235,245,0.55);line-height:1.65;font-family:-apple-system,'PingFang SC',sans-serif;">提交后，Query / Media / Insight 三个智能体将并行工作。你可以在「系统思考流」终端实时观察每个 Agent 的进度与发现。</div>
+                            <span style="display:inline-block;margin-top:6px;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(10,132,255,0.7);background:rgba(10,132,255,0.1);border:1px solid rgba(10,132,255,0.2);border-radius:4px;padding:2px 8px;">自动执行</span>
+                        </div>
+                    </div>
+
+                    <!-- 步骤 05 -->
+                    <div style="display:flex;gap:16px;padding:16px 18px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:16px;">
+                        <div style="font-size:22px;font-weight:800;color:rgba(10,132,255,0.35);letter-spacing:-0.04em;flex-shrink:0;padding-top:2px;min-width:28px;font-family:monospace;">05</div>
+                        <div style="flex:1;">
+                            <div style="font-size:14px;font-weight:600;color:#ffffff;margin-bottom:5px;font-family:-apple-system,'PingFang SC',sans-serif;">生成与导出报告</div>
+                            <div style="font-size:13px;color:rgba(235,235,245,0.55);line-height:1.65;font-family:-apple-system,'PingFang SC',sans-serif;">三个 Agent 完成后，切换到「报告引擎」Tab，点击「生成最终报告」。报告生成后可通过右下角 FAB 按钮导出 PDF / HTML / Markdown。</div>
+                            <span style="display:inline-block;margin-top:6px;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(10,132,255,0.7);background:rgba(10,132,255,0.1);border:1px solid rgba(10,132,255,0.2);border-radius:4px;padding:2px 8px;">输出结果</span>
+                        </div>
+                    </div>
+
+                    <!-- 提示条 -->
+                    <div style="display:flex;align-items:flex-start;gap:10px;padding:12px 16px;background:rgba(48,209,88,0.06);border:1px solid rgba(48,209,88,0.18);border-radius:10px;font-size:12px;color:rgba(48,209,88,0.85);line-height:1.6;font-family:-apple-system,'PingFang SC',sans-serif;">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="rgba(48,209,88,0.8)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;flex-shrink:0;margin-top:1px;"><path d="M8 1a5 5 0 0 1 2 9.6V12H6v-1.4A5 5 0 0 1 8 1z"/><line x1="6" y1="15" x2="10" y2="15"/></svg>
+                        <span>可上传自定义 <code style="background:rgba(48,209,88,0.12);border-radius:3px;padding:1px 5px;font-family:monospace;font-size:11px;">.md</code> 模板文件，让报告结构完全符合你的业务需求。</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 使用指引交互脚本 -->
+
+    <!-- 沉浸式阅读器返回按钮 -->
+    <button class="immersive-back-btn" id="immersiveBackBtn" title="返回主界面" onclick="exitImmersiveReader()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;flex-shrink:0;opacity:0.85;">
+            <polyline points="15 18 9 12 15 6"/>
+        </svg>
+        <span>返回</span>
+    </button>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "chapterId": "S5",
+  "title": "五、深层动因与生态演进",
+  "anchor": "section-5-0",
+  "order": 50,
+  "summary": "本章从宏观环境与产业生态视角，剖析AI发展的深层动因与价值链重构逻辑。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.1 事件背后的社会心态",
+      "anchor": "section-5-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "社会心态呈现务实谨慎乐观与隐性焦虑并存的特征。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.2 衍生文化与网络Meme",
+      "anchor": "section-5-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "AI衍生文化如提示词工程师梗，是社会心态的侧面反映。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.3 产业生态价值链重构",
+      "anchor": "section-5-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "产业生态正经历算力自主、模型双轨、应用深化的三层重构。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "title": "人工智能发展全景洞察报告",
+  "subtitle": "从宏观静默到微观沸腾：2026年AI产业范式跃迁与舆论生态深度解析",
+  "tagline": "一份融合技术趋势、市场格局与公共情绪的文章总览",
+  "tocTitle": "报告目录",
+  "hero": {
+    "summary": "本报告综合多源分析引擎，深度剖析2026年初人工智能领域呈现的“宏观议题静默”与“微观实践沸腾”并存现象。报告揭示AI产业正经历从“预测词”到“预测世界”的范式跃迁，中国在全球竞争中实现关键指标反超，同时公众舆论场呈现出复杂的情感光谱与表达迁移。",
+    "highlights": [
+      "技术范式革命：AI从“生成”迈向“行动”，智能体成为新焦点",
+      "市场格局重构：中国大模型调用量首超美国，产业规模突破万亿",
+      "舆论生态分裂：宏观趋势讨论“失语”，微观应用争议“沸腾”",
+      "基础设施挑战：算力需求激增百倍，能源约束成为关键瓶颈"
+    ],
+    "kpis": [
+      {
+        "label": "全球AI总支出",
+        "value": "2.52万亿美元",
+        "delta": "+44%",
+        "tone": "up"
+      },
+      {
+        "label": "中国AI核心产业规模",
+        "value": ">1.2万亿元",
+        "delta": "同比增长近30%",
+        "tone": "up"
+      },
+      {
+        "label": "企业AI智能体渗透率",
+        "value": "40%",
+        "delta": "从不足5%飙升至40%",
+        "tone": "up"
+      },
+      {
+        "label": "推理成本下降",
+        "value": "90%",
+        "delta": "DeepSeek V4预告",
+        "tone": "up"
+      }
+    ],
+    "actions": [
+      "关注AI智能体在企业应用中的规模化部署机遇",
+      "警惕宏观舆论静默下潜藏的伦理与就业焦虑",
+      "把握中国在算电协同与垂直场景融合的差异化优势",
+      "提前布局绿色AI与能效优化的技术路线"
+    ]
+  },
+  "themeTokens": {
+    "fontFamily": {
+      "title": "PingFang SC, Microsoft YaHei, sans-serif",
+      "body": "PingFang SC, Microsoft YaHei, sans-serif"
+    },
+    "fontSize": {
+      "h1": "28px",
+      "h2": "22px",
+      "h3": "18px",
+      "body": "16px",
+      "toc": "22px",
+      "caption": "14px"
+    },
+    "spacing": {
+      "section": "60px",
+      "subsection": "40px",
+      "paragraph": "24px",
+      "element": "16px"
+    },
+    "colors": {
+      "primary": "#1a73e8",
+      "secondary": "#34a853",
+      "accent": "#fbbc05",
+      "neutral": "#5f6368",
+      "background": "#ffffff",
+      "surface": "#f8f9fa",
+      "darkMode": {
+        "primary": "#8ab4f8",
+        "background": "#202124",
+        "surface": "#292a2d"
+      }
+    },
+    "borderRadius": "8px"
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、报告摘要",
+      "description": "概述人工智能发展的核心发现、关键数据与执行建议，提供快速文章总览。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、发展全景与演变脉络",
+      "description": "梳理AI从技术突破到产业落地的完整时间线，分析当前所处的关键阶段与转折点。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、技术范式与传播路径",
+      "description": "深入分析AI从“预测词”到“预测世界”的范式跃迁，以及技术理念在产业界的传播链条。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、舆论场观点与情绪光谱",
+      "description": "剖析公众对AI的复杂情感，揭示宏观静默与微观沸腾并存的舆论生态分裂现象。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、深层动因与生态演进",
+      "description": "探讨AI发展背后的社会心态、技术接受度临界点，以及产业生态的价值链重构逻辑。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、综合评估与战略建议",
+      "description": "基于SWOT分析评估AI发展的内外部环境，提出面向不同主体的差异化行动策略。",
+      "allowSwot": true,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（tocTitle）与正文一级标题（h1）统一使用28px字号，确保视觉层级清晰一致。",
+    "各章节间使用60px垂直间距，子章节间使用40px间距，保持呼吸感。",
+    "KPI卡片使用主题色（#1a73e8）作为主色调，配合绿色（#34a853）表示增长，黄色（#fbbc05）表示中性或警示。",
+    "图表优先使用Chart.js原生组件，如趋势折线图展示市场规模增长，柱状图对比中美调用量，饼图展示产业价值分布。",
+    "SWOT分析块仅出现在第六章（综合评估与战略建议），使用四象限表格呈现。",
+    "PEST分析块仅出现在第五章（深层动因与生态演进），用于分析宏观环境因素。",
+    "正文行高设置为1.6，段落间距24px，提升长文阅读舒适度。",
+    "暗黑模式兼容：主要文字颜色使用#e8eaed，背景使用#202124，表面色使用#292a2d。"
+  ]
+}

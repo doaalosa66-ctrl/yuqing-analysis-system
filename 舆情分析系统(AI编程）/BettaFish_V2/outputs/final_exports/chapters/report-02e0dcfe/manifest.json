@@ -1,0 +1,172 @@
+{
+  "reportId": "report-02e0dcfe",
+  "createdAt": "2026-04-20T06:07:57.709959Z",
+  "metadata": {
+    "query": "ottocast品牌的舆情情况和产品情况",
+    "title": "Ottocast品牌全景洞察报告",
+    "subtitle": "从舆情声量到产品矩阵的深度剖析",
+    "tagline": "本文为Ottocast品牌文章总览，揭示其在全球无线CarPlay适配器市场的机遇与挑战",
+    "templateName": "自由发挥模板",
+    "selectionReason": "未找到合适的预设模板，让LLM根据内容自行设计报告结构",
+    "themeTokens": {
+      "fontFamily": {
+        "title": "PingFang SC, Microsoft YaHei, sans-serif",
+        "body": "PingFang SC, Microsoft YaHei, sans-serif"
+      },
+      "fontSize": {
+        "title": "24px",
+        "subtitle": "18px",
+        "toc": "16px",
+        "h1": "20px",
+        "h2": "18px",
+        "body": "14px"
+      },
+      "spacing": {
+        "section": "40px",
+        "paragraph": "20px",
+        "element": "10px"
+      },
+      "colors": {
+        "primary": "#1a73e8",
+        "secondary": "#34a853",
+        "accent": "#fbbc05",
+        "background": "#ffffff",
+        "text": "#202124"
+      },
+      "darkMode": {
+        "primary": "#8ab4f8",
+        "secondary": "#81c995",
+        "accent": "#fdd663",
+        "background": "#202124",
+        "text": "#e8eaed"
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "报告目录",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "executive-summary",
+          "display": "一、执行摘要与核心拓扑",
+          "description": "概述Ottocast品牌基本情况、市场地位、关键数据亮点及核心风险提示，提供全局视角。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "multi-dimensional-insights",
+          "display": "二、多维深度洞察",
+          "description": "深入分析品牌产品线演进、用户舆情两极分化、社交媒体购买路径及市场竞争格局。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "strategic-recommendations",
+          "display": "三、战略预测与行动建议",
+          "description": "基于洞察提出产品优化、市场拓展、服务升级等具体行动建议，并展望未来转型方向。",
+          "allowSwot": true,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "data-traceability",
+          "display": "四、数据溯源矩阵",
+          "description": "汇总报告数据来源、关键指标定义及分析方法，确保洞察的可追溯性与可靠性。",
+          "allowSwot": false,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告基于Ottocast品牌舆情与产品数据，系统梳理其市场地位、用户反馈、竞争格局及未来战略方向。品牌凭借精准市场切入与DTC出海模式快速崛起，但面临连接稳定性、售后支持等关键挑战，需向体验驱动的智能座舱解决方案转型。",
+      "highlights": [
+        "Ottocast作为全球无线CarPlay适配器头部品牌，2025年前三季度营收达63.64亿元，显示强劲增长",
+        "用户评价呈现两极分化：正面聚焦安装简便与解决老旧车型痛点，负面集中于连接不稳定与客服响应慢",
+        "社交媒体成为Z世代主要购买渠道，近60%用户通过社媒发现并下单，舆情与销售转化链路缩短",
+        "市场竞争白热化，格局呈“一超多强”，Ottocast估计占据15%-20%市场份额，暂无绝对垄断者"
+      ],
+      "kpis": [
+        {
+          "label": "2025年前三季度营收",
+          "value": "63.64亿元",
+          "delta": "+3.2%",
+          "tone": "up"
+        },
+        {
+          "label": "全球市场份额估计",
+          "value": "15%-20%",
+          "delta": "稳定",
+          "tone": "neutral"
+        },
+        {
+          "label": "Z世代社媒购买占比",
+          "value": "近60%",
+          "delta": "增长显著",
+          "tone": "up"
+        }
+      ],
+      "actions": [
+        "立即优化产品连接稳定性与散热设计，减少负面评价",
+        "加强售后支持体系，提升客服响应速度与问题解决率",
+        "深化社交媒体营销，利用视频内容强化品牌体验传播",
+        "探索“硬件+服务”模式，向智能座舱解决方案提供商转型"
+      ]
+    },
+    "layoutNotes": [
+      "目录与正文一级标题统一使用20px字号，确保视觉层次清晰",
+      "每章起始处预留40px留白，段落间使用20px间距，提升可读性",
+      "优先使用Chart.js图表、KPI卡、色块等原生组件，避免依赖外部图片",
+      "SWOT分析块仅出现在第三章，PEST分析块仅出现在第二章，二者不共用",
+      "二级目录使用1.1/1.2格式，在描述中说明详略，不随意增删章节"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "总字数目标8000字，允许上下浮动10%（即7200-8800字），以保持报告深度与可读性平衡。",
+        "核心章节按权重分配：一、执行摘要与核心拓扑（18%）、二、多维深度洞察（31%）、三、战略预测与行动建议（31%）、四、数据溯源矩阵（18%），确保重点突出。",
+        "强调数据驱动：基于提供的营收63.64亿元、市场份额15%-20%、Z世代社媒购买占比近60%等关键指标展开分析。",
+        "注重案例与细节：在用户舆情两极分化、社交媒体转化路径、产品线演进等部分，允许必要时超出10%补充具体案例以增强说服力。",
+        "结构清晰：遵循一级中文数字（一、二、三、四）、二级阿拉伯数字（如1.1、1.2）的章节编号，便于视觉层次统一。",
+        "聚焦转型主题：围绕从“功能型硬件供应商”向“体验驱动的智能座舱解决方案提供商”转型的核心叙事展开。"
+      ]
+    },
+    "templateOverview": {
+      "title": "1.0 综合分析",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 综合分析",
+          "rawTitle": "1.0 综合分析",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 摘要",
+            "1.2 数据亮点",
+            "1.3 风险提示"
+          ]
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "slug": "section-1-0",
+      "title": "1.0 综合分析",
+      "order": 10,
+      "status": "ready",
+      "files": {
+        "raw": "010-section-1-0\\stream.raw",
+        "json": "010-section-1-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-20T06:11:12.731352Z"
+    }
+  ],
+  "updatedAt": "2026-04-20T06:07:57.728170Z"
+}

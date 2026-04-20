@@ -1,0 +1,54 @@
+{
+  "chapterId": "S6",
+  "title": "六、 竞争机会与威胁识别：通用幻想与垂直现实",
+  "anchor": "section-6-0",
+  "order": 60,
+  "summary": "本章基于技术瓶颈与市场分化，识别垂直场景的确定性机会与通用路径的潜在威胁。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.1 市场机会点",
+      "anchor": "section-6-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "垂直场景如电力巡检、精密装配是当前最具确定性的商业化机会。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.2 潜在威胁",
+      "anchor": "section-6-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "通用模型长尾问题、资本退潮及同质化价格战是行业主要威胁。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.3 差异化定位建议",
+      "anchor": "section-6-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "企业应基于自身资源，选择深耕垂直场景或构建通用平台生态。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

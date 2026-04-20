@@ -1,0 +1,54 @@
+{
+  "chapterId": "S7",
+  "title": "七、总结与行动建议",
+  "anchor": "section-7-0",
+  "order": 70,
+  "summary": "本章总结具身智能赛道竞争格局，提出行动建议。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.1 竞争格局总结",
+      "anchor": "section-7-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "技术、生态、资本、市场四维度竞争格局已基本确立。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.2 学习与借鉴",
+      "anchor": "section-7-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "中美阵营在生态构建与基础研究方面各有优势，值得相互借鉴。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.3 应对与反制",
+      "anchor": "section-7-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "针对不同市场参与者，需制定差异化的短期战术与长期战略。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

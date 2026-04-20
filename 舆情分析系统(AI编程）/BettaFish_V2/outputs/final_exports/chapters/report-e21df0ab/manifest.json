@@ -1,0 +1,404 @@
+{
+  "reportId": "report-e21df0ab",
+  "createdAt": "2026-04-17T08:51:19.501774Z",
+  "metadata": {
+    "query": "具身智能赛道头部企业核心技术栈对比",
+    "title": "具身智能赛道头部企业核心技术栈对比分析报告",
+    "subtitle": "2026年第一季度市场竞争格局与战略路径深度洞察",
+    "tagline": "基于多源引擎分析，为您呈现具身智能赛道头部企业技术栈全景对比与竞争态势文章总览",
+    "templateName": "市场竞争格局舆情分析报告模板",
+    "selectionReason": "查询内容的核心是“具身智能赛道头部企业核心技术栈对比”，明确聚焦于对特定赛道内主要竞争对手的分析。提供的三份分析引擎报告均围绕头部企业（如特斯拉、Figure AI、宇树科技等）的格局、技术路径、战略差异和商业化进程展开，深度对比了中美阵营的竞争态势。这完全符合市场竞争格局分析的核心任务：系统性地分析多个核心竞争对手的声量、口碑、市场策略及技术差异，以明确市场位置。报告内容具有深度和广度，但并非针对单一品牌声誉、日常监测、政策解读、社会热点或突发事件，因此选择“市场竞争格局舆情分析报告模板”最为合适。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif",
+          "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        },
+        "fontSize": {
+          "h1": "2.25rem",
+          "h2": "1.875rem",
+          "h3": "1.5rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.25,
+          "normal": 1.5,
+          "relaxed": 1.75
+        }
+      },
+      "spacing": {
+        "section": "3rem",
+        "subsection": "2rem",
+        "paragraph": "1rem",
+        "element": "0.75rem"
+      },
+      "colors": {
+        "primary": {
+          "50": "#eff6ff",
+          "100": "#dbeafe",
+          "500": "#3b82f6",
+          "700": "#1d4ed8"
+        },
+        "neutral": {
+          "50": "#f9fafb",
+          "200": "#e5e7eb",
+          "500": "#6b7280",
+          "800": "#1f2937"
+        },
+        "semantic": {
+          "success": "#10b981",
+          "warning": "#f59e0b",
+          "error": "#ef4444",
+          "info": "#3b82f6"
+        }
+      },
+      "components": {
+        "kpiCard": {
+          "borderRadius": "0.75rem",
+          "padding": "1.25rem",
+          "shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
+        },
+        "table": {
+          "headerBg": "#f8fafc",
+          "stripedBg": "#f9fafb",
+          "borderColor": "#e5e7eb"
+        }
+      },
+      "darkMode": {
+        "enabled": true,
+        "primary": {
+          "500": "#60a5fa",
+          "700": "#1d4ed8"
+        },
+        "neutral": {
+          "50": "#111827",
+          "200": "#374151",
+          "500": "#9ca3af",
+          "800": "#f9fafb"
+        }
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "报告目录",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、市场竞争态势摘要",
+          "description": "概述报告核心发现、关键数据对比与核心策略建议，提供全局视角。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、市场声量对比分析",
+          "description": "分析头部企业在专业圈与大众舆论场的声量份额与趋势对比。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、本周期市场关键动态时间线",
+          "description": "梳理2026年第一季度中美头部企业的关键技术与商业动作。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、产品口碑与用户反馈对比",
+          "description": "对比分析技术社群、产业用户及公众对头部企业技术路径的情感与评价。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、营销与传播策略对比",
+          "description": "分析头部企业通过视觉传播、开源策略与生态合作构建品牌影响力的方式。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、竞争机会与威胁识别",
+          "description": "识别技术路径、商业化场景、生态构建与供应链中的关键机会与潜在威胁。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S7",
+          "anchor": "section-7-0",
+          "display": "七、总结与行动建议",
+          "description": "综合评估竞争格局，提出针对不同市场参与者的战略学习、借鉴与应对建议。",
+          "allowSwot": true,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告综合深度研究、多媒体分析与新闻洞察，系统对比了2026年第一季度全球具身智能赛道头部企业的核心技术栈、商业化进程与生态战略。报告揭示中美企业路径分野、技术范式收敛趋势，并识别关键市场机会与潜在威胁。",
+      "highlights": [
+        "中美头部企业阵营已基本确立，在开源策略上呈现显著分野",
+        "技术路线向“世界模型+VLA+强化学习”范式收敛，商业化能力成为新标尺",
+        "2027年被行业共识视为商业化落地关键节点，工业场景已验证初步可行性",
+        "资本高度集中，Figure AI估值达390亿美元，宇树科技年出货量5500台",
+        "数据成为新货币，开源生态构建与商业闭环战略抉择成为竞争焦点"
+      ],
+      "kpis": [
+        {
+          "label": "头部企业最高估值",
+          "value": "390亿美元",
+          "delta": "18个月增长15倍",
+          "tone": "up"
+        },
+        {
+          "label": "人形机器人年出货量",
+          "value": "5500台",
+          "delta": "中国头部企业数据",
+          "tone": "up"
+        },
+        {
+          "label": "L2智驾新车渗透率",
+          "value": ">62%",
+          "delta": "市场教育基本完成",
+          "tone": "up"
+        },
+        {
+          "label": "整机BOM成本",
+          "value": "10-15万元",
+          "delta": "执行器占比40%",
+          "tone": "neutral"
+        }
+      ],
+      "actions": [
+        "关注中美企业在开源与闭源战略上的长期博弈对生态格局的影响",
+        "评估世界模型与VLA模型两条技术路径的产业化成熟度与投资风险",
+        "跟踪工业、高危场景等封闭场景的商业化验证进展与ROI数据",
+        "监测核心零部件（执行器、灵巧手）的国产化突破与成本下降曲线"
+      ]
+    },
+    "layoutNotes": [
+      "目录（TOC）与正文所有一级标题（H1）使用统一字号：1.875rem (30px)，确保视觉层级清晰一致。",
+      "正文二级标题（H2）使用1.5rem (24px)，三级标题（H3）使用1.25rem (20px)。",
+      "章节间使用3rem垂直间距，节与节之间使用2rem间距，段落间使用1rem间距。",
+      "优先使用Chart.js绘制声量趋势、情感分布、技术路线对比等图表。",
+      "关键数据对比（如估值、出货量、成本）使用KPI卡片组件突出展示，并支持暗黑模式切换。",
+      "企业阵营、技术路径等对比分析使用表格组件，并采用斑马纹以提高可读性。",
+      "SWOT分析块仅用于第七章“总结与行动建议”，PEST分析块仅用于第六章“竞争机会与威胁识别”。",
+      "视觉主题采用科技蓝与深空灰为主色调，支持完整的暗黑模式兼容色板。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "总目标约8000字，上下浮动10%（7200-8800字）。",
+        "详略策略：核心分析章节（四、五、六、七）为重点，分配总篇幅的65%以上，其中技术对比（四）、生态战略（五）和竞争分析（六）为重中之重。",
+        "摘要章节（一）需精炼，突出核心发现与数据；声量分析（二）和时间线（三）作为背景和事实支撑，篇幅适中。",
+        "各小节字数分配需考虑素材丰富度，如‘深度研究报告’、‘多媒体分析’、‘新闻洞察’提供了大量技术细节、案例和数据，应在对应章节充分展开。",
+        "允许在‘产品口碑对比’、‘营销策略分析’、‘机会威胁识别’等需要案例支撑的小节，必要时超出目标字数10%以补充具体分析。",
+        "严格遵循设计稿中的章节编号体系（一、二、三…；1.1, 1.2…），便于后续统一排版。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**市场竞争格局舆情分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 市场竞争态势摘要",
+          "rawTitle": "1.0 市场竞争态势摘要",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 核心结论",
+            "1.2 关键数据对比",
+            "1.3 核心策略建议"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 市场声量对比分析",
+          "rawTitle": "2.0 市场声量对比分析",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 总体声量份额（SOV）",
+            "2.2 趋势对比"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 本周期市场关键动态时间线",
+          "rawTitle": "3.0 本周期市场关键动态时间线",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 我方关键动作",
+            "3.2 竞争对手关键动作"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 产品口碑与用户反馈对比",
+          "rawTitle": "4.0 产品口碑与用户反馈对比",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 情感分布对比",
+            "4.2 优缺点对比",
+            "4.3 核心功能/卖点讨论热度对比"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 营销与传播策略对比",
+          "rawTitle": "5.0 营销与传播策略对比",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 重大营销战役分析",
+            "5.2 核心传播议题对比",
+            "5.3 KOL/媒体合作策略分析"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 竞争机会与威胁识别",
+          "rawTitle": "6.0 竞争机会与威胁识别",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 市场机会点",
+            "6.2 潜在威胁",
+            "6.3 差异化定位建议"
+          ]
+        },
+        {
+          "chapterId": "S7",
+          "title": "7.0 总结与行动建议",
+          "rawTitle": "7.0 总结与行动建议",
+          "number": "7.0",
+          "slug": "section-7-0",
+          "order": 70,
+          "depth": 1,
+          "outline": [
+            "7.1 竞争格局总结",
+            "7.2 学习与借鉴",
+            "7.3 应对与反制"
+          ]
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "slug": "section-1-0",
+      "title": "1.0 市场竞争态势摘要",
+      "order": 10,
+      "status": "ready",
+      "files": {
+        "raw": "010-section-1-0\\stream.raw",
+        "json": "010-section-1-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:37.546664Z"
+    },
+    {
+      "chapterId": "S2",
+      "slug": "section-2-0",
+      "title": "2.0 市场声量对比分析",
+      "order": 20,
+      "status": "ready",
+      "files": {
+        "raw": "020-section-2-0\\stream.raw",
+        "json": "020-section-2-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:32.563346Z"
+    },
+    {
+      "chapterId": "S3",
+      "slug": "section-3-0",
+      "title": "3.0 本周期市场关键动态时间线",
+      "order": 30,
+      "status": "ready",
+      "files": {
+        "raw": "030-section-3-0\\stream.raw",
+        "json": "030-section-3-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:33.874039Z"
+    },
+    {
+      "chapterId": "S4",
+      "slug": "section-4-0",
+      "title": "4.0 产品口碑与用户反馈对比",
+      "order": 40,
+      "status": "ready",
+      "files": {
+        "raw": "040-section-4-0\\stream.raw",
+        "json": "040-section-4-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:35.375174Z"
+    },
+    {
+      "chapterId": "S5",
+      "slug": "section-5-0",
+      "title": "5.0 营销与传播策略对比",
+      "order": 50,
+      "status": "ready",
+      "files": {
+        "raw": "050-section-5-0\\stream.raw",
+        "json": "050-section-5-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:35.790917Z"
+    },
+    {
+      "chapterId": "S6",
+      "slug": "section-6-0",
+      "title": "6.0 竞争机会与威胁识别",
+      "order": 60,
+      "status": "ready",
+      "files": {
+        "raw": "060-section-6-0\\stream.raw",
+        "json": "060-section-6-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:45.168460Z"
+    },
+    {
+      "chapterId": "S7",
+      "slug": "section-7-0",
+      "title": "7.0 总结与行动建议",
+      "order": 70,
+      "status": "ready",
+      "files": {
+        "raw": "070-section-7-0\\stream.raw",
+        "json": "070-section-7-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T08:51:35.733057Z"
+    }
+  ],
+  "updatedAt": "2026-04-17T08:51:19.550706Z"
+}

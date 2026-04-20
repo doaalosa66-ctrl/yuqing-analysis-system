@@ -1,0 +1,371 @@
+{
+  "reportId": "report-40122f70",
+  "createdAt": "2026-04-19T03:36:50.731821Z",
+  "metadata": {
+    "query": "中国科技品牌在日韩市场的第二增长曲线",
+    "title": "破壁与共生",
+    "subtitle": "中国科技品牌日韩市场第二增长曲线深度洞察报告",
+    "tagline": "从“性价比屠夫”到“生态破壁者”，探寻在成熟堡垒市场构建可持续增长的全景文章总览",
+    "templateName": "市场竞争格局舆情分析报告模板",
+    "selectionReason": "查询内容“中国科技品牌在日韩市场的第二增长曲线”的核心是分析中国科技品牌在特定海外市场（日韩）的竞争态势、市场机会与挑战，以探寻新的增长路径。提供的三份分析引擎报告均聚焦于市场竞争格局：报告1深度剖析品牌出海战略与民意认知；报告2全景解析全球竞争格局，包含日韩市场背景；报告3专门调查日韩市场的现状、挑战与战略。这些报告的核心任务是对比中国品牌与日韩本土及国际对手的优劣势，洞察市场机会，明确竞争位置，并制定差异化策略，完全符合“市场竞争格局舆情分析报告模板”的适用场景——系统性地分析竞争对手、市场策略及用户反馈，以明确自身市场位置并制定策略。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif",
+          "mono": "'SF Mono', 'Monaco', 'Consolas', monospace"
+        },
+        "fontSize": {
+          "h1": "2.5rem",
+          "h2": "2rem",
+          "h3": "1.5rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.2,
+          "normal": 1.6,
+          "relaxed": 1.8
+        }
+      },
+      "spacing": {
+        "section": "4rem",
+        "subsection": "2.5rem",
+        "paragraph": "1.5rem"
+      },
+      "colors": {
+        "primary": {
+          "main": "#1a56db",
+          "light": "#3f83f8",
+          "dark": "#1e429f"
+        },
+        "secondary": {
+          "main": "#046c4e",
+          "light": "#0e9f6e",
+          "dark": "03543f"
+        },
+        "neutral": {
+          "100": "#f7fafc",
+          "200": "#edf2f7",
+          "700": "#4a5568",
+          "900": "#1a202c"
+        },
+        "semantic": {
+          "positive": "#0e9f6e",
+          "caution": "#d69e2e",
+          "critical": "#c53030"
+        }
+      },
+      "darkMode": {
+        "background": "#1a202c",
+        "surface": "#2d3748",
+        "onSurface": "#e2e8f0",
+        "primary": "#63b3ed"
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "报告目录",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、 市场态势总览：冰火交织的竞争图景与核心结论",
+          "description": "概述中国科技品牌在日韩市场的整体表现、竞争格局与核心挑战，提炼关键数据与首要策略建议。"
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、 声量与认知分析：舆论场的演进与品牌叙事变迁",
+          "description": "分析品牌在日韩及国内舆论场的声量份额、情感演变轨迹，以及从“性价比屠夫”到“生态破壁者”的认知范式转移。"
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、 关键动态时间线：我方与竞争对手的战略动作复盘",
+          "description": "梳理近期影响市场格局的关键事件、产品发布、营销战役及合规动态，构建竞争演进的时序脉络。"
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、 产品口碑与用户反馈：体验层面的攻防战",
+          "description": "对比分析各品牌在产品情感分布、核心优缺点及功能卖点讨论热度上的表现，洞察用户体验层面的得失。"
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、 营销与传播策略：本土化深耕与价值传递",
+          "description": "剖析重大营销战役、核心传播议题及KOL合作策略的成败，评估品牌在文化沟通与价值叙事上的有效性。"
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、 竞争机会与威胁识别：破局点与风险预警",
+          "description": "系统识别当前市场存在的空白机会点、潜在威胁与风险，并提出基于差异化定位的破局思路。",
+          "allowPest": true
+        },
+        {
+          "chapterId": "S7",
+          "anchor": "section-7-0",
+          "display": "七、 综合结论与战略建议",
+          "description": "总结全文核心发现，提炼可供借鉴的竞争策略，并针对不同竞争情境提出具体的行动建议与反制措施。",
+          "allowSwot": true
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告融合多源深度分析，系统审视中国科技品牌在日韩市场的竞争现状、核心挑战与未来机遇。报告揭示，品牌竞争已从硬件参数比拼，升维至生态构建、文化融入与供应链韧性的综合较量。在“战略性乐观与战术性审慎”的舆论基调下，探寻以深度本土化、价值创新和战略耐心开辟第二增长曲线的可行路径。",
+      "highlights": [
+        "市场格局呈现“硬件受阻，软件/垂直硬件突破”的冰火交织图景，TikTok、大疆等成为破局先锋。",
+        "竞争壁垒多维高企：渠道、品牌情感、法规合规与文化认知构成系统性挑战，单纯产品优势难以撼动。",
+        "舆论认知完成从“沸腾期”到“恒温深耕期”的演变，情感更趋理性，关注点转向可持续本土化与长期品牌资产构建。",
+        "未来增长引擎在于“形态创新 × AI原生体验 × 生态协同”的价值创造公式，以及从市场参与者向产业规则定义者的跃迁。"
+      ],
+      "kpis": [
+        {
+          "label": "日韩智能机市场本土品牌份额",
+          "value": ">80%",
+          "delta": "持续固化",
+          "tone": "down"
+        },
+        {
+          "label": "中国品牌研发投入强度",
+          "value": "比肩巨头",
+          "delta": "持续增长",
+          "tone": "up"
+        },
+        {
+          "label": "舆论情感健康度(正/负比)",
+          "value": "1.6",
+          "delta": "健康区间",
+          "tone": "neutral"
+        },
+        {
+          "label": "高端市场破局关键",
+          "value": "折叠屏/AI/生态",
+          "delta": "维度升维",
+          "tone": "up"
+        }
+      ],
+      "actions": [
+        "转变沟通姿态：从“征服者叙事”转向“本地价值共建者”叙事，以谦逊的强者姿态进行传播。",
+        "构建信任飞地：通过数据透明化、ESG承诺与长期本土投资，以“超本地化”运营积累深层信任。",
+        "聚焦价值创新：在折叠形态、端侧AI、跨设备生态等维度打造“人无我有”的差异化体验，而非参数内卷。",
+        "善用“智慧外脑”：高度重视专业舆论场的风险预警，将其纳入企业战略风险评估与预案体系。"
+      ]
+    },
+    "layoutNotes": [
+      "目录页与各章节一级标题（H1）使用统一字号（2.5rem），确保视觉层级的清晰与一致。",
+      "正文部分采用宽松的行高（1.6-1.8）与段落间距（1.5rem），提升长文阅读的舒适度。",
+      "关键数据与核心结论优先使用Chart.js图表、KPI指标卡或对比表格进行可视化呈现，增强报告的说服力与可读性。",
+      "SWOT分析块仅用于第七章“综合结论与战略建议”，PEST分析块仅用于第六章“竞争机会与威胁识别”，二者不共存于同一章节。",
+      "报告整体色调以科技蓝（#1a56db）与生态绿（#046c4e）为主，分别象征技术创新与可持续增长，并已预设暗黑模式兼容色值。",
+      "各章节内部结构（如1.1, 1.2）严格遵循模板二级大纲，仅对一级目录标题进行了中文叙事化优化，未增删任何分析模块。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "整体详略策略：报告核心在于‘第二增长曲线’的探寻，因此分析现状（S1-S4）与规划未来（S5-S7）并重，各占约50%篇幅。",
+        "重点突出‘生态破壁’、‘文化融入’、‘价值创新’等核心概念，在相关章节（如S2, S5, S6）分配更多字数进行深度剖析。",
+        "数据与案例是报告说服力的关键，在S1、S3、S4等章节需确保有充足篇幅进行具体阐述和对比分析。",
+        "结论与建议部分（S7）需高度凝练、可操作，是全文的落脚点，需分配足够字数以确保建议的完整性和深度。",
+        "允许各章节在必要时，围绕核心案例或关键数据点，在目标字数基础上浮动10%进行补充说明。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**市场竞争格局舆情分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 市场竞争态势摘要",
+          "rawTitle": "1.0 市场竞争态势摘要",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 核心结论",
+            "1.2 关键数据对比",
+            "1.3 核心策略建议"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 市场声量对比分析",
+          "rawTitle": "2.0 市场声量对比分析",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 总体声量份额（SOV）",
+            "2.2 趋势对比"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 本周期市场关键动态时间线",
+          "rawTitle": "3.0 本周期市场关键动态时间线",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 我方关键动作",
+            "3.2 竞争对手关键动作"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 产品口碑与用户反馈对比",
+          "rawTitle": "4.0 产品口碑与用户反馈对比",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 情感分布对比",
+            "4.2 优缺点对比",
+            "4.3 核心功能/卖点讨论热度对比"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 营销与传播策略对比",
+          "rawTitle": "5.0 营销与传播策略对比",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 重大营销战役分析",
+            "5.2 核心传播议题对比",
+            "5.3 KOL/媒体合作策略分析"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 竞争机会与威胁识别",
+          "rawTitle": "6.0 竞争机会与威胁识别",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 市场机会点",
+            "6.2 潜在威胁",
+            "6.3 差异化定位建议"
+          ]
+        },
+        {
+          "chapterId": "S7",
+          "title": "7.0 总结与行动建议",
+          "rawTitle": "7.0 总结与行动建议",
+          "number": "7.0",
+          "slug": "section-7-0",
+          "order": 70,
+          "depth": 1,
+          "outline": [
+            "7.1 竞争格局总结",
+            "7.2 学习与借鉴",
+            "7.3 应对与反制"
+          ]
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "slug": "section-1-0",
+      "title": "1.0 市场竞争态势摘要",
+      "order": 10,
+      "status": "ready",
+      "files": {
+        "raw": "010-section-1-0\\stream.raw",
+        "json": "010-section-1-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:09.484303Z"
+    },
+    {
+      "chapterId": "S2",
+      "slug": "section-2-0",
+      "title": "2.0 市场声量对比分析",
+      "order": 20,
+      "status": "ready",
+      "files": {
+        "raw": "020-section-2-0\\stream.raw",
+        "json": "020-section-2-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:07.407712Z"
+    },
+    {
+      "chapterId": "S3",
+      "slug": "section-3-0",
+      "title": "3.0 本周期市场关键动态时间线",
+      "order": 30,
+      "status": "ready",
+      "files": {
+        "raw": "030-section-3-0\\stream.raw",
+        "json": "030-section-3-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:05.280002Z"
+    },
+    {
+      "chapterId": "S4",
+      "slug": "section-4-0",
+      "title": "4.0 产品口碑与用户反馈对比",
+      "order": 40,
+      "status": "ready",
+      "files": {
+        "raw": "040-section-4-0\\stream.raw",
+        "json": "040-section-4-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:07.912402Z"
+    },
+    {
+      "chapterId": "S5",
+      "slug": "section-5-0",
+      "title": "5.0 营销与传播策略对比",
+      "order": 50,
+      "status": "ready",
+      "files": {
+        "raw": "050-section-5-0\\stream.raw",
+        "json": "050-section-5-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:07.485949Z"
+    },
+    {
+      "chapterId": "S6",
+      "slug": "section-6-0",
+      "title": "6.0 竞争机会与威胁识别",
+      "order": 60,
+      "status": "ready",
+      "files": {
+        "raw": "060-section-6-0\\stream.raw",
+        "json": "060-section-6-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:07.824519Z"
+    },
+    {
+      "chapterId": "S7",
+      "slug": "section-7-0",
+      "title": "7.0 总结与行动建议",
+      "order": 70,
+      "status": "ready",
+      "files": {
+        "raw": "070-section-7-0\\stream.raw",
+        "json": "070-section-7-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T03:37:16.610766Z"
+    }
+  ],
+  "updatedAt": "2026-04-19T03:36:50.749586Z"
+}

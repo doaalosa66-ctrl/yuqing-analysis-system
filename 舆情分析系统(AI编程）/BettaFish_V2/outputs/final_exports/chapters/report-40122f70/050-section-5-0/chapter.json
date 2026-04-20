@@ -1,0 +1,54 @@
+{
+  "chapterId": "S5",
+  "title": "五、 营销与传播策略：本土化深耕与价值传递",
+  "anchor": "section-5-0",
+  "order": 50,
+  "summary": "本章剖析中国科技品牌在日韩市场的营销战役、传播议题与KOL合作策略，评估其文化沟通的有效性。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.1 重大营销战役分析",
+      "anchor": "section-5-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "本章节分析标志性营销战役的策略、执行与市场反响。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.2 核心传播议题对比",
+      "anchor": "section-5-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "本节对比各品牌传播议题与本地价值观的契合度。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.3 KOL/媒体合作策略分析",
+      "anchor": "section-5-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "本节分析合作对象选择与形式的效果差异。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

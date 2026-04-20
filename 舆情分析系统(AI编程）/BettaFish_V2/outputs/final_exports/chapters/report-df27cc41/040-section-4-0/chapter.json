@@ -1,0 +1,54 @@
+{
+  "chapterId": "S4",
+  "title": "四、舆论场观点与情绪光谱",
+  "anchor": "section-4-0",
+  "order": 40,
+  "summary": "本章剖析人工智能舆论场宏观静默与微观沸腾并存的现象。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.1 核心议题与讨论焦点",
+      "anchor": "section-4-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "宏观趋势讨论陷入数据真空，而微观应用议题则舆论沸腾。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.2 多元观点呈现",
+      "anchor": "section-4-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "理性观察派、焦虑具象派与漠然麻木派观点各异，构成复杂光谱。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.3 社会情绪分析",
+      "anchor": "section-4-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "静默源于认知迁移与预期疲劳，沸腾则是焦虑的具象化泄压。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

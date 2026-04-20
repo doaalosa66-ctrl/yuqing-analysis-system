@@ -867,59 +867,56 @@ def stream_task(task_id: str):
 
 
 @report_bp.route('/result/<task_id>', methods=['GET'])
-def get_result(task_id: str):
-    """
-    获取报告生成结果。
+def get_result(task_id):
+    """战役3/4：获取报告详情（解决蓝图截胡问题，支持硬盘兜底）"""
+    import markdown
+    from pathlib import Path
+    import traceback
 
-    参数:
-        task_id: 任务ID。
+    logger.info(f"[get_result] 收到请求 task_id={task_id}")
 
-    返回:
-        Response: JSON，包含HTML预览与文件路径。
-    """
+    # 1. 尝试从 ReportEngine 自己的内存获取
     try:
         task = _get_task(task_id)
-        if not task:
-            # 内存里没有（后端重启后丢失），fallback 到持久化缓存
-            try:
-                from utils.report_cache import cache as _rc
-                row = _rc.get_by_task_id(task_id)
-                if row and row.get('html_content'):
-                    return Response(row['html_content'], mimetype='text/html')
-                # 也尝试按 report_filepath 读文件
-                if row and row.get('report_filepath'):
-                    from pathlib import Path as _Path
-                    p = _Path(row['report_filepath'])
-                    if not p.is_absolute():
-                        import os as _os
-                        p = _Path(_os.path.dirname(_os.path.abspath(__file__))).parent / row['report_filepath']
-                    if p.exists():
-                        return Response(p.read_text(encoding='utf-8'), mimetype='text/html')
-            except Exception as _e:
-                logger.warning(f"[get_result] fallback 缓存查询失败: {_e}")
-            return jsonify({
-                'success': False,
-                'error': '任务不存在（后端已重启，内存任务丢失）'
-            }), 404
-
-        if task.status != "completed":
-            return jsonify({
-                'success': False,
-                'error': '报告尚未完成',
-                'task': task.to_dict()
-            }), 400
-
-        return Response(
-            task.html_content,
-            mimetype='text/html'
-        )
-
+        logger.info(f"[get_result] _get_task 返回: {task}")
+        if task and task.status in ['completed', 'done']:
+            logger.info(f"[get_result] 内存命中，html_content长度={len(task.html_content) if task.html_content else 0}")
+            if task.html_content:
+                return task.html_content, 200
     except Exception as e:
-        logger.exception(f"获取报告生成结果失败: {str(e)}")
-        return jsonify({
-            'success': False,
-            'error': str(e)
-        }), 500
+        logger.error(f"[get_result] 内存查询异常: {e}\n{traceback.format_exc()}")
+
+    # 2. 核心兜底：暴力扫描物理硬盘
+    base_dir = Path(__file__).resolve().parent.parent
+    possible_dirs = [
+        base_dir / "reports",
+        Path.cwd() / "reports"
+    ]
+    logger.info(f"[get_result] base_dir={base_dir}, 扫描目录: {possible_dirs}")
+
+    for reports_dir in possible_dirs:
+        logger.info(f"[get_result] 检查目录: {reports_dir}, exists={reports_dir.exists()}")
+        if reports_dir.exists() and reports_dir.is_dir():
+            try:
+                md_files = list(reports_dir.rglob('*.md'))
+                logger.info(f"[get_result] 找到 {len(md_files)} 个 md 文件")
+                for file_path in md_files:
+                    logger.info(f"[get_result] 检查文件: {file_path.name}, 匹配={task_id in file_path.name}")
+                    if task_id in file_path.name:
+                        md_content = file_path.read_text(encoding='utf-8')
+                        logger.info(f"[get_result] 文件读取成功, MD长度={len(md_content)}")
+                        html_content = markdown.markdown(md_content, extensions=['tables', 'fenced_code'])
+                        logger.info(f"[get_result] 转换成功, HTML长度={len(html_content)}")
+                        from flask import make_response
+                        response = make_response(html_content)
+                        response.headers['Content-Type'] = 'text/html; charset=utf-8'
+                        return response, 200
+            except Exception as e:
+                logger.error(f"[get_result] 硬盘扫描异常: {e}\n{traceback.format_exc()}")
+
+    # 3. 如果内存和硬盘都找不到，返回 404
+    logger.warning(f"[get_result] 未找到匹配文件，返回404")
+    return '<div style="text-align:center;padding:50px;"><h2>404 报告未找到</h2><p>报告生成中或已被清理，请重试。</p></div>', 404
 
 
 @report_bp.route('/result/<task_id>/json', methods=['GET'])

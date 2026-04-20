@@ -1,0 +1,360 @@
+{
+  "reportId": "report-a0af6086",
+  "createdAt": "2026-04-19T07:45:08.015570Z",
+  "metadata": {
+    "query": "低空经济",
+    "title": "低空经济：从概念热潮到产业深耕的舆情全景洞察",
+    "subtitle": "基于多源引擎融合分析的行业动态与公众认知深度报告",
+    "tagline": "本文总览了低空经济从政策驱动、产业布局到社会情绪的全貌，揭示其作为战略性新兴产业的机遇、挑战与未来走向",
+    "templateName": "特定政策或行业动态舆情分析报告模板",
+    "selectionReason": "查询内容“低空经济”是一个新兴的、由政策强力驱动并正在快速发展的综合性产业形态。提供的三份分析引擎报告均聚焦于该产业的概念定义、政策演进、产业格局、市场规模、技术路径及全球竞争态势的深度解读，而非针对特定企业、品牌或突发危机。报告内容具有显著的宏观性、战略性和前瞻性，核心任务是深度解读行业动态、分析政策影响、预判未来趋势，这完全符合“特定政策或行业动态舆情分析报告模板”的适用场景——当监测到重要政策发布、法规变动或足以影响整个行业的宏观动态时，用于深度解读、趋势预判及影响分析。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "'PingFang SC', 'Microsoft YaHei', sans-serif",
+          "mono": "'SF Mono', Monaco, 'Courier New', monospace"
+        },
+        "fontSize": {
+          "h1": "2.5rem",
+          "h2": "2rem",
+          "h3": "1.5rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.2,
+          "normal": 1.6,
+          "relaxed": 1.8
+        }
+      },
+      "spacing": {
+        "section": "3rem",
+        "subsection": "2rem",
+        "paragraph": "1rem"
+      },
+      "colors": {
+        "primary": {
+          "main": "#1a56db",
+          "light": "#3f83f8",
+          "dark": "#1e429f"
+        },
+        "secondary": {
+          "main": "#059669",
+          "light": "#10b981",
+          "dark": "#047857"
+        },
+        "neutral": {
+          "background": "#ffffff",
+          "surface": "#f9fafb",
+          "border": "#e5e7eb",
+          "text": "#111827"
+        },
+        "semantic": {
+          "positive": "#10b981",
+          "caution": "#f59e0b",
+          "critical": "#ef4444",
+          "info": "#3b82f6"
+        }
+      },
+      "components": {
+        "kpiCard": {
+          "borderRadius": "0.75rem",
+          "padding": "1.25rem",
+          "background": "#f8fafc"
+        },
+        "table": {
+          "headerBackground": "#f1f5f9",
+          "stripedBackground": "#f8fafc",
+          "borderColor": "#e2e8f0"
+        }
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "报告目录",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、摘要：低空经济的核心影响与舆论反应总览",
+          "description": "提炼低空经济的核心定义、产业规模预测及当前舆论场的整体情绪基调与关键数据指标，为全文提供概览。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、政策背景与传播分析：从国家战略到地方竞赛",
+          "description": "梳理低空经济政策演进脉络，分析中央定调与地方试点竞赛下的传播声量、权威解读及民意反馈特征。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、公众态度与社会情绪：谨慎乐观与务实追问",
+          "description": "深入分析不同平台、不同群体的舆论情绪分布、核心观点聚焦及情感演变轨迹，揭示社会认知的复杂分层。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、潜在影响与机遇挑战分析",
+          "description": "评估低空经济对行业格局、企业战略及关联产业的潜在影响，系统分析面临的机遇与核心挑战。",
+          "allowSwot": true,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、行业标杆案例与反应",
+          "description": "盘点国内外头部企业、竞争对手的动态反应及行业协会观点，展现产业生态的活跃度与竞争态势。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、结论与应对建议",
+          "description": "基于全文分析，对低空经济发展趋势进行研判，并提出战略、运营及公关沟通层面的具体建议。",
+          "allowSwot": false,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告综合深度舆情、多媒体内容与新闻调查三引擎分析，系统呈现低空经济作为国家战略新赛道的全景图。当前舆论场情绪呈“谨慎乐观，期待落地”特征，产业规模预计2026年突破万亿，但面临认知分化、安全担忧与商业化落地挑战。报告旨在为决策者与从业者提供从宏观趋势到微观应对的立体洞察。",
+      "highlights": [
+        "公众情绪处于“概念沸腾期”向“产业务实期”过渡，整体情感中性偏积极，但安全、隐私、泡沫化担忧并存",
+        "政策驱动效应显著，中央定调与地方竞赛引发“脉冲式”舆情波动，民意从关注“政策文本”转向追问“政策绩效”",
+        "产业格局呈现“双轮驱动”（无人机与eVTOL）与“板块化”特征，下游应用场景的体验反馈将决定市场接受度",
+        "全球发展模式分野：中国强规划、美国市场驱动、欧盟标准引领，形成差异化竞合格局"
+      ],
+      "kpis": [
+        {
+          "label": "2025年预计产业规模",
+          "value": "8519亿元",
+          "delta": "+28.2%",
+          "tone": "up"
+        },
+        {
+          "label": "2023年无人机产业规模",
+          "value": "1174.3亿元",
+          "delta": "+32%",
+          "tone": "up"
+        },
+        {
+          "label": "全网讨论量环比增长",
+          "value": "超200%",
+          "delta": "近三个月",
+          "tone": "up"
+        },
+        {
+          "label": "工业级无人机占比",
+          "value": "65.3%",
+          "delta": "首次超越消费级",
+          "tone": "up"
+        }
+      ],
+      "actions": [
+        "关注首批国家级试点城市（合肥、杭州、深圳等）的应用成果，作为产业落地风向标",
+        "加强针对公众安全、隐私担忧的科普沟通与法规透明度建设",
+        "警惕产业链“头重脚轻”与地方“政策内卷”风险，推动场景创新与商业模式验证",
+        "积极融入全球标准制定与适航认证进程，提升国际竞争力"
+      ]
+    },
+    "layoutNotes": [
+      "目录（TOC）与正文所有一级标题（H1）统一使用2rem字号，确保视觉层级的清晰与统一。",
+      "正文部分采用1rem基础字号，行高1.6，段落间距1rem，保证长文阅读舒适度。",
+      "各章节间使用3rem的垂直间距进行分隔，子章节间使用2rem间距，营造清晰的阅读节奏。",
+      "优先使用Chart.js绘制趋势图（如情感演变、市场规模预测）、对比柱状图（如中美欧模式对比）及饼图（如情绪分布）。",
+      "关键数据（KPI）采用卡片化设计，突出显示数值与变化趋势（delta）。表格用于呈现结构化数据（如产业分类、平台对比）。",
+      "色板已定义，支持明暗模式兼容考量，中性色系确保文本可读性，语义色用于标注趋势与状态。",
+      "SWOT分析块仅应用于第四章（潜在影响与机遇挑战分析），该章节已设置allowSwot: true。",
+      "PEST分析块仅应用于第二章（政策背景与传播分析），用于分析宏观环境因素，该章节已设置allowPest: true。",
+      "严禁随意增删原有章节，仅对目录标题进行了适度优化以更贴合“低空经济”主题，章节结构与顺序严格遵循模板。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "总目标约8000字，上下浮动10%（即7200-8800字）。",
+        "详略策略：重点突出第二、三、四章（政策、公众情绪、机遇挑战），合计占比约60%，以体现报告的舆情洞察与战略分析核心。",
+        "第一章（摘要）和第六章（结论）需精炼，控制在总篇幅的25%以内，起总领与收束作用。",
+        "第五章（案例）需具体详实，通过国内外标杆案例支撑论点，允许在必要时超出10%补充关键案例细节。",
+        "各章节内部小节字数分配需与提纲重要性匹配，核心小节可适度放宽字数上限。",
+        "所有分析需紧密围绕提供的三引擎素材（深度舆情、多媒体内容、新闻调查）中的关键信息、数据与观点展开。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**特定政策/行业动态舆情分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 摘要：政策/动态的核心影响与舆论反应",
+          "rawTitle": "1.0 摘要：政策/动态的核心影响与舆论反应",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 核心内容解读",
+            "1.2 舆论场核心观点",
+            "1.3 关键影响预判"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 政策/动态背景与传播分析",
+          "rawTitle": "2.0 政策/动态背景与传播分析",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 发布背景与解读",
+            "2.2 发展与发酵时间线",
+            "2.3 传播声量分析",
+            "2.4 权威解读与媒体关注点"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 公众态度与社会情绪",
+          "rawTitle": "3.0 公众态度与社会情绪",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 舆论情绪分布",
+            "3.2 各方观点聚焦"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 潜在影响与机遇挑战分析",
+          "rawTitle": "4.0 潜在影响与机遇挑战分析",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 对行业格局的影响",
+            "4.2 对本企业的影响（机遇与挑战）",
+            "4.3 对关联产业的影响"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 行业标杆案例与反应",
+          "rawTitle": "5.0 行业标杆案例与反应",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 竞争对手/头部企业的反应",
+            "5.2 行业协会/组织的观点"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 结论与应对建议",
+          "rawTitle": "6.0 结论与应对建议",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 趋势研判",
+            "6.2 战略应对建议",
+            "6.3 公关沟通建议"
+          ]
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "slug": "section-1-0",
+      "title": "1.0 摘要：政策/动态的核心影响与舆论反应",
+      "order": 10,
+      "status": "ready",
+      "files": {
+        "raw": "010-section-1-0\\stream.raw",
+        "json": "010-section-1-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T07:45:36.188725Z"
+    },
+    {
+      "chapterId": "S2",
+      "slug": "section-2-0",
+      "title": "2.0 政策/动态背景与传播分析",
+      "order": 20,
+      "status": "ready",
+      "files": {
+        "raw": "020-section-2-0\\stream.raw",
+        "json": "020-section-2-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T07:45:38.241461Z"
+    },
+    {
+      "chapterId": "S3",
+      "slug": "section-3-0",
+      "title": "3.0 公众态度与社会情绪",
+      "order": 30,
+      "status": "ready",
+      "files": {
+        "raw": "030-section-3-0\\stream.raw",
+        "json": "030-section-3-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T07:46:29.979708Z"
+    },
+    {
+      "chapterId": "S4",
+      "slug": "section-4-0",
+      "title": "4.0 潜在影响与机遇挑战分析",
+      "order": 40,
+      "status": "ready",
+      "files": {
+        "raw": "040-section-4-0\\stream.raw",
+        "json": "040-section-4-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T07:45:45.315948Z"
+    },
+    {
+      "chapterId": "S5",
+      "slug": "section-5-0",
+      "title": "5.0 行业标杆案例与反应",
+      "order": 50,
+      "status": "ready",
+      "files": {
+        "raw": "050-section-5-0\\stream.raw",
+        "json": "050-section-5-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T07:45:33.792540Z"
+    },
+    {
+      "chapterId": "S6",
+      "slug": "section-6-0",
+      "title": "6.0 结论与应对建议",
+      "order": 60,
+      "status": "ready",
+      "files": {
+        "raw": "060-section-6-0\\stream.raw",
+        "json": "060-section-6-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-19T07:45:38.039567Z"
+    }
+  ],
+  "updatedAt": "2026-04-19T07:45:08.027713Z"
+}

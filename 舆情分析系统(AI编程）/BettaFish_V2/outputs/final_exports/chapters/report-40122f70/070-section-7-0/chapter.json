@@ -1,0 +1,87 @@
+{
+  "chapterId": "S7",
+  "title": "七、 综合结论与战略建议",
+  "anchor": "section-7-0",
+  "order": 70,
+  "summary": "本章总结中国科技品牌在日韩市场的竞争格局，提炼可借鉴经验，并提出分阶段的战略行动建议。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.1 竞争格局总结",
+      "anchor": "section-7-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "中国科技品牌在日韩市场呈现硬件受阻、软件与垂直硬件突破的冰火交织图景。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.2 学习与借鉴",
+      "anchor": "section-7-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "从TikTok、大疆等成功案例中，可提炼出深度本土化运营与极致产品体验的核心原则。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "7.3 应对与反制",
+      "anchor": "section-7-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "建议采取短期聚焦细分市场、中期构建生态协同、长期定义产业规则的阶梯式战略。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "swotTable",
+      "title": "中国科技品牌日韩市场战略SWOT分析",
+      "summary": "基于全文分析，系统梳理内部优势与劣势、外部机会与威胁，为战略决策提供框架。",
+      "strengths": [
+        {
+          "title": "本土市场反哺与研发投入",
+          "text": "巨大的本土市场提供规模效应和研发资金，投入强度比肩国际巨头。",
+          "impact": "高"
+        }
+      ],
+      "weaknesses": [
+        {
+          "title": "品牌情感与渠道壁垒",
+          "text": "在日韩市场面临极高的品牌情感认同与运营商渠道准入障碍。",
+          "impact": "高"
+        }
+      ],
+      "opportunities": [
+        {
+          "title": "AI与生态协同新引擎",
+          "text": "端侧AI、折叠形态与跨设备生态协同创造差异化价值的新机会。",
+          "impact": "中高"
+        }
+      ],
+      "threats": [
+        {
+          "title": "地缘政治与数据合规风险",
+          "text": "非市场因素的数据安全审查与供应链限制构成重大不确定性。",
+          "impact": "高"
+        }
+      ]
+    }
+  ]
+}

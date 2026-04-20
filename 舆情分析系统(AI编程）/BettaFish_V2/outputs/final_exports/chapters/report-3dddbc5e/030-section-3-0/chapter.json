@@ -1,0 +1,39 @@
+{
+  "chapterId": "S3",
+  "title": "三、 公众态度、社会情绪与多元群体关切",
+  "anchor": "section-3-0",
+  "order": 30,
+  "summary": "本章剖析深圳AI政策‘信息真空’下公众的‘焦虑性期待’情绪分布与多元群体关切。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.1 舆论情绪分布",
+      "anchor": "section-3-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "整体舆情呈现‘焦虑性期待’复合特征，负面情绪占比约50%。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3.2 各方观点聚焦",
+      "anchor": "section-3-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "不同群体基于‘风险分配不均’预期，关切点分化，中小企业主焦虑感最强。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

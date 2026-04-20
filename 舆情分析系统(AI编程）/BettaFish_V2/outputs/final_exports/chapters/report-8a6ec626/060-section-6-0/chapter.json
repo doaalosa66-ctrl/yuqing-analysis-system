@@ -1,0 +1,69 @@
+{
+  "chapterId": "S6",
+  "title": "六、关联性评估与行动建议",
+  "anchor": "section-6-0",
+  "order": 60,
+  "summary": "本章综合评估事件风险与机遇，并提出分级、可操作的行动建议。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "六、关联性评估与行动建议",
+      "anchor": "section-6-0"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "本章综合评估事件风险与机遇，并提出分级、可操作的行动建议。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.1 风险评估",
+      "anchor": "section-6-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "评估事件对公信力、社会信任、市场信心的短期与长期风险。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.2 机遇评估",
+      "anchor": "section-6-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "探讨事件暴露的沟通机制改进契机，以及端侧AI技术的市场机遇。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.3 最终行动建议（介入/关注/规避）",
+      "anchor": "section-6-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "提出分级建议：立即介入的“黄金24小时”机制、需持续关注的端侧AI安全与标准建设、需规避的沟通沉默与生态碎片化陷阱。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

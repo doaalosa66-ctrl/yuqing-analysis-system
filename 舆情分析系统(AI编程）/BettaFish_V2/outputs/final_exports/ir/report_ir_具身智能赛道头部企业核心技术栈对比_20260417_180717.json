@@ -1,0 +1,782 @@
+{
+  "version": "1.0",
+  "reportId": "report-64787b54",
+  "metadata": {
+    "query": "具身智能赛道头部企业核心技术栈对比",
+    "title": "具身智能赛道头部企业核心技术栈对比分析报告",
+    "subtitle": "2026年量产前夜的竞争格局、技术路径与市场洞察",
+    "tagline": "本文总览了从概念狂热到生死竞速的产业全景，深度解析四巨头战略分化与核心技术栈博弈",
+    "templateName": "市场竞争格局舆情分析报告模板",
+    "selectionReason": "查询内容明确要求对具身智能赛道的头部企业进行核心技术栈对比，这属于典型的市场竞争格局分析。三份分析引擎报告均聚焦于该赛道的企业格局、技术路径、商业化进展和竞争态势，核心任务是对比不同企业的优劣势、洞察市场位置和竞争维度，而非品牌声誉管理、日常监测、政策解读、公共热点或危机处理。因此，市场竞争格局舆情分析报告模板最为匹配。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "'PingFang SC', 'Microsoft YaHei', sans-serif",
+          "mono": "'JetBrains Mono', 'Courier New', monospace"
+        },
+        "fontSize": {
+          "h1": "2rem",
+          "h2": "1.5rem",
+          "h3": "1.25rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.2,
+          "normal": 1.6,
+          "relaxed": 1.8
+        }
+      },
+      "spacing": {
+        "section": "3rem",
+        "subsection": "2rem",
+        "paragraph": "1rem",
+        "element": "0.75rem"
+      },
+      "colors": {
+        "primary": "#2563eb",
+        "secondary": "#7c3aed",
+        "accent": "#059669",
+        "neutral": "#6b7280",
+        "background": "#ffffff",
+        "surface": "#f9fafb",
+        "border": "#e5e7eb"
+      },
+      "components": {
+        "kpiCard": {
+          "background": "#f0f9ff",
+          "border": "#bae6fd",
+          "valueColor": "#0369a1"
+        },
+        "chart": {
+          "palette": [
+            "#3b82f6",
+            "#8b5cf6",
+            "#10b981",
+            "#f59e0b",
+            "#ef4444"
+          ]
+        }
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "文章总览",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、 竞争态势摘要：冰火交织的产业黎明",
+          "description": "概述2026年具身智能赛道关键转折点，呈现资本狂热与量产挑战并存的宏观格局与核心结论。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、 市场声量与舆论对比：表层静默与深层沸腾",
+          "description": "分析公众认知的“数据真空”现象与产业资本、学术研究层的差异化舆论热度与情感倾向。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、 关键动态时间线：从技术验证到交付竞速",
+          "description": "梳理2025-2026年影响行业格局的核心事件脉络，包括融资、产品发布、量产遇阻与政策动态。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、 产品技术口碑对比：核心能力与用户期待",
+          "description": "对比头部企业在灵巧操作、运动控制、成本控制等方面的技术突破、演示效果与市场反馈。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、 企业战略与传播对比：四巨头的路径分化",
+          "description": "深度解析特斯拉、宇树、优必选、智元在战略定位、技术路径、商业化节奏与品牌传播上的差异化竞争。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、 竞争机会与威胁识别：通用幻想与垂直现实",
+          "description": "识别当前技术瓶颈下的市场机会点、潜在威胁，并对差异化定位与战略选择提出建议。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S7",
+          "anchor": "section-7-0",
+          "display": "七、 结论与行动建议：穿越生死年的生存指南",
+          "description": "总结竞争格局，提炼可借鉴的经验与教训，并为不同参与者提供具体的应对与反制策略建议。",
+          "allowSwot": true,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告综合多源信息，深度剖析2026年具身智能赛道关键转折点。行业焦点已从技术演示转向规模化交付，形成特斯拉、宇树、优必选、智元等差异化头部阵营。报告揭示在资本狂热（2025年中国融资超500亿元）与量产挑战（特斯拉Optimus交付遇阻）并存的冰火格局下，技术路径正从通用幻想走向垂直现实，数据与仿真能力、软硬件协同成本控制成为新核心壁垒。",
+      "highlights": [
+        "赛道进入“交付大年”与“生死年”，规模化能力成为企业存亡关键分水岭",
+        "头部企业战略路径鲜明分化：特斯拉重押通用愿景，宇树主打成本控制，优必选深耕工业场景，智元寻求资本破局",
+        "核心技术瓶颈凸显：端到端VLA模型长程任务成功率仅20%-40%，而垂直场景（如叠毛巾）可达99.4%",
+        "中国供应链在“身体”制造上展现压倒性优势，绿的谐波、长盛轴承等获关键订单",
+        "合成数据革命重塑研发效率，英伟达方案11小时可生成相当于6500小时人类演示的数据"
+      ],
+      "kpis": [
+        {
+          "label": "2025年中国融资总额",
+          "value": ">500亿元",
+          "delta": "+400%",
+          "tone": "up"
+        },
+        {
+          "label": "头部企业估值峰值",
+          "value": "390亿美元",
+          "delta": "Figure AI",
+          "tone": "up"
+        },
+        {
+          "label": "垂直场景任务成功率",
+          "value": "99.4%",
+          "delta": "Dyna Robotics叠毛巾",
+          "tone": "up"
+        },
+        {
+          "label": "通用模型长程任务成功率",
+          "value": "20%-40%",
+          "delta": "谷歌分层模型",
+          "tone": "down"
+        }
+      ],
+      "actions": [
+        "关注2026年底特斯拉10万台级量产进展，作为行业风向标",
+        "评估企业在“大脑”（AI算法）与“身体”（硬件可靠性）上的资源平衡",
+        "优先考察在电力巡检、精密装配等垂直场景已产生稳定收入的企业",
+        "警惕因企业数量超百家可能引发的同质化竞争与价格战风险"
+      ]
+    },
+    "layoutNotes": [
+      "目录（TOC）与正文所有一级标题（H1）统一使用1.5rem字号，确保视觉层级的清晰与统一。",
+      "正文部分采用1rem基础字号，行高1.6，保证长文阅读舒适度。章节间留白3rem，子章节间留白2rem。",
+      "优先使用Chart.js绘制声量趋势、情感分布、技术参数对比等图表，色板遵循themeTokens定义。",
+      "关键数据（如融资额、成功率、成本）使用KPI卡片组件突出展示，并配以趋势箭头（delta）和情感色调（tone）。",
+      "SWOT分析块仅允许在第七章（结论与行动建议）中使用，用于综合评估企业内外部战略态势。",
+      "PEST分析块仅允许在第三章（关键动态时间线）中使用，用于分析宏观政治、经济、社会、技术环境对行业的影响。",
+      "避免使用外部图片，技术演示、结构对比等内容通过文字描述结合数据图表或示意图（如流程图、架构图）呈现。",
+      "报告整体采用浅色主题，色系以蓝、紫、绿为主，强调科技感与专业性，同时确保良好的可读性。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "整体详略策略：报告核心为‘技术栈对比’，因此技术路径、产品能力、战略分化（第五、四章）是重点，需深度展开，分配约50%篇幅。",
+        "市场宏观与竞争态势（第一、二、三章）提供背景与数据支撑，分配约30%篇幅，需精炼概括关键数据与事件。",
+        "结论与建议（第六、七章）基于前述分析，提出洞察与行动指南，分配约20%篇幅，需观点鲜明、建议具体。",
+        "各章节内部，需优先展开素材中提供的具体数据、案例和对比分析（如特斯拉Optimus量产遇阻、宇树成本控制、垂直场景成功率对比等）。",
+        "允许在技术分析、案例说明等部分必要时超出目标字数上限10%，以补充关键细节，但需保持整体结构平衡。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**市场竞争格局舆情分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 市场竞争态势摘要",
+          "rawTitle": "1.0 市场竞争态势摘要",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 核心结论",
+            "1.2 关键数据对比",
+            "1.3 核心策略建议"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 市场声量对比分析",
+          "rawTitle": "2.0 市场声量对比分析",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 总体声量份额（SOV）",
+            "2.2 趋势对比"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 本周期市场关键动态时间线",
+          "rawTitle": "3.0 本周期市场关键动态时间线",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 我方关键动作",
+            "3.2 竞争对手关键动作"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 产品口碑与用户反馈对比",
+          "rawTitle": "4.0 产品口碑与用户反馈对比",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 情感分布对比",
+            "4.2 优缺点对比",
+            "4.3 核心功能/卖点讨论热度对比"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 营销与传播策略对比",
+          "rawTitle": "5.0 营销与传播策略对比",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 重大营销战役分析",
+            "5.2 核心传播议题对比",
+            "5.3 KOL/媒体合作策略分析"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 竞争机会与威胁识别",
+          "rawTitle": "6.0 竞争机会与威胁识别",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 市场机会点",
+            "6.2 潜在威胁",
+            "6.3 差异化定位建议"
+          ]
+        },
+        {
+          "chapterId": "S7",
+          "title": "7.0 总结与行动建议",
+          "rawTitle": "7.0 总结与行动建议",
+          "number": "7.0",
+          "slug": "section-7-0",
+          "order": 70,
+          "depth": 1,
+          "outline": [
+            "7.1 竞争格局总结",
+            "7.2 学习与借鉴",
+            "7.3 应对与反制"
+          ]
+        }
+      ]
+    },
+    "generatedAt": "2026-04-17T10:07:16.994272Z"
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "'PingFang SC', 'Microsoft YaHei', sans-serif",
+        "mono": "'JetBrains Mono', 'Courier New', monospace"
+      },
+      "fontSize": {
+        "h1": "2rem",
+        "h2": "1.5rem",
+        "h3": "1.25rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.2,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem",
+      "element": "0.75rem"
+    },
+    "colors": {
+      "primary": "#2563eb",
+      "secondary": "#7c3aed",
+      "accent": "#059669",
+      "neutral": "#6b7280",
+      "background": "#ffffff",
+      "surface": "#f9fafb",
+      "border": "#e5e7eb"
+    },
+    "components": {
+      "kpiCard": {
+        "background": "#f0f9ff",
+        "border": "#bae6fd",
+        "valueColor": "#0369a1"
+      },
+      "chart": {
+        "palette": [
+          "#3b82f6",
+          "#8b5cf6",
+          "#10b981",
+          "#f59e0b",
+          "#ef4444"
+        ]
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "title": "一、 竞争态势摘要：冰火交织的产业黎明",
+      "anchor": "section-1-0",
+      "order": 10,
+      "summary": "本章概述2026年具身智能赛道资本狂热与量产挑战并存的宏观格局与核心结论。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.1 核心结论",
+          "anchor": "section-1-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "2026年行业进入交付大年与生死年，技术路径从通用幻想走向垂直现实。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.2 关键数据对比",
+          "anchor": "section-1-0-2"
+        },
+        {
+          "type": "kpiGrid",
+          "items": [
+            {
+              "label": "2025年中国融资总额",
+              "value": ">500亿元",
+              "delta": "+400%",
+              "deltaTone": "up"
+            },
+            {
+              "label": "头部企业估值峰值",
+              "value": "390亿美元",
+              "delta": "Figure AI",
+              "deltaTone": "up"
+            },
+            {
+              "label": "垂直场景任务成功率",
+              "value": "99.4%",
+              "delta": "Dyna Robotics叠毛巾",
+              "deltaTone": "up"
+            },
+            {
+              "label": "通用模型长程任务成功率",
+              "value": "20%-40%",
+              "delta": "谷歌分层模型",
+              "deltaTone": "down"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1.3 核心策略建议",
+          "anchor": "section-1-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "关注特斯拉量产进展，评估企业软硬件平衡，考察垂直场景稳定收入企业。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S2",
+      "title": "二、 市场声量与舆论对比：表层静默与深层沸腾",
+      "anchor": "section-2-0",
+      "order": 20,
+      "summary": "本章揭示具身智能赛道舆论场呈现“表层静默、中层沸腾、底层思辨”的立体图景。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.1 总体声量份额（SOV）",
+          "anchor": "section-2-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "大众社交媒体声量缺失度超95%，形成“数据真空”。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2.2 趋势对比",
+          "anchor": "section-2-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "公众情绪从好奇转向担忧，产业情绪从乐观转向务实焦灼。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S3",
+      "title": "三、 关键动态时间线：从技术验证到交付竞速",
+      "anchor": "section-3-0",
+      "order": 30,
+      "summary": "本章梳理了2025-2026年塑造具身智能行业格局的核心事件脉络。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.1 我方关键动作",
+          "anchor": "section-3-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "中国头部企业在融资、产品发布与量产计划上动作频频。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3.2 竞争对手关键动作",
+          "anchor": "section-3-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "国际巨头在技术发布、产能调整与生态合作上展开激烈竞速。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "pestTable",
+          "title": "宏观环境（PEST）对关键动态的影响分析",
+          "summary": "以下从政治、经济、社会、技术四个维度，分析宏观环境对2025-2026年具身智能赛道关键事件的影响。",
+          "political": [
+            {
+              "title": "政策支持与监管框架",
+              "text": "中国将具身智能列为未来产业重点，欧盟通过《人工智能法案》设立监管标杆。",
+              "detail": "中国政策为国内企业提供了明确的研发和市场应用支持，而欧盟的严格合规要求为全球市场，特别是计划进入欧洲的企业，设立了技术和伦理准入门槛，影响了产品设计和上市节奏。",
+              "trend": "正面利好"
+            }
+          ],
+          "economic": [
+            {
+              "title": "资本狂热与成本压力",
+              "text": "2025年中国融资超500亿元，但量产成本控制成为生死线。",
+              "detail": "巨额资本涌入加速了技术研发和团队扩张，但也推高了估值和预期。宇树科技将成本拉低至5900美元，引发了全行业的成本竞赛，迫使企业重新审视供应链和设计。",
+              "trend": "中性"
+            }
+          ],
+          "social": [
+            {
+              "title": "公众认知与人才流动",
+              "text": "大众舆论存在“数据真空”，但产业界人才争夺激烈。",
+              "detail": "公众对具身智能的认知门槛高，讨论热度低，但产业内部对算法和硬件工程师的需求激增，人才从互联网、自动驾驶等领域向具身智能流动，支撑了行业的技术攻坚。",
+              "trend": "持续观察"
+            }
+          ],
+          "technological": [
+            {
+              "title": "合成数据革命与仿真效率",
+              "text": "英伟达方案大幅提升研发效率，但“仿真到现实”鸿沟依然存在。",
+              "detail": "英伟达Isaac仿真平台能在11小时内生成相当于6500小时人类演示的数据，极大加速了算法迭代。然而，如何将仿真中训练的策略安全、可靠地迁移到物理机器人上，仍是工程化落地的核心挑战。",
+              "trend": "正面利好"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S4",
+      "title": "四、 产品技术口碑对比：核心能力与用户期待",
+      "anchor": "section-4-0",
+      "order": 40,
+      "summary": "本章对比头部企业产品技术口碑，分析核心能力差异与市场反馈。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.1 情感分布对比",
+          "anchor": "section-4-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "市场对产品演示的情感反馈呈现圈层化差异。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.2 优缺点对比",
+          "anchor": "section-4-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "从大脑与身体两个维度系统对比企业技术栈优劣。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4.3 核心功能/卖点讨论热度对比",
+          "anchor": "section-4-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "各企业核心卖点在舆论中的讨论热度与认可度存在差异。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S5",
+      "title": "五、 企业战略与传播对比：四巨头的路径分化",
+      "anchor": "section-5-0",
+      "order": 50,
+      "summary": "本章对比特斯拉、宇树、优必选、智元四家头部企业的战略路径与品牌传播策略。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.1 重大营销战役分析",
+          "anchor": "section-5-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "各企业通过关键产品发布塑造市场认知。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.2 核心传播议题对比",
+          "anchor": "section-5-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "四巨头构建了差异化的叙事框架与视觉形象。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "5.3 KOL/媒体合作策略分析",
+          "anchor": "section-5-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "企业通过不同渠道组合塑造专业形象与公众认知。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S6",
+      "title": "六、 竞争机会与威胁识别：通用幻想与垂直现实",
+      "anchor": "section-6-0",
+      "order": 60,
+      "summary": "本章基于技术瓶颈与市场分化，识别垂直场景的确定性机会与通用路径的潜在威胁。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.1 市场机会点",
+          "anchor": "section-6-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "垂直场景如电力巡检、精密装配是当前最具确定性的商业化机会。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.2 潜在威胁",
+          "anchor": "section-6-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "通用模型长尾问题、资本退潮及同质化价格战是行业主要威胁。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "6.3 差异化定位建议",
+          "anchor": "section-6-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "企业应基于自身资源，选择深耕垂直场景或构建通用平台生态。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterId": "S7",
+      "title": "七、 结论与行动建议：穿越生死年的生存指南",
+      "anchor": "section-7-0",
+      "order": 70,
+      "summary": "本章总结具身智能赛道竞争格局，提炼经验教训，并提供分层行动建议。",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7.1 竞争格局总结",
+          "anchor": "section-7-0-1"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "2026年具身智能赛道已形成特斯拉、宇树、优必选、智元四巨头差异化竞争格局。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7.2 学习与借鉴",
+          "anchor": "section-7-0-2"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "可从特斯拉量产教训、宇树成本控制、优必选场景深耕中提炼关键经验。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "type": "swotTable",
+          "title": "具身智能赛道综合SWOT分析",
+          "summary": "基于前文分析，对行业整体战略态势进行评估。",
+          "strengths": [
+            {
+              "title": "中国供应链优势",
+              "text": "在‘身体’制造上具有压倒性成本和规模优势。",
+              "impact": "高"
+            }
+          ],
+          "weaknesses": [
+            {
+              "title": "技术瓶颈",
+              "text": "端到端VLA模型长程任务成功率仅20%-40%。",
+              "impact": "中高"
+            }
+          ],
+          "opportunities": [
+            {
+              "title": "垂直场景落地",
+              "text": "特定场景（如叠毛巾）成功率可达99.4%，商业化路径清晰。",
+              "impact": "高"
+            }
+          ],
+          "threats": [
+            {
+              "title": "同质化竞争",
+              "text": "企业数量超百家，可能引发价格战。",
+              "impact": "中"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "7.3 应对与反制",
+          "anchor": "section-7-0-3"
+        },
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "text": "为投资者、创业者等不同参与者提供具体策略建议。",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": {}
+}

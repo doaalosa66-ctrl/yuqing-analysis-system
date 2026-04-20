@@ -1,0 +1,183 @@
+{
+  "title": "北美车载无感互联配件市场深度洞察报告",
+  "subtitle": "从“静默蓝海”到“生态博弈”的竞争格局全景扫描",
+  "tagline": "基于多源数据分析，为您呈现北美车载无感互联配件市场的竞争态势、用户痛点与战略机遇，本文为文章总览",
+  "tocTitle": "报告目录",
+  "hero": {
+    "summary": "本报告融合深度研究、多媒体分析与新闻调查，系统剖析北美车载无感互联配件市场。当前市场处于“认知静默”与“关联议题沸腾”并存的奇特状态，中国供应链主导竞争，技术正从“无线适配”向“无感智能”演进。报告揭示了用户对“连接稳定性”的核心痛点、对数据隐私的深层焦虑，以及生态竞争决定长期格局的关键趋势。",
+    "highlights": [
+      "市场认知存在“舆论断层”：目标议题在华语舆论场近乎静默，但关联的智能汽车数据安全议题讨论热度极高，负面情绪占比超55%。",
+      "中国供应链占据主导：凭借成本与迭代优势，中国厂商在主流价格带形成“中间挤压，两端分化”的竞争格局，毛利率高达35%-50%。",
+      "技术竞争升维：无感互联定义已扩展为“连接无感”、“交互无感”、“功能无感”三层，UWB、蓝牙Channel Sounding与星闪技术展开生态级竞争。",
+      "用户痛点明确：连接稳定性是最大短板，28.6%的负面反馈指向蓝牙问题，17.7%指向延迟，完美“无感”体验尚未实现。",
+      "信任与生态是关键壁垒：数据隐私焦虑构成核心信任鸿沟，未来竞争胜负将取决于生态整合能力与品牌信誉。"
+    ],
+    "kpis": [
+      {
+        "label": "北美市场规模（2024）",
+        "value": "5.43亿美元",
+        "delta": "占全球37%",
+        "tone": "up"
+      },
+      {
+        "label": "预计CAGR（至2033）",
+        "value": "12.7%",
+        "delta": "稳健增长",
+        "tone": "up"
+      },
+      {
+        "label": "用户核心痛点占比",
+        "value": "28.6%",
+        "delta": "蓝牙连接问题",
+        "tone": "down"
+      },
+      {
+        "label": "中国供应链毛利率",
+        "value": "35%-50%",
+        "delta": "利润空间可观",
+        "tone": "up"
+      }
+    ],
+    "actions": [
+      "建议厂商优先攻克“连接稳定性”技术瓶颈，将低延迟、高可靠作为核心卖点。",
+      "需构建“透明可信”的数据叙事，主动进行隐私合规认证与第三方审计，跨越信任鸿沟。",
+      "利用中国供应链优势，聚焦差异化创新，避免陷入主流价格带同质化红海竞争。",
+      "关注UWB、星闪等新技术生态动向，提前布局融合通信方案，抢占智能座舱入口。",
+      "启动针对专业圈层和极客用户的“认知播种”，为市场爆发储备舆论势能。"
+    ]
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+        "mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+      },
+      "fontSize": {
+        "h1": "2.25rem",
+        "h2": "1.875rem",
+        "h3": "1.5rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.25,
+        "normal": 1.5,
+        "relaxed": 1.75
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem",
+      "element": "0.75rem"
+    },
+    "colors": {
+      "primary": {
+        "main": "#2563eb",
+        "light": "#60a5fa",
+        "dark": "#1d4ed8"
+      },
+      "secondary": {
+        "main": "#475569",
+        "light": "#94a3b8",
+        "dark": "#334155"
+      },
+      "accent": {
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444",
+        "info": "#3b82f6"
+      },
+      "background": {
+        "default": "#ffffff",
+        "paper": "#f8fafc",
+        "muted": "#f1f5f9"
+      },
+      "text": {
+        "primary": "#1e293b",
+        "secondary": "#64748b",
+        "disabled": "#94a3b8"
+      }
+    },
+    "components": {
+      "kpiCard": {
+        "borderRadius": "0.75rem",
+        "padding": "1.25rem"
+      },
+      "table": {
+        "headerBg": "#f1f5f9",
+        "stripedBg": "#f8fafc",
+        "borderColor": "#e2e8f0"
+      }
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、市场竞争态势摘要",
+      "description": "提炼报告核心结论、关键数据对比与核心策略建议，为全文提供执行摘要。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、市场声量与认知分析",
+      "description": "分析目标市场在华语舆论场的“静默”现状与关联议题的高热度，揭示认知断层与舆论风险。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、市场关键动态与演进",
+      "description": "梳理市场从“无线适配”到“无感智能”的演进路径、关键驱动力及产品形态视觉化趋势。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、产品口碑与用户痛点",
+      "description": "对比分析用户反馈数据，深度挖掘连接稳定性、延迟等核心痛点及数据隐私焦虑。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、竞争格局与供应链分析",
+      "description": "剖析以中国供应链为主导的竞争分层、价格带分布、品牌策略及渠道生态。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、技术生态与宏观环境",
+      "description": "深入分析UWB、蓝牙、星闪等技术路线竞争、生态博弈及宏观产业背景影响。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S7",
+      "anchor": "section-7-0",
+      "display": "七、综合结论与战略建议",
+      "description": "总结市场竞争格局，识别核心机会与威胁，提出差异化定位与具体行动建议。",
+      "allowSwot": true,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（TOC）与正文所有一级标题（H1）统一使用1.875rem（约30px）字号，确保视觉层级的统一与清晰。",
+    "正文二级标题（H2）使用1.5rem（约24px）字号，与章节内的小节标题区分。",
+    "各章节之间使用3rem的垂直间距，节与子节之间使用2rem间距，确保阅读节奏舒适。",
+    "KPI卡片、图表与表格均采用圆角设计（0.75rem），并配以浅灰色背景（#f8fafc），提升可读性与现代感。",
+    "SWOT分析块仅允许在第七章“综合结论与战略建议”中使用，用于内部能力与外部环境总结。",
+    "PEST分析块仅允许在第六章“技术生态与宏观环境”中使用，用于分析政治、经济、社会、技术等宏观因素。",
+    "报告配色以蓝色系为主色调，代表科技与可靠，辅以中性灰，确保专业感。所有颜色均提供足够的对比度，兼容常规阅读模式。",
+    "鼓励使用Chart.js绘制市场规模趋势图、用户痛点分布饼图、技术参数对比雷达图等，以增强数据表现力。",
+    "避免使用外部图片，产品形态、竞争格局等可通过色块、图标与简洁的示意图进行可视化表达。"
+  ]
+}

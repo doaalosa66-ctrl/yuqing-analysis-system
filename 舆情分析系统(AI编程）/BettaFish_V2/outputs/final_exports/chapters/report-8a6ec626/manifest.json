@@ -1,0 +1,341 @@
+{
+  "reportId": "report-8a6ec626",
+  "createdAt": "2026-04-17T04:45:27.798298Z",
+  "metadata": {
+    "query": "test",
+    "title": "信息真空与智能跃迁：2026年社会热点与技术前沿交叉分析报告",
+    "subtitle": "从“预期数据缺失”舆情到“端侧AI元年”的深度洞察",
+    "tagline": "一份融合社会情绪、传播路径与技术趋势的文章总览",
+    "templateName": "社会公共热点事件分析报告模板",
+    "selectionReason": "查询内容为通用测试，但提供的三份分析引擎报告均聚焦于广泛的社会、技术与产业层面的宏观现象（如‘信息真空’下的社会情绪、AI时间感知技术跃迁、端侧大模型商业元年），这些主题具有显著的社会公共性、前沿性和广泛讨论度，与本机构无直接关联，符合‘社会公共热点事件’的特征。报告内容深度剖析了事件背景、社会心态、技术趋势及潜在影响，旨在洞察社会心态并评估关联性，而非进行品牌、竞争、日常监测或危机应对分析。因此，选择此模板最为合适。",
+    "themeTokens": {
+      "typography": {
+        "fontFamily": {
+          "sans": "system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif",
+          "mono": "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
+        },
+        "fontSize": {
+          "toc": "1.125rem",
+          "h1": "1.75rem",
+          "h2": "1.375rem",
+          "body": "1rem",
+          "small": "0.875rem"
+        },
+        "lineHeight": {
+          "tight": 1.25,
+          "normal": 1.5,
+          "relaxed": 1.75
+        }
+      },
+      "spacing": {
+        "section": "3rem",
+        "subsection": "2rem",
+        "paragraph": "1rem",
+        "element": "0.75rem"
+      },
+      "color": {
+        "primary": "#2563eb",
+        "primaryDark": "#1d4ed8",
+        "secondary": "#7c3aed",
+        "neutral": "#4b5563",
+        "success": "#059669",
+        "warning": "#d97706",
+        "danger": "#dc2626",
+        "background": "#ffffff",
+        "surface": "#f9fafb",
+        "border": "#e5e7eb"
+      },
+      "darkMode": {
+        "background": "#111827",
+        "surface": "#1f2937",
+        "border": "#374151",
+        "text": "#f9fafb"
+      }
+    },
+    "toc": {
+      "depth": 3,
+      "autoNumbering": true,
+      "title": "报告目录",
+      "customEntries": [
+        {
+          "chapterId": "S1",
+          "anchor": "section-1-0",
+          "display": "一、报告摘要",
+          "description": "概述报告核心发现，包括事件定性、关键洞察与初步建议，为全文提供导航。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S2",
+          "anchor": "section-2-0",
+          "display": "二、事件全景与演变脉络",
+          "description": "还原“预期数据缺失”事件的背景、舆论发酵时间线与当前高热态势，梳理关键节点。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S3",
+          "anchor": "section-3-0",
+          "display": "三、传播路径与引爆点分析",
+          "description": "分析舆情扩散的核心链条、关键引爆因素及在其中扮演重要角色的传播主体。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S4",
+          "anchor": "section-4-0",
+          "display": "四、舆论场观点与情绪光谱",
+          "description": "呈现围绕事件产生的多元观点、核心议题争论以及社会情绪的量化分布与演变。",
+          "allowSwot": false,
+          "allowPest": false
+        },
+        {
+          "chapterId": "S5",
+          "anchor": "section-5-0",
+          "display": "五、深层动因与价值观探讨",
+          "description": "剖析事件背后折射的社会心态、集体记忆与文化现象，探讨技术发展中的认知困境。",
+          "allowSwot": false,
+          "allowPest": true
+        },
+        {
+          "chapterId": "S6",
+          "anchor": "section-6-0",
+          "display": "六、关联性评估与行动建议",
+          "description": "综合评估事件风险与机遇，结合技术趋势提出分级、可操作的最终行动建议。",
+          "allowSwot": true,
+          "allowPest": false
+        }
+      ]
+    },
+    "hero": {
+      "summary": "本报告深度剖析了2026年两大核心议题：一是由“预期数据缺失”引发的社会公共舆情事件，揭示了信息真空下公众焦虑、猜测与信任危机的演变脉络；二是“端侧大模型规模化商业应用元年”的技术跃迁，探讨了AI时间感知缺失的困境与突破。报告旨在通过交叉分析，为社会治理与技术发展提供全景式洞察与行动指引。",
+      "highlights": [
+        "“信息真空”事件中，负面情感占比高达65%，舆情处于红色警戒区，揭示了公众对确定性与透明沟通的强烈诉求。",
+        "AI的“时间感知缺失”是其从静态知识体迈向动态情境参与者的核心瓶颈，2026年技术前沿正通过世界模型、结构化记忆池等方案系统性破解。",
+        "端侧AI市场进入爆发元年，硬件算力普及与模型压缩技术突破共同驱动，但面临安全治理、生态碎片化等系统性挑战。",
+        "社会舆情中的“信任耐受”降低与技术发展中的“实时性需求”提升，共同指向了信息时代公众与系统交互的新范式。"
+      ],
+      "kpis": [
+        {
+          "label": "舆情负面情感占比",
+          "value": "65%",
+          "delta": "持续攀升",
+          "tone": "down"
+        },
+        {
+          "label": "端侧AI设备年增长率",
+          "value": ">180%",
+          "delta": "爆发式增长",
+          "tone": "up"
+        },
+        {
+          "label": "长上下文任务Token消耗增长",
+          "value": "4-15倍",
+          "delta": "成本挑战显著",
+          "tone": "down"
+        },
+        {
+          "label": "端侧推理延迟期望",
+          "value": "<100ms",
+          "delta": "用户体验及格线",
+          "tone": "neutral"
+        }
+      ],
+      "actions": [
+        "针对“信息真空”类舆情，建议建立“黄金24小时”响应机制，以权威说明打破沉默，管理公众预期。",
+        "AI产品开发者需优先集成“时间感知”与“情境理解”能力，以支撑从工具到伙伴的体验跃迁。",
+        "关注端侧AI的隐私安全与生态标准建设，防范技术普及带来的新型风险与碎片化问题。",
+        "建议决策者从社会心理与技术趋势交叉视角，审视信息发布机制与智能经济发展策略。"
+      ]
+    },
+    "layoutNotes": [
+      "目录（TOC）与正文所有一级标题（H1）使用统一字号（1.75rem），确保视觉层级的清晰与一致。",
+      "正文部分采用舒适的段落间距（1rem）与行高（1.75），提升长文阅读体验。",
+      "鼓励使用Chart.js绘制情感趋势图、市场规模柱状图、性能对比雷达图等数据可视化组件。",
+      "关键数据（KPI）使用卡片组件突出展示，并配以趋势箭头（delta）和情感色调（tone）。",
+      "SWOT分析块仅用于第六章“关联性评估与行动建议”，PEST分析块仅用于第五章“深层动因与价值观探讨”，二者不共存于同一章节。",
+      "为支持暗黑模式，已定义配套色板，渲染时需根据用户偏好切换。",
+      "各章节内容密度不均，第四章（情绪光谱）和第五章（动因探讨）可能内容较多，需注意内部排版平衡，适当使用分栏或摘要框。"
+    ],
+    "wordPlan": {
+      "totalWords": 8000,
+      "globalGuidelines": [
+        "总目标约8000字，上下浮动10%（7200-8800字）。",
+        "详略策略：重点突出社会舆情分析（第四、五章）与技术趋势洞察（融合于各章），两者交叉分析是报告核心价值。",
+        "第四章（情绪光谱）和第五章（动因探讨）内容密度高，需分配较多篇幅，允许内部小节超出目标10%以容纳案例与深度分析。",
+        "第一章（摘要）和第六章（建议）需精炼有力，前者概括全文，后者提出具体、可操作的建议。",
+        "第二、三章（事件脉络与传播路径）提供事实基础，篇幅适中，确保叙事清晰。",
+        "鼓励在相关章节使用数据可视化（如图表）和关键数据（KPI）卡片，以增强说服力。"
+      ]
+    },
+    "templateOverview": {
+      "title": "**社会公共热点事件分析报告模板**",
+      "chapters": [
+        {
+          "chapterId": "S1",
+          "title": "1.0 报告摘要",
+          "rawTitle": "1.0 报告摘要",
+          "number": "1.0",
+          "slug": "section-1-0",
+          "order": 10,
+          "depth": 1,
+          "outline": [
+            "1.1 事件定性",
+            "1.2 核心洞察",
+            "1.3 关联性与建议"
+          ]
+        },
+        {
+          "chapterId": "S2",
+          "title": "2.0 事件全景与演变脉络",
+          "rawTitle": "2.0 事件全景与演变脉络",
+          "number": "2.0",
+          "slug": "section-2-0",
+          "order": 20,
+          "depth": 1,
+          "outline": [
+            "2.1 事件背景与起源",
+            "2.2 舆论发酵时间线",
+            "2.3 当前态势"
+          ]
+        },
+        {
+          "chapterId": "S3",
+          "title": "3.0 传播路径与引爆点分析",
+          "rawTitle": "3.0 传播路径与引爆点分析",
+          "number": "3.0",
+          "slug": "section-3-0",
+          "order": 30,
+          "depth": 1,
+          "outline": [
+            "3.1 核心传播链条",
+            "3.2 引爆点分析",
+            "3.3 关键传播角色"
+          ]
+        },
+        {
+          "chapterId": "S4",
+          "title": "4.0 舆论场多方观点与情绪光谱",
+          "rawTitle": "4.0 舆论场多方观点与情绪光谱",
+          "number": "4.0",
+          "slug": "section-4-0",
+          "order": 40,
+          "depth": 1,
+          "outline": [
+            "4.1 核心议题与讨论焦点",
+            "4.2 多元观点呈现",
+            "4.3 社会情绪分析"
+          ]
+        },
+        {
+          "chapterId": "S5",
+          "title": "5.0 深层动因与价值观探讨",
+          "rawTitle": "5.0 深层动因与价值观探讨",
+          "number": "5.0",
+          "slug": "section-5-0",
+          "order": 50,
+          "depth": 1,
+          "outline": [
+            "5.1 事件背后的社会心态",
+            "5.2 衍生文化与网络Meme"
+          ]
+        },
+        {
+          "chapterId": "S6",
+          "title": "6.0 关联性评估与行动建议",
+          "rawTitle": "6.0 关联性评估与行动建议",
+          "number": "6.0",
+          "slug": "section-6-0",
+          "order": 60,
+          "depth": 1,
+          "outline": [
+            "6.1 风险评估",
+            "6.2 机遇评估",
+            "6.3 最终行动建议（介入/关注/规避）"
+          ]
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "slug": "section-1-0",
+      "title": "1.0 报告摘要",
+      "order": 10,
+      "status": "ready",
+      "files": {
+        "raw": "010-section-1-0\\stream.raw",
+        "json": "010-section-1-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T04:45:40.847134Z"
+    },
+    {
+      "chapterId": "S2",
+      "slug": "section-2-0",
+      "title": "2.0 事件全景与演变脉络",
+      "order": 20,
+      "status": "ready",
+      "files": {
+        "raw": "020-section-2-0\\stream.raw",
+        "json": "020-section-2-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T04:45:41.625627Z"
+    },
+    {
+      "chapterId": "S3",
+      "slug": "section-3-0",
+      "title": "3.0 传播路径与引爆点分析",
+      "order": 30,
+      "status": "ready",
+      "files": {
+        "raw": "030-section-3-0\\stream.raw",
+        "json": "030-section-3-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T04:45:39.735008Z"
+    },
+    {
+      "chapterId": "S4",
+      "slug": "section-4-0",
+      "title": "4.0 舆论场多方观点与情绪光谱",
+      "order": 40,
+      "status": "ready",
+      "files": {
+        "raw": "040-section-4-0\\stream.raw",
+        "json": "040-section-4-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T04:45:40.389052Z"
+    },
+    {
+      "chapterId": "S5",
+      "slug": "section-5-0",
+      "title": "5.0 深层动因与价值观探讨",
+      "order": 50,
+      "status": "ready",
+      "files": {
+        "raw": "050-section-5-0\\stream.raw",
+        "json": "050-section-5-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T04:45:46.922852Z"
+    },
+    {
+      "chapterId": "S6",
+      "slug": "section-6-0",
+      "title": "6.0 关联性评估与行动建议",
+      "order": 60,
+      "status": "ready",
+      "files": {
+        "raw": "060-section-6-0\\stream.raw",
+        "json": "060-section-6-0\\chapter.json"
+      },
+      "errors": [],
+      "updatedAt": "2026-04-17T04:45:42.313953Z"
+    }
+  ],
+  "updatedAt": "2026-04-17T04:45:27.812676Z"
+}

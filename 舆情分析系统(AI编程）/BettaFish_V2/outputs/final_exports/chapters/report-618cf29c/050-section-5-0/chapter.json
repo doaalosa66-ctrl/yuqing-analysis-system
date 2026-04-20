@@ -1,0 +1,39 @@
+{
+  "chapterId": "S5",
+  "title": "五、行业标杆案例与市场反应",
+  "anchor": "section-5-0",
+  "order": 50,
+  "summary": "本章通过梳理头部车企的技术路径与市场反馈，以及行业协会的观点，呈现当前智能座舱多模态交互领域的竞争态势与生态建设进展。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.1 竞争对手/头部企业的反应",
+      "anchor": "section-5-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "头部车企在智能体架构、多模态融合与OTA策略上展现出差异化路径，市场反应与用户口碑随之分化。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.2 行业协会/组织的观点",
+      "anchor": "section-5-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "行业机构普遍呼吁建立统一的数据安全标准与生态互联互通规范，以推动技术健康有序发展。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

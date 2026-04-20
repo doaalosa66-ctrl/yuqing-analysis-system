@@ -1,0 +1,54 @@
+{
+  "chapterId": "S4",
+  "title": "四、产品口碑与用户反馈对比",
+  "anchor": "section-4-0",
+  "order": 40,
+  "summary": "本章节对比分析技术社群、产业用户及公众对头部企业技术路径的情感与评价。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.1 情感分布对比",
+      "anchor": "section-4-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "专业开发者对中美头部企业技术的情感倾向呈现分化，整体以务实乐观为主。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.2 优缺点对比",
+      "anchor": "section-4-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "社群讨论认为特斯拉工程化能力强，Figure AI算法领先，宇树科技成本与场景优势明显。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.3 核心功能/卖点讨论热度对比",
+      "anchor": "section-4-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "“真机数据开源”与“世界模型预测”是当前舆论场讨论热度最高的技术卖点。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

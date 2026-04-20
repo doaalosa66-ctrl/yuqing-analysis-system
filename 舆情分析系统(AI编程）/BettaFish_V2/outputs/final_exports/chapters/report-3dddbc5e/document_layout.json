@@ -1,0 +1,161 @@
+{
+  "title": "深圳AI成熟落地方案全景洞察报告",
+  "subtitle": "从政策引擎到产业生态的深度解构与战略前瞻",
+  "tagline": "一份融合政策脉络、产业实践与公众期待的文章总览",
+  "tocTitle": "报告目录",
+  "hero": {
+    "summary": "本报告系统整合了深圳AI产业发展的多源信息，深度剖析了从顶层政策设计、产业生态构建到公众舆论反应的完整图景。报告揭示了深圳正从‘硬件硅谷’向‘智能雨林’演进，其‘软硬协同、场景驱动’的路径清晰，但公众对政策透明度的期待与信息真空之间的矛盾，构成了独特的舆情压力源。",
+    "highlights": [
+      "深圳AI政策体系呈现‘市级纲领+区级细则+专项计划’的超常规立体布局，目标直指万亿产业规模。",
+      "产业生态依托‘一小时配套圈’硬件优势，向‘软硬协同’的具身智能与‘热带雨林’式创新网络演进。",
+      "公众舆论呈现‘焦虑性期待’，对政策信息透明度的诉求强烈，构成潜在的慢性舆情压力。",
+      "龙岗区等区级细则以精准、量化的高额补贴（如算力最高补2000万），将市级战略转化为企业可感知的直接红利。"
+    ],
+    "kpis": [
+      {
+        "label": "2026年产业规模目标",
+        "value": "8000-10000亿元",
+        "delta": "年均增长>20%",
+        "tone": "up"
+      },
+      {
+        "label": "实时可用智能算力目标",
+        "value": ">80E FLOPS",
+        "delta": "超大规模基建",
+        "tone": "up"
+      },
+      {
+        "label": "AI企业数量目标",
+        "value": ">3000家",
+        "delta": "两年内增长50%+",
+        "tone": "up"
+      },
+      {
+        "label": "当前公众负面情绪占比",
+        "value": "约50%",
+        "delta": "焦虑与质疑为主",
+        "tone": "down"
+      }
+    ],
+    "actions": [
+      "建议决策层关注‘信息真空’引发的公众焦虑，适时通过吹风会或征求意见稿释放明确信号，疏导舆论压力。",
+      "企业应重点关注区级（如龙岗）精准补贴细则，积极对接算力、数据、场景应用等支持政策，降低创新成本。",
+      "投资者可沿‘AI+制造’、具身智能、算力基建等政策重点方向，布局深圳优势产业链上的核心企业。",
+      "行业参与者需把握从‘线性链条’向‘立体生态’转型机遇，积极参与‘百大场景’开放与‘机器人街区’等新型产业空间建设。"
+    ]
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "'PingFang SC', 'Microsoft YaHei', sans-serif",
+        "mono": "'SF Mono', Monaco, 'Courier New', monospace"
+      },
+      "fontSize": {
+        "h1": "2rem",
+        "h2": "1.5rem",
+        "h3": "1.25rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.25,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem"
+    },
+    "colors": {
+      "primary": {
+        "main": "#0052CC",
+        "light": "#4C9AFF",
+        "dark": "#0747A6"
+      },
+      "secondary": {
+        "main": "#00A3BF",
+        "light": "#79E2F2",
+        "dark": "#006D8F"
+      },
+      "neutral": {
+        "background": "#FFFFFF",
+        "surface": "#F4F5F7",
+        "border": "#DFE1E6",
+        "text": "#172B4D"
+      },
+      "semantic": {
+        "success": "#36B37E",
+        "warning": "#FFAB00",
+        "error": "#FF5630",
+        "info": "#6554C0"
+      }
+    },
+    "darkMode": {
+      "background": "#1B2635",
+      "surface": "#283142",
+      "border": "#3D4756",
+      "text": "#E6EDFA"
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、 核心摘要：政策影响、产业图景与舆论焦点",
+      "description": "提炼深圳AI落地方案的核心政策影响、产业发展全景与当前舆论场的核心矛盾，提供全局概览。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、 政策背景、体系架构与传播分析",
+      "description": "深度剖析深圳AI政策的演进脉络、超常规系统布局、量化目标体系及权威解读的关注点。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、 公众态度、社会情绪与多元群体关切",
+      "description": "分析‘信息真空’下公众的‘焦虑性期待’情绪分布、不同社会群体的利益关切及情感演变轨迹。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、 潜在影响、机遇挑战与生态演进分析",
+      "description": "评估政策对行业格局、企业（机遇与挑战）、关联产业的影响，并分析产业生态从链条到雨林的演进。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、 产业实践、标杆案例与市场反应",
+      "description": "展现深圳‘软硬协同’的产业基石、代表性企业实践、以及资本与人才市场的真实反应。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、 综合结论、趋势研判与战略建议",
+      "description": "基于全文分析，提出综合趋势研判、面向政府与企业的分层战略建议及公关沟通指引。",
+      "allowSwot": true,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（TOC）与正文所有一级标题（H1）使用统一字号（themeTokens.typography.fontSize.h1），确保视觉层级的清晰与一致。",
+    "各章节间使用 themeTokens.spacing.section 定义留白，二级标题（H2）与后续内容使用 subsection 间距，保证阅读节奏舒适。",
+    "优先使用Chart.js绘制产业规模增长、算力目标、情绪分布等趋势图表，使用色块区分不同数据系列。",
+    "关键数据（如KPI、补贴额度）采用卡片式设计，突出显示。SWOT与PEST分析块使用表格形式，确保信息对比清晰。",
+    "报告支持明暗双模式，颜色定义已包含 darkMode 对象，前端渲染时需根据用户偏好切换。",
+    "严禁引入外部图片或AI生图，所有视觉元素均通过数据图表、信息图、结构化表格和色彩区块实现。",
+    "SWOT分析块仅允许出现在第六章（结论与建议），PEST分析块仅允许出现在第二章（政策背景与体系架构），二者分置不同章节。"
+  ]
+}

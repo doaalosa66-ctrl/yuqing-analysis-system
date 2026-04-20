@@ -1,0 +1,54 @@
+{
+  "chapterId": "S1",
+  "title": "一、 核心摘要：政策影响、产业图景与舆论焦点",
+  "anchor": "section-1-0",
+  "order": 10,
+  "summary": "本章提炼深圳AI政策雄心、产业生态演进与公众焦虑期待的核心矛盾。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.1 核心内容解读",
+      "anchor": "section-1-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "深圳AI政策呈现‘市级纲领+区级细则+专项计划’的超常规立体布局，目标直指万亿产业规模。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.2 舆论场核心观点",
+      "anchor": "section-1-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "信息真空下公众呈现‘焦虑性期待’，约50%负面情绪构成潜在的慢性舆情压力源。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1.3 关键影响预判",
+      "anchor": "section-1-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "政策将重塑行业格局，推动产业生态从‘硬件硅谷’向‘智能雨林’演进。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "title": "具身智能赛道头部企业核心技术栈对比分析报告",
+  "subtitle": "2026年量产前夜的竞争格局、技术路径与市场洞察",
+  "tagline": "本文总览了从概念狂热到生死竞速的产业全景，深度解析四巨头战略分化与核心技术栈博弈",
+  "tocTitle": "文章总览",
+  "hero": {
+    "summary": "本报告综合多源信息，深度剖析2026年具身智能赛道关键转折点。行业焦点已从技术演示转向规模化交付，形成特斯拉、宇树、优必选、智元等差异化头部阵营。报告揭示在资本狂热（2025年中国融资超500亿元）与量产挑战（特斯拉Optimus交付遇阻）并存的冰火格局下，技术路径正从通用幻想走向垂直现实，数据与仿真能力、软硬件协同成本控制成为新核心壁垒。",
+    "highlights": [
+      "赛道进入“交付大年”与“生死年”，规模化能力成为企业存亡关键分水岭",
+      "头部企业战略路径鲜明分化：特斯拉重押通用愿景，宇树主打成本控制，优必选深耕工业场景，智元寻求资本破局",
+      "核心技术瓶颈凸显：端到端VLA模型长程任务成功率仅20%-40%，而垂直场景（如叠毛巾）可达99.4%",
+      "中国供应链在“身体”制造上展现压倒性优势，绿的谐波、长盛轴承等获关键订单",
+      "合成数据革命重塑研发效率，英伟达方案11小时可生成相当于6500小时人类演示的数据"
+    ],
+    "kpis": [
+      {
+        "label": "2025年中国融资总额",
+        "value": ">500亿元",
+        "delta": "+400%",
+        "tone": "up"
+      },
+      {
+        "label": "头部企业估值峰值",
+        "value": "390亿美元",
+        "delta": "Figure AI",
+        "tone": "up"
+      },
+      {
+        "label": "垂直场景任务成功率",
+        "value": "99.4%",
+        "delta": "Dyna Robotics叠毛巾",
+        "tone": "up"
+      },
+      {
+        "label": "通用模型长程任务成功率",
+        "value": "20%-40%",
+        "delta": "谷歌分层模型",
+        "tone": "down"
+      }
+    ],
+    "actions": [
+      "关注2026年底特斯拉10万台级量产进展，作为行业风向标",
+      "评估企业在“大脑”（AI算法）与“身体”（硬件可靠性）上的资源平衡",
+      "优先考察在电力巡检、精密装配等垂直场景已产生稳定收入的企业",
+      "警惕因企业数量超百家可能引发的同质化竞争与价格战风险"
+    ]
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "'PingFang SC', 'Microsoft YaHei', sans-serif",
+        "mono": "'JetBrains Mono', 'Courier New', monospace"
+      },
+      "fontSize": {
+        "h1": "2rem",
+        "h2": "1.5rem",
+        "h3": "1.25rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.2,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem",
+      "element": "0.75rem"
+    },
+    "colors": {
+      "primary": "#2563eb",
+      "secondary": "#7c3aed",
+      "accent": "#059669",
+      "neutral": "#6b7280",
+      "background": "#ffffff",
+      "surface": "#f9fafb",
+      "border": "#e5e7eb"
+    },
+    "components": {
+      "kpiCard": {
+        "background": "#f0f9ff",
+        "border": "#bae6fd",
+        "valueColor": "#0369a1"
+      },
+      "chart": {
+        "palette": [
+          "#3b82f6",
+          "#8b5cf6",
+          "#10b981",
+          "#f59e0b",
+          "#ef4444"
+        ]
+      }
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、 竞争态势摘要：冰火交织的产业黎明",
+      "description": "概述2026年具身智能赛道关键转折点，呈现资本狂热与量产挑战并存的宏观格局与核心结论。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、 市场声量与舆论对比：表层静默与深层沸腾",
+      "description": "分析公众认知的“数据真空”现象与产业资本、学术研究层的差异化舆论热度与情感倾向。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、 关键动态时间线：从技术验证到交付竞速",
+      "description": "梳理2025-2026年影响行业格局的核心事件脉络，包括融资、产品发布、量产遇阻与政策动态。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、 产品技术口碑对比：核心能力与用户期待",
+      "description": "对比头部企业在灵巧操作、运动控制、成本控制等方面的技术突破、演示效果与市场反馈。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、 企业战略与传播对比：四巨头的路径分化",
+      "description": "深度解析特斯拉、宇树、优必选、智元在战略定位、技术路径、商业化节奏与品牌传播上的差异化竞争。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、 竞争机会与威胁识别：通用幻想与垂直现实",
+      "description": "识别当前技术瓶颈下的市场机会点、潜在威胁，并对差异化定位与战略选择提出建议。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S7",
+      "anchor": "section-7-0",
+      "display": "七、 结论与行动建议：穿越生死年的生存指南",
+      "description": "总结竞争格局，提炼可借鉴的经验与教训，并为不同参与者提供具体的应对与反制策略建议。",
+      "allowSwot": true,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（TOC）与正文所有一级标题（H1）统一使用1.5rem字号，确保视觉层级的清晰与统一。",
+    "正文部分采用1rem基础字号，行高1.6，保证长文阅读舒适度。章节间留白3rem，子章节间留白2rem。",
+    "优先使用Chart.js绘制声量趋势、情感分布、技术参数对比等图表，色板遵循themeTokens定义。",
+    "关键数据（如融资额、成功率、成本）使用KPI卡片组件突出展示，并配以趋势箭头（delta）和情感色调（tone）。",
+    "SWOT分析块仅允许在第七章（结论与行动建议）中使用，用于综合评估企业内外部战略态势。",
+    "PEST分析块仅允许在第三章（关键动态时间线）中使用，用于分析宏观政治、经济、社会、技术环境对行业的影响。",
+    "避免使用外部图片，技术演示、结构对比等内容通过文字描述结合数据图表或示意图（如流程图、架构图）呈现。",
+    "报告整体采用浅色主题，色系以蓝、紫、绿为主，强调科技感与专业性，同时确保良好的可读性。"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "title": "低空经济2026：从概念蓝图到立体社会的全民接纳度全景洞察",
+  "subtitle": "基于多源引擎的深度舆情、产业与新闻融合分析报告",
+  "tagline": "本文总览了低空经济在规模化商业落地元年所面临的机遇、挑战与全民共识构建之路",
+  "tocTitle": "文章总览",
+  "hero": {
+    "summary": "本报告融合舆情洞察、产业全景与新闻事实，深度剖析2026年中国低空经济从概念试点迈入规模化商业落地关键期的多维图景。报告揭示，产业在技术、政策、资本驱动下高速发展的同时，正面临公众接纳度“冰火两极”、社会公平性质疑与监管滞后等核心挑战，亟需构建技术、商业与社会价值的共赢叙事。",
+    "highlights": [
+      "舆情呈现“哑铃型”情感结构：极度乐观（35%）与深度焦虑（40%）并存，社会共识远未形成。",
+      "产业进入“黄金发展期”：市场规模预计2026年超1.3万亿元，标志性商业事件与法规基石同步确立。",
+      "核心矛盾转移：从“能否飞起来”转向“如何安全、高效、经济且公平地大规模飞起来”。",
+      "公众关切聚焦“天空权”公平、隐私安全、噪音污染及风险成本的社会分摊机制。"
+    ],
+    "kpis": [
+      {
+        "label": "2026年预计核心产业规模",
+        "value": ">1.3万亿元",
+        "delta": "高速增长",
+        "tone": "up"
+      },
+      {
+        "label": "网络舆情负面情感关联词频环比增长",
+        "value": "120%",
+        "delta": "近三个月",
+        "tone": "down"
+      },
+      {
+        "label": "低空经济相关企业数量",
+        "value": ">6.9万家",
+        "delta": "生态庞大",
+        "tone": "up"
+      }
+    ],
+    "actions": [
+      "建议产业主体转变叙事框架：从“技术炫技”转向“社会共赢”，主动回应公众公平性质疑。",
+      "呼吁监管加速法规标准体系建设，特别是空域管理、适航认证与公众参与机制。",
+      "倡导建立“负外部性”补偿与社区协商机制，化解无人机配送等场景的基层矛盾。",
+      "推动构建普惠性应用场景，探索“空中公交”等模式，避免“空中特权”认知固化。"
+    ]
+  },
+  "themeTokens": {
+    "typography": {
+      "fontFamily": {
+        "sans": "system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif",
+        "mono": "Menlo, Monaco, 'Courier New', monospace"
+      },
+      "fontSize": {
+        "h1": "2.5rem",
+        "h2": "2rem",
+        "h3": "1.5rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "lineHeight": {
+        "tight": 1.25,
+        "normal": 1.6,
+        "relaxed": 1.8
+      }
+    },
+    "spacing": {
+      "section": "3rem",
+      "subsection": "2rem",
+      "paragraph": "1rem"
+    },
+    "colors": {
+      "primary": "#1a56db",
+      "secondary": "#7e3af2",
+      "accent": "#0e9f6e",
+      "neutral": {
+        "light": "#f9fafb",
+        "mid": "#e5e7eb",
+        "dark": "#374151"
+      },
+      "semantic": {
+        "positive": "#0e9f6e",
+        "caution": "#f59e0b",
+        "critical": "#dc2626"
+      }
+    },
+    "components": {
+      "kpiCard": {
+        "borderRadius": "0.75rem",
+        "padding": "1.25rem"
+      },
+      "table": {
+        "headerBg": "#f3f4f6",
+        "stripedBg": "#f9fafb"
+      }
+    }
+  },
+  "tocPlan": [
+    {
+      "chapterId": "S1",
+      "anchor": "section-1-0",
+      "display": "一、摘要：低空经济的核心影响与多维舆论反应",
+      "description": "提炼报告核心发现，概述低空经济在2026年的关键态势、公众情感两极分化现状及产业发展的核心矛盾转移。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S2",
+      "anchor": "section-2-0",
+      "display": "二、发展背景与多模态传播分析",
+      "description": "分析低空经济的政策演进、技术突破与全球竞争格局，并结合图文数据解析其多维度传播特征与公众认知塑造过程。",
+      "allowSwot": false,
+      "allowPest": true
+    },
+    {
+      "chapterId": "S3",
+      "anchor": "section-3-0",
+      "display": "三、公众态度与社会情绪深度剖析",
+      "description": "深入解读公众对无人机配送、城市空中交通（UAM）等核心应用场景的情感分布、观点聚焦及演变轨迹，揭示深层社会心理。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S4",
+      "anchor": "section-4-0",
+      "display": "四、潜在影响与机遇挑战综合分析",
+      "description": "评估低空经济对行业格局、企业战略及关联产业的深远影响，系统分析面临的机遇与核心挑战。",
+      "allowSwot": true,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S5",
+      "anchor": "section-5-0",
+      "display": "五、行业标杆案例与市场反应",
+      "description": "梳理头部企业动态、资本市场风向及行业协会观点，展现产业生态的竞争与合作图景。",
+      "allowSwot": false,
+      "allowPest": false
+    },
+    {
+      "chapterId": "S6",
+      "anchor": "section-6-0",
+      "display": "六、结论与战略应对建议",
+      "description": "基于全文分析，对低空经济发展趋势进行研判，并提出面向政府、产业及企业的系统性战略与沟通建议。",
+      "allowSwot": false,
+      "allowPest": false
+    }
+  ],
+  "layoutNotes": [
+    "目录（TOC）与正文所有一级标题（H1）使用统一字号：2rem，以保持视觉层级的清晰与一致。",
+    "正文部分采用宽松行高（1.6-1.8），提升长文阅读舒适度。章节间使用3rem间距，子章节间使用2rem间距。",
+    "优先使用Chart.js绘制舆情情感分布、市场规模趋势等数据图表，使用色块卡片（KPI卡）突出关键指标，表格用于呈现对比数据。",
+    "SWOT分析块仅应用于第四章（潜在影响与机遇挑战综合分析），PEST分析块仅应用于第二章（发展背景与多模态传播分析），二者分属不同章节。",
+    "整体配色以蓝色（#1a56db）为主色调，代表科技与未来；绿色（#0e9f6e）用于积极指标，橙色（#f59e0b）和红色（#dc2626）用于警示数据。确保色板在浅色与暗黑模式下均有良好对比度。",
+    "严禁引入外部图片或AI生图，所有视觉元素均通过原生组件（图表、表格、信息卡片、图标字体）实现。",
+    "严格遵循tocPlan的章节结构，不随意增删，仅对部分章节标题进行了优化以更贴合“低空经济”主题。"
+  ]
+}

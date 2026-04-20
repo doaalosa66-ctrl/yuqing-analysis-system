@@ -1,0 +1,39 @@
+{
+  "chapterId": "S5",
+  "title": "五、 产业实践、标杆案例与市场反应",
+  "anchor": "section-5-0",
+  "order": 50,
+  "summary": "本章通过具体案例和数据，展现深圳AI产业的实践基石与市场真实反应。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.1 竞争对手/头部企业的反应",
+      "anchor": "section-5-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "头部企业依托深圳硬件生态，加速AI产品落地与场景融合。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5.2 行业协会/组织的观点",
+      "anchor": "section-5-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "资本与人才市场对深圳AI政策反应积极，形成正向反馈循环。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

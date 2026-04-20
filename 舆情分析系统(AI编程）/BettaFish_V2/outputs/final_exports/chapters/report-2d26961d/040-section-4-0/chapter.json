@@ -1,0 +1,39 @@
+{
+  "chapterId": "S4",
+  "title": "四、 产品口碑、生态竞争与用户反馈",
+  "anchor": "section-4-0",
+  "order": 40,
+  "summary": "本章对比分析产品口碑与生态竞争，揭示用户体验层面的核心挑战。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.1 产品情感口碑与核心功能热度对比",
+      "anchor": "section-4-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "中国车机在UI流畅度与语音交互上获专业认可，但数据安全是核心争议点。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4.2 生态战争：与苹果、谷歌的终极对决",
+      "anchor": "section-4-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "手机生态霸权与用户习惯护城河构成中国车机出海的最大挑战。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

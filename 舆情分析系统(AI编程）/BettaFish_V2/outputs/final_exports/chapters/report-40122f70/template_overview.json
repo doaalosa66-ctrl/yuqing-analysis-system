@@ -1,0 +1,101 @@
+{
+  "title": "**市场竞争格局舆情分析报告模板**",
+  "chapters": [
+    {
+      "chapterId": "S1",
+      "title": "1.0 市场竞争态势摘要",
+      "rawTitle": "1.0 市场竞争态势摘要",
+      "number": "1.0",
+      "slug": "section-1-0",
+      "order": 10,
+      "depth": 1,
+      "outline": [
+        "1.1 核心结论",
+        "1.2 关键数据对比",
+        "1.3 核心策略建议"
+      ]
+    },
+    {
+      "chapterId": "S2",
+      "title": "2.0 市场声量对比分析",
+      "rawTitle": "2.0 市场声量对比分析",
+      "number": "2.0",
+      "slug": "section-2-0",
+      "order": 20,
+      "depth": 1,
+      "outline": [
+        "2.1 总体声量份额（SOV）",
+        "2.2 趋势对比"
+      ]
+    },
+    {
+      "chapterId": "S3",
+      "title": "3.0 本周期市场关键动态时间线",
+      "rawTitle": "3.0 本周期市场关键动态时间线",
+      "number": "3.0",
+      "slug": "section-3-0",
+      "order": 30,
+      "depth": 1,
+      "outline": [
+        "3.1 我方关键动作",
+        "3.2 竞争对手关键动作"
+      ]
+    },
+    {
+      "chapterId": "S4",
+      "title": "4.0 产品口碑与用户反馈对比",
+      "rawTitle": "4.0 产品口碑与用户反馈对比",
+      "number": "4.0",
+      "slug": "section-4-0",
+      "order": 40,
+      "depth": 1,
+      "outline": [
+        "4.1 情感分布对比",
+        "4.2 优缺点对比",
+        "4.3 核心功能/卖点讨论热度对比"
+      ]
+    },
+    {
+      "chapterId": "S5",
+      "title": "5.0 营销与传播策略对比",
+      "rawTitle": "5.0 营销与传播策略对比",
+      "number": "5.0",
+      "slug": "section-5-0",
+      "order": 50,
+      "depth": 1,
+      "outline": [
+        "5.1 重大营销战役分析",
+        "5.2 核心传播议题对比",
+        "5.3 KOL/媒体合作策略分析"
+      ]
+    },
+    {
+      "chapterId": "S6",
+      "title": "6.0 竞争机会与威胁识别",
+      "rawTitle": "6.0 竞争机会与威胁识别",
+      "number": "6.0",
+      "slug": "section-6-0",
+      "order": 60,
+      "depth": 1,
+      "outline": [
+        "6.1 市场机会点",
+        "6.2 潜在威胁",
+        "6.3 差异化定位建议"
+      ]
+    },
+    {
+      "chapterId": "S7",
+      "title": "7.0 总结与行动建议",
+      "rawTitle": "7.0 总结与行动建议",
+      "number": "7.0",
+      "slug": "section-7-0",
+      "order": 70,
+      "depth": 1,
+      "outline": [
+        "7.1 竞争格局总结",
+        "7.2 学习与借鉴",
+        "7.3 应对与反制"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "chapterId": "S2",
+  "title": "二、市场声量对比分析",
+  "anchor": "section-2-0",
+  "order": 20,
+  "summary": "本章分析具身智能赛道头部企业在不同舆论场的声量份额与情感趋势。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2.1 总体声量份额（SOV）",
+      "anchor": "section-2-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "专业圈与大众舆论场声量分化显著，呈现冰火两极格局。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2.2 趋势对比",
+      "anchor": "section-2-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "声量情感从狂热到回调再到务实，与资本和技术周期紧密关联。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}

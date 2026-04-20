@@ -1,0 +1,15 @@
+{
+  "task_id": "report-6ff87a32",
+  "query": "端侧大模型算力下放对终端定价权影响",
+  "status": "completed",
+  "progress": 100.0,
+  "selected_template": "",
+  "has_html_content": true,
+  "html_content_length": 2134056,
+  "metadata": {
+    "query": "端侧大模型算力下放对终端定价权影响",
+    "template_used": "自由发挥模板",
+    "generation_time": 0.0,
+    "timestamp": "2026-04-20T12:38:04.920219"
+  }
+}

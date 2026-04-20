@@ -1,0 +1,54 @@
+{
+  "chapterId": "S6",
+  "title": "六、结论与应对建议",
+  "anchor": "section-6-0",
+  "order": 60,
+  "summary": "本章基于全文分析，提炼低空经济发展趋势并提出战略与沟通建议。",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.1 趋势研判",
+      "anchor": "section-6-0-1"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "低空经济正从概念热潮迈向产业深耕，其发展呈现场景创新与全球标准竞争深化趋势。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.2 战略应对建议",
+      "anchor": "section-6-0-2"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "企业应聚焦核心场景验证，加强技术研发与供应链安全，并积极参与全球标准制定。",
+          "marks": []
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6.3 公关沟通建议",
+      "anchor": "section-6-0-3"
+    },
+    {
+      "type": "paragraph",
+      "inlines": [
+        {
+          "text": "针对公众关切，需加强透明沟通与科普，建立舆情监测机制以赢得社会信任。",
+          "marks": []
+        }
+      ]
+    }
+  ]
+}
